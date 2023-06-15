@@ -1,5 +1,5 @@
 # SloHenoh
-Henohova knjiga
+Henohova knjiga, R. H. CHARLES, D.Litt., D.D.
 
 ## *Slovensko / Slovenščina*
 
