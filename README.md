@@ -8,7 +8,6 @@ Henohova knjiga
 > ### Posebnosti prevoda:
 >
 > - "[ ]" opomba prevajalca, ni v originalu
-> - "§" razlika med besedilom KJV in ostalimi slovenskimi prevodi
 > - E označuje etiopsko različico.
 > - Gᵍ označuje fragmente grške različice, ohranjene v Syncellusu: v primeru 8ᵇ-9ᵇ sta dve obliki besedila, Gᵍ¹ Gᵍ¹.
 > - Gg označuje velik fragment grške različice, odkrit v Akhmimu in deponiran v muzeju Gizeh v Kairu.
@@ -21,7 +20,7 @@ Henohova knjiga
 > - 〈 〉.
 >
 > 
->Viri: [The Apocrypha and Pseudepigrapha of the Old Testament in English (Apokrifi in psevdepigrafi Stare zaveze)](https://archive.org/details/apocryphapseudep02charuoft)
+>Vir: [The Apocrypha and Pseudepigrapha of the Old Testament in English (Apokrifi in psevdepigrafi Stare zaveze)](https://archive.org/details/apocryphapseudep02charuoft)
 >
 >Prevajanje je potekalo v programu [Notepad++](https://notepad-plus-plus.org/) kjer je slovensko besedilo in pod njim angleško. Potem se s skripto to pretvori v OSIS obliko - XML datoteko, ki je objavljena na tej strani. XML datoteko se potem pretvori v Sword modul, ki je dostopen na spletni strani [Crosswire.org](http://www2.crosswire.org/sword/modules/).
 >
