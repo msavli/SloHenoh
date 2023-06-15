@@ -7,8 +7,6 @@ Henohova knjiga
 >
 > ### Posebnosti prevoda:
 >
-> - 
-> - 
 > - "[ ]" opomba prevajalca, ni v originalu
 > - "§" razlika med besedilom KJV in ostalimi slovenskimi prevodi
 > - E označuje etiopsko različico.
@@ -16,7 +14,7 @@ Henohova knjiga
 > - Gg označuje velik fragment grške različice, odkrit v Akhmimu in deponiran v muzeju Gizeh v Kairu.
 > - L označuje fragment latinske različice.
 > - Gr označuje fragment grške različice.
-> - V prevodu Prve Enohove knjige so uporabljeni posebni oklepaji:
+> V prevodu Prve Enohove knjige so uporabljeni posebni oklepaji:
 > - ┌ ┐. Uporaba teh oklepajev pomeni, da so besede v oklepaju v G8, ne pa v E.
 > - ╓ ╖. Uporaba teh oklepajev pomeni, da so besede v oklepaju v E, ne pa v Gg ali Gᵍ.
 > - † †.
