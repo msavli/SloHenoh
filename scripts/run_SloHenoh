@@ -1,0 +1,271 @@
+#!/bin/bash
+
+rm slohenoh_work.xml
+rm enghenoh_work.xml
+
+cp sloenghenoh.xml slohenoh_work.xml
+
+#===================================
+echo "Najprej naredimo SLO verzijo"
+
+# Uporabil sem ukaz paste, da sem zdruzil 
+# Poisce vse vrstice, ki se zacnejo z ENG in jih izbrise, pusti vse ostalo."
+sed -i '/^ENG/d' slohenoh_work.xml
+
+# Pobrise prve stiri znake na zacetku vrstic - da se znebi SLO
+sed -i 's/^....//' slohenoh_work.xml
+
+# Pozenimo SED za opombe  <opomba>(     ->    <note type="x-footnote" n="1">
+
+# sed -i "s/<opomba>(/<note type=\"x-footnote\" n=\"1\">/g" slohenoh_work.xml
+sed -i "s/<opomba>(/<note type=\"x-footnote\">/g" slohenoh_work.xml
+#                         </opomba>     ->     </note>
+sed -i "s/)<\/opomba>/<\/note>/g" slohenoh_work.xml
+
+# Reference je trebe drugace prikazati
+#   Zamenja       ^<r r=   z   ^<note type="crossReference"^>^<reference osisRef=
+sed -i "s/<r r=/<note type=\"crossReference\"><reference osisRef=/g" slohenoh_work.xml
+#   Zamenja       ^</r^>   z      ^</reference^>^</note^>
+sed -i "s/<\/r>/<\/reference><\/note>/g" slohenoh_work.xml
+
+#   Zamenja opomba z transChange type= added 
+#    Zamenja       ^<dodano^>[   z   ^<transChange type="added"^>[
+sed -i "s/<dodano>\[/<transChange type=\"added\">[/g" slohenoh_work.xml
+#                 ]^</dodano^>  z   ]^<\/transChange^>^<\/seg^>
+sed -i "s/\]<\/dodano>/\]<\/transChange>/g" slohenoh_work.xml
+
+
+# Pobrise prazne vrstice
+sed -i "/^$/d" slohenoh_work.xml
+
+mkdir mods.d                               > /dev/null 2>&1
+mkdir modules                              > /dev/null 2>&1
+mkdir modules/genbook                      > /dev/null 2>&1
+mkdir modules/genbook/rawgenbook           > /dev/null 2>&1
+mkdir modules/genbook/rawgenbook/slohenoh  > /dev/null 2>&1
+
+echo    Preveri XML
+/usr/bin/xmllint --noout --schema http://www.crosswire.org/~dmsmith/osis/osisCore.2.1.1-cw-latest.xsd slohenoh_work.xml
+
+sleep 2  # Waits 2 seconds.
+
+# Konvertireanje v SWORD modul
+/usr/bin/xml2gbs -fO slohenoh_work.xml slohenoh > /dev/null 2>&1
+mv slohenoh.bdt modules/genbook/rawgenbook/slohenoh/
+mv slohenoh.dat modules/genbook/rawgenbook/slohenoh/
+mv slohenoh.idx modules/genbook/rawgenbook/slohenoh/
+cp -u slohenoh.conf mods.d/
+
+# Preverimo ali je sed pravilno naredil
+cat slohenoh_work.xml |grep opomba\>
+cat slohenoh_work.xml |grep "ENG "
+
+
+cp sloenghenoh.xml enghenoh_work.xml
+
+#===================================
+echo "Sedaj naredimo ENG verzijo"
+
+# Poisce vse vrstice, ki se zacnejo z ENG in jih izbrise, pusti vse ostalo."
+sed -i '/^SLO/d' enghenoh_work.xml
+
+# Pobrise prve stiri znake na zacetku vrstic - da se znebi ENG
+sed -i 's/^....//' enghenoh_work.xml
+
+# Pozenimo SED za opombe  <opomba>(     ->    <note type="x-footnote" n="1">
+sed -i "s/<opomba>(/<note type=\"x-footnote\" n=\"1\">/g" enghenoh_work.xml
+#                         </opomba>     ->     </note>
+sed -i "s/)<\/opomba>/<\/note>/g" enghenoh_work.xml
+
+
+# Reference je trebe drugace prikazati
+#   Zamenja       ^<r r=   z   ^<note type="crossReference"^>^<reference osisRef=
+sed -i "s/<r r=/<note type=\"crossReference\"><reference osisRef=/g" enghenoh_work.xml
+#   Zamenja       ^</r^>   z      ^</reference^>^</note^>
+sed -i "s/<\/r>/<\/reference><\/note>/g" enghenoh_work.xml
+
+#   Zamenja opomba z transChange type= added 
+#    Zamenja       ^<dodano^>[   z   ^<transChange type="added"^>[
+sed -i "s/<dodano>\[/<transChange type=\"added\">[/g" enghenoh_work.xml
+#                 ]^</dodano^>  z   ]^<\/transChange^>^<\/seg^>
+sed -i "s/\]<\/dodano>/\]<\/transChange>/g" enghenoh_work.xml
+
+#   Zamenja slovenska imena knjig v angleska v angleskem fajlu
+sed -i 's/\">\[1 Jn/\">\[1John/g'   enghenoh_work.xml
+sed -i 's/\">\[1 Kor/\">\[1Cor/g'   enghenoh_work.xml
+sed -i 's/\">\[1 Kr/\">\[1Kgs/g'    enghenoh_work.xml
+sed -i 's/\">\[1 Krn/\">\[1Chr/g'   enghenoh_work.xml
+sed -i 's/\">\[1 Mz/\">\[Gen/g'     enghenoh_work.xml
+sed -i 's/\">\[1 Pt/\">\[1Pet/g'    enghenoh_work.xml
+sed -i 's/\">\[1 Sam/\">\[1Sam/g'   enghenoh_work.xml
+sed -i 's/\">\[1 Tes/\">\[1Thess/g' enghenoh_work.xml
+sed -i 's/\">\[1 Tim/\">\[1Tim/g'   enghenoh_work.xml
+sed -i 's/\">\[2 Jn/\">\[2John/g'   enghenoh_work.xml
+sed -i 's/\">\[2 Kor/\">\[2Cor/g'   enghenoh_work.xml
+sed -i 's/\">\[2 Kr/\">\[2Kgs/g'    enghenoh_work.xml
+sed -i 's/\">\[2 Krn/\">\[2Chr/g'   enghenoh_work.xml
+sed -i 's/\">\[2 Mz/\">\[Exod/g'    enghenoh_work.xml
+sed -i 's/\">\[2 Pt/\">\[2Pet/g'    enghenoh_work.xml
+sed -i 's/\">\[2 Sam/\">\[2Sam/g'   enghenoh_work.xml
+sed -i 's/\">\[2 Tes/\">\[2Thess/g' enghenoh_work.xml
+sed -i 's/\">\[2 Tim/\">\[2Tim/g'   enghenoh_work.xml
+sed -i 's/\">\[3 Jn/\">\[3John/g'   enghenoh_work.xml
+sed -i 's/\">\[3 Mz/\">\[Lev/g'     enghenoh_work.xml
+sed -i 's/\">\[4 Mz/\">\[Num/g'     enghenoh_work.xml
+sed -i 's/\">\[5 Mz/\">\[Deut/g'    enghenoh_work.xml
+sed -i 's/\">\[Abd/\">\[Obad/g'     enghenoh_work.xml
+sed -i 's/\">\[Ag/\">\[Hag/g'       enghenoh_work.xml
+sed -i 's/\">\[Am/\">\[Amos/g'      enghenoh_work.xml
+sed -i 's/\">\[Apd/\">\[Acts/g'     enghenoh_work.xml
+sed -i 's/\">\[Dan/\">\[Dan/g'      enghenoh_work.xml
+sed -i 's/\">\[Ef/\">\[Eph/g'       enghenoh_work.xml
+sed -i 's/\">\[Est/\">\[Esth/g'     enghenoh_work.xml
+sed -i 's/\">\[Ezk/\">\[Ezek/g'     enghenoh_work.xml
+sed -i 's/\">\[Ezr/\">\[Ezra/g'     enghenoh_work.xml
+sed -i 's/\">\[Flm/\">\[Phlm/g'     enghenoh_work.xml
+sed -i 's/\">\[Flp/\">\[Phil/g'     enghenoh_work.xml
+sed -i 's/\">\[Gal/\">\[Gal/g'      enghenoh_work.xml
+sed -i 's/\">\[Hab/\">\[Hab/g'      enghenoh_work.xml
+sed -i 's/\">\[Heb/\">\[Heb/g'      enghenoh_work.xml
+sed -i 's/\">\[Iz/\">\[Isa/g'       enghenoh_work.xml
+sed -i 's/\">\[Jak/\">\[Jas/g'      enghenoh_work.xml
+sed -i 's/\">\[Jer/\">\[Jer/g'      enghenoh_work.xml
+sed -i 's/\">\[Jl/\">\[Joel/g'      enghenoh_work.xml
+sed -i 's/\">\[Jn/\">\[John/g'      enghenoh_work.xml
+sed -i 's/\">\[Job/\">\[Job/g'      enghenoh_work.xml
+sed -i 's/\">\[Jon/\">\[Jonah/g'    enghenoh_work.xml
+sed -i 's/\">\[Joz/\">\[Josh/g'     enghenoh_work.xml
+sed -i 's/\">\[Jud/\">\[Jude/g'     enghenoh_work.xml
+sed -i 's/\">\[Kol/\">\[Col/g'      enghenoh_work.xml
+sed -i 's/\">\[Lk/\">\[Luke/g'      enghenoh_work.xml
+sed -i 's/\">\[Mal/\">\[Mal/g'      enghenoh_work.xml
+sed -i 's/\">\[Mih/\">\[Mic/g'      enghenoh_work.xml
+sed -i 's/\">\[Mr/\">\[Mark/g'      enghenoh_work.xml
+sed -i 's/\">\[Mt/\">\[Matt/g'      enghenoh_work.xml
+sed -i 's/\">\[Nah/\">\[Nah/g'      enghenoh_work.xml
+sed -i 's/\">\[Neh/\">\[Neh/g'      enghenoh_work.xml
+sed -i 's/\">\[Oz/\">\[Hos/g'       enghenoh_work.xml
+sed -i 's/\">\[Prd/\">\[Eccl/g'     enghenoh_work.xml
+sed -i 's/\">\[Prg/\">\[Prov/g'     enghenoh_work.xml
+sed -i 's/\">\[Ps/\">\[Ps/g'        enghenoh_work.xml
+sed -i 's/\">\[Raz/\">\[Rev/g'      enghenoh_work.xml
+sed -i 's/\">\[Rim/\">\[Rom/g'      enghenoh_work.xml
+sed -i 's/\">\[Rut/\">\[Ruth/g'     enghenoh_work.xml
+sed -i 's/\">\[Sod/\">\[Judg/g'     enghenoh_work.xml
+sed -i 's/\">\[Sof/\">\[Zeph/g'     enghenoh_work.xml
+sed -i 's/\">\[Tit/\">\[Titus/g'    enghenoh_work.xml
+sed -i 's/\">\[Vp/\">\[Song/g'      enghenoh_work.xml
+sed -i 's/\">\[Zah/\">\[Zech/g'     enghenoh_work.xml
+sed -i 's/\">\[Žal/\">\[Lam/g'      enghenoh_work.xml
+
+
+# Pa se brez oglatih oklepajev
+sed -i 's/\">1 Jn/\">1John/g'   enghenoh_work.xml
+sed -i 's/\">1 Kor/\">1Cor/g'   enghenoh_work.xml
+sed -i 's/\">1 Kr/\">1Kgs/g'    enghenoh_work.xml
+sed -i 's/\">1 Krn/\">1Chr/g'   enghenoh_work.xml
+sed -i 's/\">1 Mz/\">Gen/g'     enghenoh_work.xml
+sed -i 's/\">1 Pt/\">1Pet/g'    enghenoh_work.xml
+sed -i 's/\">1 Sam/\">1Sam/g'   enghenoh_work.xml
+sed -i 's/\">1 Tes/\">1Thess/g' enghenoh_work.xml
+sed -i 's/\">1 Tim/\">1Tim/g'   enghenoh_work.xml
+sed -i 's/\">2 Jn/\">2John/g'   enghenoh_work.xml
+sed -i 's/\">2 Kor/\">2Cor/g'   enghenoh_work.xml
+sed -i 's/\">2 Kr/\">2Kgs/g'    enghenoh_work.xml
+sed -i 's/\">2 Krn/\">2Chr/g'   enghenoh_work.xml
+sed -i 's/\">2 Mz/\">Exod/g'    enghenoh_work.xml
+sed -i 's/\">2 Pt/\">2Pet/g'    enghenoh_work.xml
+sed -i 's/\">2 Sam/\">2Sam/g'   enghenoh_work.xml
+sed -i 's/\">2 Tes/\">2Thess/g' enghenoh_work.xml
+sed -i 's/\">2 Tim/\">2Tim/g'   enghenoh_work.xml
+sed -i 's/\">3 Jn/\">3John/g'   enghenoh_work.xml
+sed -i 's/\">3 Mz/\">Lev/g'     enghenoh_work.xml
+sed -i 's/\">4 Mz/\">Num/g'     enghenoh_work.xml
+sed -i 's/\">5 Mz/\">Deut/g'    enghenoh_work.xml
+sed -i 's/\">Abd/\">Obad/g'     enghenoh_work.xml
+sed -i 's/\">Ag/\">Hag/g'       enghenoh_work.xml
+sed -i 's/\">Am/\">Amos/g'      enghenoh_work.xml
+sed -i 's/\">Apd/\">Acts/g'     enghenoh_work.xml
+sed -i 's/\">Dan/\">Dan/g'      enghenoh_work.xml
+sed -i 's/\">Ef/\">Eph/g'       enghenoh_work.xml
+sed -i 's/\">Est/\">Esth/g'     enghenoh_work.xml
+sed -i 's/\">Ezk/\">Ezek/g'     enghenoh_work.xml
+sed -i 's/\">Ezr/\">Ezra/g'     enghenoh_work.xml
+sed -i 's/\">Flm/\">Phlm/g'     enghenoh_work.xml
+sed -i 's/\">Flp/\">Phil/g'     enghenoh_work.xml
+sed -i 's/\">Gal/\">Gal/g'      enghenoh_work.xml
+sed -i 's/\">Hab/\">Hab/g'      enghenoh_work.xml
+sed -i 's/\">Heb/\">Heb/g'      enghenoh_work.xml
+sed -i 's/\">Iz/\">Isa/g'       enghenoh_work.xml
+sed -i 's/\">Jak/\">Jas/g'      enghenoh_work.xml
+sed -i 's/\">Jer/\">Jer/g'      enghenoh_work.xml
+sed -i 's/\">Jl/\">Joel/g'      enghenoh_work.xml
+sed -i 's/\">Jn/\">John/g'      enghenoh_work.xml
+sed -i 's/\">Job/\">Job/g'      enghenoh_work.xml
+sed -i 's/\">Jon/\">Jonah/g'    enghenoh_work.xml
+sed -i 's/\">Joz/\">Josh/g'     enghenoh_work.xml
+sed -i 's/\">Jud/\">Jude/g'     enghenoh_work.xml
+sed -i 's/\">Kol/\">Col/g'      enghenoh_work.xml
+sed -i 's/\">Lk/\">Luke/g'      enghenoh_work.xml
+sed -i 's/\">Mal/\">Mal/g'      enghenoh_work.xml
+sed -i 's/\">Mih/\">Mic/g'      enghenoh_work.xml
+sed -i 's/\">Mr/\">Mark/g'      enghenoh_work.xml
+sed -i 's/\">Mt/\">Matt/g'      enghenoh_work.xml
+sed -i 's/\">Nah/\">Nah/g'      enghenoh_work.xml
+sed -i 's/\">Neh/\">Neh/g'      enghenoh_work.xml
+sed -i 's/\">Oz/\">Hos/g'       enghenoh_work.xml
+sed -i 's/\">Prd/\">Eccl/g'     enghenoh_work.xml
+sed -i 's/\">Prg/\">Prov/g'     enghenoh_work.xml
+sed -i 's/\">Ps/\">Ps/g'        enghenoh_work.xml
+sed -i 's/\">Raz/\">Rev/g'      enghenoh_work.xml
+sed -i 's/\">Rim/\">Rom/g'      enghenoh_work.xml
+sed -i 's/\">Rut/\">Ruth/g'     enghenoh_work.xml
+sed -i 's/\">Sod/\">Judg/g'     enghenoh_work.xml
+sed -i 's/\">Sof/\">Zeph/g'     enghenoh_work.xml
+sed -i 's/\">Tit/\">Titus/g'    enghenoh_work.xml
+sed -i 's/\">Vp/\">Song/g'      enghenoh_work.xml
+sed -i 's/\">Zah/\">Zech/g'     enghenoh_work.xml
+sed -i 's/\">Žal/\">Lam/g'      enghenoh_work.xml
+
+
+
+# Pobrise prazne vrstice
+sed -i "/^$/d"   enghenoh_work.xml
+
+mkdir mods.d                                  > /dev/null 2>&1
+mkdir modules                                 > /dev/null 2>&1
+mkdir modules/genbook                         > /dev/null 2>&1
+mkdir modules/genbook/rawgenbook              > /dev/null 2>&1
+mkdir modules/genbook/rawgenbook/enghenoh     > /dev/null 2>&1
+
+echo    Preveri XML
+/usr/bin/xmllint --noout --schema http://www.crosswire.org/~dmsmith/osis/osisCore.2.1.1-cw-latest.xsd enghenoh_work.xml
+
+sleep 2  # Waits 2 seconds.
+
+# Konvertireanje v SWORD modul
+/usr/bin/xml2gbs -fO enghenoh_work.xml enghenoh  > /dev/null 2>&1
+mv enghenoh.bdt modules/genbook/rawgenbook/enghenoh/
+mv enghenoh.dat modules/genbook/rawgenbook/enghenoh/
+mv enghenoh.idx modules/genbook/rawgenbook/enghenoh/
+cp -u enghenoh.conf mods.d/
+
+# Preverimo ali je sed pravilno naredil
+cat enghenoh_work.xml |grep opomba\>
+cat enghenoh_work.xml |grep "SLO "
+
+# Module prekopira da jih sword lahko vidi
+cp -r mods.d/ /usr/share/sword/
+cp -r modules/ /usr/share/sword/
+
+
+# Izvoz iz modula - povsod odstraniti tiste $$$
+# mod2imp SloHenoh -r LATEX >SloHenoh.tex
+# mod2imp SloHenoh -r RTF >SloHenoh.rtf
+# mod2imp SloHenoh -r HTMLHREF >SloHenoh.html  
+echo    Izvoz v txt
+mod2imp SloHenoh -s >SloHenoh.txt
+mod2imp EngHenoh -s >EngHenoh.txt
+
+sed -i 's/  * /\n* /g'   SloHenoh.txt
+sed -i 's/  * /\n* /g'   EngHenoh.txt

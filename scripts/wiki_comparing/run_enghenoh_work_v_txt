@@ -1,0 +1,46 @@
+cp ../enghenoh_work.xml enghenoh_work.xml
+
+unhtml enghenoh_work.xml > unhtml_enghenoh_work.txt
+
+
+echo "<note da v novo vrstico"
+sed -i 's/<note/#GOR#\n<note/g' unhtml_enghenoh_work.txt
+
+echo "</note> da v novo vrstico"
+sed -i 's/<\/note>/<\/note>#GOR#\n/g' unhtml_enghenoh_work.txt
+
+echo Pobrise vrstice ki jih je dal 
+sed -i '/^<note/d' unhtml_enghenoh_work.txt
+
+echo vrne vrstice nazaj gor
+sed -zi 's/#GOR#\n//g;s/,$/\n/' unhtml_enghenoh_work.txt
+
+# Odstrani iz prvega fajla 30 vrstic
+sed -i '1,30d' unhtml_enghenoh_work.txt
+
+sed -i 's/        <hi type=\"super\">\([0-9]*\)<\/hi>/\1./g'  unhtml_enghenoh_work.txt
+sed -i 's/<hi type=\"super\">\([0-9]*\)<\/hi>/\1./g'  unhtml_enghenoh_work.txt
+sed -i 's/<hi type=\"super\">\([0-9][a-z]*\)<\/hi>/\1./g'  unhtml_enghenoh_work.txt
+sed -i 's/<hi type=\"super\">\([a-z]*\)<\/hi>/\1./g'  unhtml_enghenoh_work.txt
+sed -i 's/<\/hi>//g'  unhtml_enghenoh_work.txt
+sed -i 's/<hi type=\"bold\">//g' unhtml_enghenoh_work.txt
+sed -i 's/<row><cell>//g' unhtml_enghenoh_work.txt
+sed -i 's/<\/cell><\/row>//g' unhtml_enghenoh_work.txt
+sed -i 's/      Chapter /Chapter /g' unhtml_enghenoh_work.txt
+
+# Remove the leading white spaces
+sed -i 's/^ *//g' unhtml_enghenoh_work.txt
+
+sed -i 's/\n\n/\n/g' unhtml_enghenoh_work.txt
+
+#  remove double line breaks with sed?
+sed -i '/^$/{:a;N;s/\n$//;ta}' unhtml_enghenoh_work.txt
+
+# Narekovaje spremeni zaradi primerjave da so enaki
+sed -i 's/╓/┌┌/g' unhtml_enghenoh_work.txt
+sed -i 's/╖/┐┐/g' unhtml_enghenoh_work.txt
+
+# Vsako vrstico ki se zacne s Chapter  pobrise ker je ravno za eno zamenjana vrstica
+sed -i '/^Chapter/d' unhtml_enghenoh_work.txt
+
+#pico unhtml_enghenoh_work.txt

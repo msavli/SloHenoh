@@ -1,0 +1,514 @@
+rm -f Chapter*
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_01"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_02"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_03"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_04"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_05"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_06"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_07"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_08"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_09"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_10"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_11"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_12"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_13"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_14"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_15"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_16"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_17"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_18"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_19"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_20"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_21"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_22"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_23"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_24"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_25"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_26"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_27"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_28"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_29"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_30"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_31"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_32"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_33"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_34"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_35"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_36"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_37"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_38"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_39"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_40"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_41"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_42"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_43"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_44"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_45"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_46"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_47"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_48"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_49"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_50"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_51"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_52"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_53"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_54"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_55"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_56"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_57"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_58"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_59"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_60"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_61"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_62"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_63"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_64"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_65"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_66"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_67"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_68"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_69"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_70"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_71"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_72"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_73"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_74"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_75"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_76"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_77"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_78"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_79"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_80"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_81"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_82"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_83"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_84"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_85"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_86"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_87"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_88"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_89"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_90"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_91"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_92"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_93"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_94"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_95"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_96"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_97"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_98"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_99"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_100"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_101"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_102"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_103"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_104"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_105"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_106"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_107"
+wget "https://en.m.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_108"
+rm -f unhtml*
+
+# br spremeni v #BR#
+grep -rl '<br>' Chapter* | xargs sed -i 's/<br>/#BR#/g'
+
+unhtml Chapter_01 >  unhtml001
+unhtml Chapter_02 >  unhtml002
+unhtml Chapter_03 >  unhtml003
+unhtml Chapter_04 >  unhtml004
+unhtml Chapter_05 >  unhtml005
+unhtml Chapter_06 >  unhtml006
+unhtml Chapter_07 >  unhtml007
+unhtml Chapter_08 >  unhtml008
+unhtml Chapter_09 >  unhtml009
+unhtml Chapter_10 >  unhtml010
+unhtml Chapter_11 >  unhtml011
+unhtml Chapter_12 >  unhtml012
+unhtml Chapter_13 >  unhtml013
+unhtml Chapter_14 >  unhtml014
+unhtml Chapter_15 >  unhtml015
+unhtml Chapter_16 >  unhtml016
+unhtml Chapter_17 >  unhtml017
+unhtml Chapter_18 >  unhtml018
+unhtml Chapter_19 >  unhtml019
+unhtml Chapter_20 >  unhtml020
+unhtml Chapter_21 >  unhtml021
+unhtml Chapter_22 >  unhtml022
+unhtml Chapter_23 >  unhtml023
+unhtml Chapter_24 >  unhtml024
+unhtml Chapter_25 >  unhtml025
+unhtml Chapter_26 >  unhtml026
+unhtml Chapter_27 >  unhtml027
+unhtml Chapter_28 >  unhtml028
+unhtml Chapter_29 >  unhtml029
+unhtml Chapter_30 >  unhtml030
+unhtml Chapter_31 >  unhtml031
+unhtml Chapter_32 >  unhtml032
+unhtml Chapter_33 >  unhtml033
+unhtml Chapter_34 >  unhtml034
+unhtml Chapter_35 >  unhtml035
+unhtml Chapter_36 >  unhtml036
+unhtml Chapter_37 >  unhtml037
+unhtml Chapter_38 >  unhtml038
+unhtml Chapter_39 >  unhtml039
+unhtml Chapter_40 >  unhtml040
+unhtml Chapter_41 >  unhtml041
+unhtml Chapter_42 >  unhtml042
+unhtml Chapter_43 >  unhtml043
+unhtml Chapter_44 >  unhtml044
+unhtml Chapter_45 >  unhtml045
+unhtml Chapter_46 >  unhtml046
+unhtml Chapter_47 >  unhtml047
+unhtml Chapter_48 >  unhtml048
+unhtml Chapter_49 >  unhtml049
+unhtml Chapter_50 >  unhtml050
+unhtml Chapter_51 >  unhtml051
+unhtml Chapter_52 >  unhtml052
+unhtml Chapter_53 >  unhtml053
+unhtml Chapter_54 >  unhtml054
+unhtml Chapter_55 >  unhtml055
+unhtml Chapter_56 >  unhtml056
+unhtml Chapter_57 >  unhtml057
+unhtml Chapter_58 >  unhtml058
+unhtml Chapter_59 >  unhtml059
+unhtml Chapter_60 >  unhtml060
+unhtml Chapter_61 >  unhtml061
+unhtml Chapter_62 >  unhtml062
+unhtml Chapter_63 >  unhtml063
+unhtml Chapter_64 >  unhtml064
+unhtml Chapter_65 >  unhtml065
+unhtml Chapter_66 >  unhtml066
+unhtml Chapter_67 >  unhtml067
+unhtml Chapter_68 >  unhtml068
+unhtml Chapter_69 >  unhtml069
+unhtml Chapter_70 >  unhtml070
+unhtml Chapter_71 >  unhtml071
+unhtml Chapter_72 >  unhtml072
+unhtml Chapter_73 >  unhtml073
+unhtml Chapter_74 >  unhtml074
+unhtml Chapter_75 >  unhtml075
+unhtml Chapter_76 >  unhtml076
+unhtml Chapter_77 >  unhtml077
+unhtml Chapter_78 >  unhtml078
+unhtml Chapter_79 >  unhtml079
+unhtml Chapter_80 >  unhtml080
+unhtml Chapter_81 >  unhtml081
+unhtml Chapter_82 >  unhtml082
+unhtml Chapter_83 >  unhtml083
+unhtml Chapter_84 >  unhtml084
+unhtml Chapter_85 >  unhtml085
+unhtml Chapter_86 >  unhtml086
+unhtml Chapter_87 >  unhtml087
+unhtml Chapter_88 >  unhtml088
+unhtml Chapter_89 >  unhtml089
+unhtml Chapter_90 >  unhtml090
+unhtml Chapter_91 >  unhtml091
+unhtml Chapter_92 >  unhtml092
+unhtml Chapter_93 >  unhtml093
+unhtml Chapter_94 >  unhtml094
+unhtml Chapter_95 >  unhtml095
+unhtml Chapter_96 >  unhtml096
+unhtml Chapter_97 >  unhtml097
+unhtml Chapter_98 >  unhtml098
+unhtml Chapter_99 >  unhtml099
+unhtml Chapter_100 > unhtml100
+unhtml Chapter_101 > unhtml101
+unhtml Chapter_102 > unhtml102
+unhtml Chapter_103 > unhtml103
+unhtml Chapter_104 > unhtml104
+unhtml Chapter_105 > unhtml105
+unhtml Chapter_106 > unhtml106
+unhtml Chapter_107 > unhtml107
+unhtml Chapter_108 > unhtml108
+
+# Zadnji del stran 
+
+sed -i '/NewPP/Q' unhtml001
+sed -i '/NewPP/Q' unhtml002
+sed -i '/NewPP/Q' unhtml003
+sed -i '/NewPP/Q' unhtml004
+sed -i '/NewPP/Q' unhtml005
+sed -i '/NewPP/Q' unhtml006
+sed -i '/NewPP/Q' unhtml007
+sed -i '/NewPP/Q' unhtml008
+sed -i '/NewPP/Q' unhtml009
+sed -i '/NewPP/Q' unhtml010
+sed -i '/NewPP/Q' unhtml011
+sed -i '/NewPP/Q' unhtml012
+sed -i '/NewPP/Q' unhtml013
+sed -i '/NewPP/Q' unhtml014
+sed -i '/NewPP/Q' unhtml015
+sed -i '/NewPP/Q' unhtml016
+sed -i '/NewPP/Q' unhtml017
+sed -i '/NewPP/Q' unhtml018
+sed -i '/NewPP/Q' unhtml019
+sed -i '/NewPP/Q' unhtml020
+sed -i '/NewPP/Q' unhtml021
+sed -i '/NewPP/Q' unhtml022
+sed -i '/NewPP/Q' unhtml023
+sed -i '/NewPP/Q' unhtml024
+sed -i '/NewPP/Q' unhtml025
+sed -i '/NewPP/Q' unhtml026
+sed -i '/NewPP/Q' unhtml027
+sed -i '/NewPP/Q' unhtml028
+sed -i '/NewPP/Q' unhtml029
+sed -i '/NewPP/Q' unhtml030
+sed -i '/NewPP/Q' unhtml031
+sed -i '/NewPP/Q' unhtml032
+sed -i '/NewPP/Q' unhtml033
+sed -i '/NewPP/Q' unhtml034
+sed -i '/NewPP/Q' unhtml035
+sed -i '/NewPP/Q' unhtml036
+sed -i '/NewPP/Q' unhtml037
+sed -i '/NewPP/Q' unhtml038
+sed -i '/NewPP/Q' unhtml039
+sed -i '/NewPP/Q' unhtml040
+sed -i '/NewPP/Q' unhtml041
+sed -i '/NewPP/Q' unhtml042
+sed -i '/NewPP/Q' unhtml043
+sed -i '/NewPP/Q' unhtml044
+sed -i '/NewPP/Q' unhtml045
+sed -i '/NewPP/Q' unhtml046
+sed -i '/NewPP/Q' unhtml047
+sed -i '/NewPP/Q' unhtml048
+sed -i '/NewPP/Q' unhtml049
+sed -i '/NewPP/Q' unhtml050
+sed -i '/NewPP/Q' unhtml051
+sed -i '/NewPP/Q' unhtml052
+sed -i '/NewPP/Q' unhtml053
+sed -i '/NewPP/Q' unhtml054
+sed -i '/NewPP/Q' unhtml055
+sed -i '/NewPP/Q' unhtml056
+sed -i '/NewPP/Q' unhtml057
+sed -i '/NewPP/Q' unhtml058
+sed -i '/NewPP/Q' unhtml059
+sed -i '/NewPP/Q' unhtml060
+sed -i '/NewPP/Q' unhtml061
+sed -i '/NewPP/Q' unhtml062
+sed -i '/NewPP/Q' unhtml063
+sed -i '/NewPP/Q' unhtml064
+sed -i '/NewPP/Q' unhtml065
+sed -i '/NewPP/Q' unhtml066
+sed -i '/NewPP/Q' unhtml067
+sed -i '/NewPP/Q' unhtml068
+sed -i '/NewPP/Q' unhtml069
+sed -i '/NewPP/Q' unhtml070
+sed -i '/NewPP/Q' unhtml071
+sed -i '/NewPP/Q' unhtml072
+sed -i '/NewPP/Q' unhtml073
+sed -i '/NewPP/Q' unhtml074
+sed -i '/NewPP/Q' unhtml075
+sed -i '/NewPP/Q' unhtml076
+sed -i '/NewPP/Q' unhtml077
+sed -i '/NewPP/Q' unhtml078
+sed -i '/NewPP/Q' unhtml079
+sed -i '/NewPP/Q' unhtml080
+sed -i '/NewPP/Q' unhtml081
+sed -i '/NewPP/Q' unhtml082
+sed -i '/NewPP/Q' unhtml083
+sed -i '/NewPP/Q' unhtml084
+sed -i '/NewPP/Q' unhtml085
+sed -i '/NewPP/Q' unhtml086
+sed -i '/NewPP/Q' unhtml087
+sed -i '/NewPP/Q' unhtml088
+sed -i '/NewPP/Q' unhtml089
+sed -i '/NewPP/Q' unhtml090
+sed -i '/NewPP/Q' unhtml091
+sed -i '/NewPP/Q' unhtml092
+sed -i '/NewPP/Q' unhtml093
+sed -i '/NewPP/Q' unhtml094
+sed -i '/NewPP/Q' unhtml095
+sed -i '/NewPP/Q' unhtml096
+sed -i '/NewPP/Q' unhtml097
+sed -i '/NewPP/Q' unhtml098
+sed -i '/NewPP/Q' unhtml099
+sed -i '/NewPP/Q' unhtml100
+sed -i '/NewPP/Q' unhtml101
+sed -i '/NewPP/Q' unhtml102
+sed -i '/NewPP/Q' unhtml103
+sed -i '/NewPP/Q' unhtml104
+sed -i '/NewPP/Q' unhtml105
+sed -i '/NewPP/Q' unhtml106
+sed -i '/NewPP/Q' unhtml107
+sed -i '/NewPP/Q' unhtml108
+
+
+# Osstrani iz prvega fajla 146 vrstic
+sed -i '1,146d' unhtml001
+#sed -i '1,145d' unhtml002
+
+# Prvi del stran od vseh ostalih
+sed -i '/mf-section-0/,$!d' unhtml002
+sed -i '/mf-section-0/,$!d' unhtml003
+sed -i '/mf-section-0/,$!d' unhtml004
+sed -i '/mf-section-0/,$!d' unhtml005
+sed -i '/mf-section-0/,$!d' unhtml006
+sed -i '/mf-section-0/,$!d' unhtml007
+sed -i '/mf-section-0/,$!d' unhtml008
+sed -i '/mf-section-0/,$!d' unhtml009
+sed -i '/mf-section-0/,$!d' unhtml010
+sed -i '/mf-section-0/,$!d' unhtml011
+sed -i '/mf-section-0/,$!d' unhtml012
+sed -i '/mf-section-0/,$!d' unhtml013
+sed -i '/mf-section-0/,$!d' unhtml014
+sed -i '/mf-section-0/,$!d' unhtml015
+sed -i '/mf-section-0/,$!d' unhtml016
+sed -i '/mf-section-0/,$!d' unhtml017
+sed -i '/mf-section-0/,$!d' unhtml018
+sed -i '/mf-section-0/,$!d' unhtml019
+sed -i '/mf-section-0/,$!d' unhtml020
+sed -i '/mf-section-0/,$!d' unhtml021
+sed -i '/mf-section-0/,$!d' unhtml022
+sed -i '/mf-section-0/,$!d' unhtml023
+sed -i '/mf-section-0/,$!d' unhtml024
+sed -i '/mf-section-0/,$!d' unhtml025
+sed -i '/mf-section-0/,$!d' unhtml026
+sed -i '/mf-section-0/,$!d' unhtml027
+sed -i '/mf-section-0/,$!d' unhtml028
+sed -i '/mf-section-0/,$!d' unhtml029
+sed -i '/mf-section-0/,$!d' unhtml030
+sed -i '/mf-section-0/,$!d' unhtml031
+sed -i '/mf-section-0/,$!d' unhtml032
+sed -i '/mf-section-0/,$!d' unhtml033
+sed -i '/mf-section-0/,$!d' unhtml034
+sed -i '/mf-section-0/,$!d' unhtml035
+sed -i '/mf-section-0/,$!d' unhtml036
+sed -i '/mf-section-0/,$!d' unhtml037
+sed -i '/mf-section-0/,$!d' unhtml038
+sed -i '/mf-section-0/,$!d' unhtml039
+sed -i '/mf-section-0/,$!d' unhtml040
+sed -i '/mf-section-0/,$!d' unhtml041
+sed -i '/mf-section-0/,$!d' unhtml042
+sed -i '/mf-section-0/,$!d' unhtml043
+sed -i '/mf-section-0/,$!d' unhtml044
+sed -i '/mf-section-0/,$!d' unhtml045
+sed -i '/mf-section-0/,$!d' unhtml046
+sed -i '/mf-section-0/,$!d' unhtml047
+sed -i '/mf-section-0/,$!d' unhtml048
+sed -i '/mf-section-0/,$!d' unhtml049
+sed -i '/mf-section-0/,$!d' unhtml050
+sed -i '/mf-section-0/,$!d' unhtml051
+sed -i '/mf-section-0/,$!d' unhtml052
+sed -i '/mf-section-0/,$!d' unhtml053
+sed -i '/mf-section-0/,$!d' unhtml054
+sed -i '/mf-section-0/,$!d' unhtml055
+sed -i '/mf-section-0/,$!d' unhtml056
+sed -i '/mf-section-0/,$!d' unhtml057
+sed -i '/mf-section-0/,$!d' unhtml058
+sed -i '/mf-section-0/,$!d' unhtml059
+sed -i '/mf-section-0/,$!d' unhtml060
+sed -i '/mf-section-0/,$!d' unhtml061
+sed -i '/mf-section-0/,$!d' unhtml062
+sed -i '/mf-section-0/,$!d' unhtml063
+sed -i '/mf-section-0/,$!d' unhtml064
+sed -i '/mf-section-0/,$!d' unhtml065
+sed -i '/mf-section-0/,$!d' unhtml066
+sed -i '/mf-section-0/,$!d' unhtml067
+sed -i '/mf-section-0/,$!d' unhtml068
+sed -i '/mf-section-0/,$!d' unhtml069
+sed -i '/mf-section-0/,$!d' unhtml070
+sed -i '/mf-section-0/,$!d' unhtml071
+sed -i '/mf-section-0/,$!d' unhtml072
+sed -i '/mf-section-0/,$!d' unhtml073
+sed -i '/mf-section-0/,$!d' unhtml074
+sed -i '/mf-section-0/,$!d' unhtml075
+sed -i '/mf-section-0/,$!d' unhtml076
+sed -i '/mf-section-0/,$!d' unhtml077
+sed -i '/mf-section-0/,$!d' unhtml078
+sed -i '/mf-section-0/,$!d' unhtml079
+sed -i '/mf-section-0/,$!d' unhtml080
+sed -i '/mf-section-0/,$!d' unhtml081
+sed -i '/mf-section-0/,$!d' unhtml082
+sed -i '/mf-section-0/,$!d' unhtml083
+sed -i '/mf-section-0/,$!d' unhtml084
+sed -i '/mf-section-0/,$!d' unhtml085
+sed -i '/mf-section-0/,$!d' unhtml086
+sed -i '/mf-section-0/,$!d' unhtml087
+sed -i '/mf-section-0/,$!d' unhtml088
+sed -i '/mf-section-0/,$!d' unhtml089
+sed -i '/mf-section-0/,$!d' unhtml090
+sed -i '/mf-section-0/,$!d' unhtml091
+sed -i '/mf-section-0/,$!d' unhtml092
+sed -i '/mf-section-0/,$!d' unhtml093
+sed -i '/mf-section-0/,$!d' unhtml094
+sed -i '/mf-section-0/,$!d' unhtml095
+sed -i '/mf-section-0/,$!d' unhtml096
+sed -i '/mf-section-0/,$!d' unhtml097
+sed -i '/mf-section-0/,$!d' unhtml098
+sed -i '/mf-section-0/,$!d' unhtml099
+sed -i '/mf-section-0/,$!d' unhtml100
+sed -i '/mf-section-0/,$!d' unhtml101
+sed -i '/mf-section-0/,$!d' unhtml102
+sed -i '/mf-section-0/,$!d' unhtml103
+sed -i '/mf-section-0/,$!d' unhtml104
+sed -i '/mf-section-0/,$!d' unhtml105
+sed -i '/mf-section-0/,$!d' unhtml106
+sed -i '/mf-section-0/,$!d' unhtml107
+sed -i '/mf-section-0/,$!d' unhtml108
+
+# all in one
+cat unhtml001 unhtml002 unhtml003 unhtml004 unhtml005 unhtml006 unhtml007 unhtml008 unhtml009 unhtml010 unhtml011 unhtml012 unhtml013 unhtml014 unhtml015 unhtml016 unhtml017 unhtml018 unhtml019 unhtml020 unhtml021 unhtml022 unhtml023 unhtml024 unhtml025 unhtml026 unhtml027 unhtml028 unhtml029 unhtml030 unhtml031 unhtml032 unhtml033 unhtml034 unhtml035 unhtml036 unhtml037 unhtml038 unhtml039 unhtml040 unhtml041 unhtml042 unhtml043 unhtml044 unhtml045 unhtml046 unhtml047 unhtml048 unhtml049 unhtml050 unhtml051 unhtml052 unhtml053 unhtml054 unhtml055 unhtml056 unhtml057 unhtml058 unhtml059 unhtml060 unhtml061 unhtml062 unhtml063 unhtml064 unhtml065 unhtml066 unhtml067 unhtml068 unhtml069 unhtml070 unhtml071 unhtml072 unhtml073 unhtml074 unhtml075 unhtml076 unhtml077 unhtml078 unhtml079 unhtml080 unhtml081 unhtml082 unhtml083 unhtml084 unhtml085 unhtml086 unhtml087 unhtml088 unhtml089 unhtml090 unhtml091 unhtml092 unhtml093 unhtml094 unhtml095 unhtml096 unhtml097 unhtml098 unhtml099 unhtml100 unhtml101 unhtml102 unhtml103 unhtml104 unhtml105 unhtml106 unhtml107 unhtml108 >all.txt
+
+#remove all lines starting with
+sed -i '/^                               <section/d' all.txt
+
+# Odstrani vse vrstice z znakom →
+sed -i '/→/d' all.txt
+
+# Odstrani
+sed -i 's/<section class=\"mf-section-0\" id=\"mf-section-0\">//g' all.txt
+sed -i 's/<\/section>//g' all.txt
+sed -i 's/<header class=\"header-container header-chrome\">//g' all.txt
+sed -i 's/Edit<section class=\"mf-section-[0-9] collapsible-block\" id=\"mf-section-[0-9]\">//g' all.txt
+sed -i 's/<\/nav>//g' all.txt
+sed -i 's/<\/header>//g' all.txt
+sed -i 's/<main id=\"content\" class=\"mw-body\">//g' all.txt
+sed -i 's/<nav class=\"page-actions-menu\">//g' all.txt
+sed -i 's/<\/main>//g' all.txt
+sed -i 's/<footer class=\"mw-footer minerva-footer\" role=\"contentinfo\">//g' all.txt
+sed -i 's/<section>//g' all.txt
+sed -i 's/<\/footer>//g' all.txt
+sed -i 's/<nav class=\"navigation-drawer toggle-list view-border-box\">//g' all.txt
+sed -i 's/<nav class=\"minerva-user-navigation\" aria-label=\"User navigation\">//g' all.txt
+sed -i 's/<!DOCTYPE html>//g' all.txt
+
+# Popravi naslove
+sed -i 's/\([0-9]\+\)The Book of Enoch (Charles) — //g' all.txt
+sed -i '/^    The Book of Enoch (Charles)  Chapter/d' all.txt
+# Brise vrstice
+sed -i '/^<!--/d' all.txt
+sed -i '/^←/d' all.txt
+echo Sedaj je besedilo samo txt
+echo 3 presledke zamenja z dvema - da ohrani v besedilu morebitna dva presledka
+sed -i 's/   /  /g' all.txt
+echo pobrise vrstice ki se zacnejo z dvema presledkoma
+sed -i '/^  /d' all.txt
+echo Odstrani prazne vrstice
+sed -i '/^$/d' all.txt
+
+# #BR#  Spremeni v newline
+sed -i 's/#BR#/\n/g' all.txt
+
+# Vsako številko vrstice da v novo vrstico
+sed -i 's/ \([0-9]\+.\) /\n\1 /g' all.txt
+
+#  remove double line breaks with sed?
+sed -i '/^$/{:a;N;s/\n$//;ta}' all.txt
+
+# Pobrise poglavja z VELIKIMI crkami
+sed -i '/CHAPTER/d' all.txt
+
+# Odstrani Ethiopic in Greek
+sed -i '/^Ethiopic/d' all.txt
+sed -i '/^Greek/d' all.txt
+
+# Naredi zamenjave oklepajev, da mi ne tezi
+sed -i 's/⌈/┌/g' all.txt
+sed -i 's/⌈⌈/╓/g' all.txt
+sed -i 's/⌉/┐/g' all.txt
+sed -i 's/⌉⌉/╖/g' all.txt
+
+
+sed -i 's/⌉⌉/╖/g' all.txt
+
+# pico all.txt
