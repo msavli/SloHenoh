@@ -1,7 +1,7 @@
 SLO <?xml version="1.0" encoding="UTF-8"?>
 ENG <?xml version="1.0" encoding="UTF-8"?>
 
-SLO <osis xmlns="http://www.bibletechnologies.net/2003/OSIS/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.bibletechnologies.net/2003/OSIS/namespace http://www.crosswire.org/~dmsmith/osis/osisCore.2.1.1-cw-latest.xsd">
+SLO <osis xmlns="http://www.bibletechnologies.net/2003/OSIS/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.bibletechnologies.net/2003/OSIS/ce http://www.crosswire.org/~dmsmith/osis/osisCore.2.1.1-cw-latest.xsd">
 ENG <osis xmlns="http://www.bibletechnologies.net/2003/OSIS/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.bibletechnologies.net/2003/OSIS/namespace http://www.crosswire.org/~dmsmith/osis/osisCore.2.1.1-cw-latest.xsd">
 
 SLO   <osisText osisRefWork="GenBook" canonical="true" osisIDWork="Slohenoh" xml:lang="sl">
@@ -79,7 +79,7 @@ ENG       <hi type="italic">Edited by: Marjan Šavli in Barbara Hojkar Šavli, 2
 SLO       <p>vir: https://archive.org/details/apocryphapseudep02charuoft</p>
 ENG       <p>source https://archive.org/details/apocryphapseudep02charuoft</p>
 
-SLO       <p>2023-06-22 23:33:50 xxx yyy Barbara do zaceka poglavja 25, z Barbaro preverila Jelincicevo knjigo do vrstice 3222, †‘x’—“x” ’〈〉┌x┐ ╓x╖ </p>
+SLO       <p>2023-06-22 23:33:50 xxx yyy Barbara do zaceka poglavja 25, z Barbaro preverila Jelincicevo knjigo do vrstice 3222, †‘x’—“x” ’〈〉┌x┐ ╓x╖ âêîôû</p>
 ENG       <p></p>
 
 SLO     <div type="majorSection" osisID="Razdelek I">
@@ -241,11 +241,11 @@ ENG     </div>
 SLO     <div type="chapter" osisID="Poglavje 2">
 ENG     <div type="chapter" osisID="Chapter 2">
 
-SLO       <title>Poglavje 2<opomba>(V ii-v. 3 red narave je v nasprotju z neurejenostjo človekovega sveta. V Test. Naph. iii. 2, 3 je ljudem rečeno, naj spoštujejo Božji zakon, tako kot sonce, luna in zvezde spoštujejo svoj določen red. Stražarji, ki so zapustili svoj naravni red, pa so označeni kot opozorilo. Prim. Sirah xvi. 26-28, Pss. Sol. xviii. 12-14.)</opomba></title>
-ENG       <title>Chapter 2<opomba>(In ii-v. 3 the order of nature is contrasted with the disorder of man’s world. In Test. Naph. iii. 2, 3, men are told to observe God's law as sun, moon, and stars observe their appointed order, and the Watchers who left their natural order are held up as a warning. Cf. Sirach xvi. 26-28, Pss. Sol. xviii. 12-14.)</opomba></title>
+SLO       <title>Poglavje 2</title>
+ENG       <title>Chapter 2</title>
 
-SLO         <hi type="super">1</hi> Opazujte vse, kar se dogaja na nebu, kako ne spreminjajo svojih orbit ┌in┐ svetila, ki so na nebu, kako vsa vstajajo in zahajajo v vrstnem redu vsakega v svojem obdobju in ne kršijo svojega določenega reda.
-ENG         <hi type="super">1</hi> Observe ye everything that takes place in the heaven, how they do not change their orbits, ┌and┐ the luminaries which are in the heaven, how they all rise and set in order each in its season, and transgress not against their appointed order.
+SLO         <hi type="super">1</hi> <opomba>(V ii-v. 3 red narave je v nasprotju z neurejenostjo človekovega sveta. V Test. Naph. iii. 2, 3 je ljudem rečeno, naj spoštujejo Božji zakon, tako kot sonce, luna in zvezde spoštujejo svoj določen red. Stražarji, ki so zapustili svoj naravni red, pa so označeni kot opozorilo. Prim. Sirah xvi. 26-28, Pss. Sol. xviii. 12-14.)</opomba> Opazujte vse, kar se dogaja na nebu, kako ne spreminjajo svojih orbit ┌in┐ svetila, ki so na nebu, kako vsa vstajajo in zahajajo v vrstnem redu vsakega v svojem obdobju in ne kršijo svojega določenega reda.
+ENG         <hi type="super">1</hi> <opomba>(In ii-v. 3 the order of nature is contrasted with the disorder of man’s world. In Test. Naph. iii. 2, 3, men are told to observe God's law as sun, moon, and stars observe their appointed order, and the Watchers who left their natural order are held up as a warning. Cf. Sirach xvi. 26-28, Pss. Sol. xviii. 12-14.)</opomba> Observe ye everything that takes place in the heaven, how they do not change their orbits, ┌and┐ the luminaries which are in the heaven, how they all rise and set in order each in its season, and transgress not against their appointed order.
 
 SLO         <hi type="super">2</hi> Glejte zemljo in pazite na stvari, ki se dogajajo na njej od prve do zadnje, ┌kako trdne so┐, kako se ┌nobena od stvari na zemlji┐ ne spreminja, ┌ampak┐ se ┌vam┐ prikažejo vsa Božja dela.
 ENG         <hi type="super">2</hi> Behold ye the earth, and give heed to the things which take place upon it from first to last, ┌how steadfast they are┐, how ┌none of the things upon earth┐ change, ┌but┐ all the works of God appear ┌to you┐.
@@ -259,11 +259,11 @@ ENG     </div>
 SLO     <div type="chapter" osisID="Poglavje 3">
 ENG     <div type="chapter" osisID="Chapter 3">
 
-SLO       <title>Poglavje 3<opomba>(Glede štirinajstih zimzelenih dreves glej Geoponica xi. 1. Dvanajst dreves (glej mojo Greek Verss. of Test, of xii Patr., str. 248, 249) za uporabo pri žrtvovanjih, nima nobene zveze s tem seznamom tukaj. Grška je izgubila iii. 1ᵇ v. iͣ skozi homoeotelevton.)</opomba></title>
-ENG       <title>Chapter 3<opomba>(On the fourteen evergreen trees see Geoponica xi. 1. The twelve trees (see my Greek Verss. of Test, of xii Patr., pp. 248, 249) for use with sacrifices have nothing to do with this list here. The Greek has lost iii. 1ᵇ v. 1ͣ through homoeoteleuton.)</opomba></title>
+SLO       <title>Poglavje 3</title>
+ENG       <title>Chapter 3</title>
 
-SLO         <hi type="super">1</hi> Opazujte in poglejte, kako se (pozimi) vsa drevesa ╓zdijo, kot da so se posušila in odvrgla vse svoje liste, razen štirinajstih dreves, ki ne izgubijo svojega listja, ampak staro listje ohranijo dve do tri leta, dokler se ne pojavi novo.
-ENG         <hi type="super">1</hi> Observe and see how (in the winter) all the trees ╓seem as though they had withered and shed all their leaves, except fourteen trees, which do not lose their foliage but retain the old foliage from two to three years till the new comes.
+SLO         <hi type="super">1</hi> <opomba>(Glede štirinajstih zimzelenih dreves glej Geoponica xi. 1. Dvanajst dreves (glej mojo Greek Verss. of Test, of xii Patr., str. 248, 249) za uporabo pri žrtvovanjih, nima nobene zveze s tem seznamom tukaj. Grška je izgubila iii. 1ᵇ v. iͣ skozi homoeotelevton.)</opomba> Opazujte in poglejte, kako se (pozimi) vsa drevesa ╓zdijo, kot da so se posušila in odvrgla vse svoje liste, razen štirinajstih dreves, ki ne izgubijo svojega listja, ampak staro listje ohranijo dve do tri leta, dokler se ne pojavi novo.
+ENG         <hi type="super">1</hi> <opomba>(On the fourteen evergreen trees see Geoponica xi. 1. The twelve trees (see my Greek Verss. of Test, of xii Patr., pp. 248, 249) for use with sacrifices have nothing to do with this list here. The Greek has lost iii. 1ᵇ v. 1ͣ through homoeoteleuton.)</opomba> Observe and see how (in the winter) all the trees ╓seem as though they had withered and shed all their leaves, except fourteen trees, which do not lose their foliage but retain the old foliage from two to three years till the new comes.
 
 SLO     </div>
 ENG     </div>
@@ -433,11 +433,11 @@ ENG     <div type="chapter" osisID="Chapter 6">
 SLO       <p><hi type="bold">VI-XI. Padec angelov. Demoralizacija človeštva. Prošnja angelov v imenu človeštva. Zle usode, ki jih je Bog izrekel angelom. Mesijansko kraljestvo – (Noetov odlomek).</hi></p>
 ENG       <p><hi type="bold">VI-XI. The Fall of the Angels: the Demoralization of Mankind: the Intercession of the Angels on behalf of Mankind: The Dooms pronounced by God on the Angels: the Messianic Kingdom—(a Noah fragment).</hi></p>
 
-SLO       <title>Poglavje 6<opomba>(VI-XI. Ta poglavja so uvedena nenadoma. Glej uvod, vi. 3-8, viii. 1-3, ix. 7, x. 11 pripada ciklu mitov Semjâzâ. Kot v lxix. 2 je on glavni in Azâzêl šele deseti v poveljstvu. Drugje v Enohu je Azâzêl glavni in Semjâzâ ni omenjen. Ti miti pa so bili zamešani že v svoji sedanji obliki, ko so bili napisani lxxxviii-lxxxix. 1. Še enkrat, x. 1–3 pripada Noetovi apokalipsi, katere številni odlomki se pojavljajo v Enohu. Syncellus daje njegov dodatni odlomek za x. 3. Dejansko je vi-xi vse Neotovsko; prim. Jub. vii. 21-25, in moja izdaja Jubilejev lxxi nasl., 264. xii-xvi pa pripadata Enohovi knjigi.)</opomba></title>
-ENG       <title>Chapter 6<opomba>(VI-XI. These chapters are abruptly introduced. See introduction, vi. 3-8, viii. 1-3, ix. 7, x. 11 belong to a Semjâzâ cycle of myths. As in lxix. 2 he is chief and Azâzêl only tenth in command. Elsewhere in Enoch Azâzêl is chief and Semjâzâ is not mentioned. These myths, however, were already confused in their present form when lxxxviii-lxxxix. I were written. Again, x. 1-3 belongs to an Apocalypse of Noah, many fragments of which occur in Enoch. Syncellus gives an additional fragment of it after x. 3. Indeed, vi-xi is all Noachic; cf. Jub. vii. 21-25, and my edition of Jubilees lxxi seqq., 264. xii-xvi, however, belong to the Book of Enoch.)</opomba></title>
+SLO       <title>Poglavje 6</title>
+ENG       <title>Chapter 6</title>
 
-SLO         <hi type="super">1</hi> In zgodilo se je, ko so se človeški otroci namnožili, da so se jim v tistih dneh rodile lepe in ljubke hčere.
-ENG         <hi type="super">1</hi> And it came to pass when the children of men had multiplied that in those days were born unto them beautiful and comely daughters.
+SLO         <hi type="super">1</hi> <opomba>(VI-XI. Ta poglavja so uvedena nenadoma. Glej uvod, vi. 3-8, viii. 1-3, ix. 7, x. 11 pripada ciklu mitov Semjâzâ. Kot v lxix. 2 je on glavni in Azâzêl šele deseti v poveljstvu. Drugje v Enohu je Azâzêl glavni in Semjâzâ ni omenjen. Ti miti pa so bili zamešani že v svoji sedanji obliki, ko so bili napisani lxxxviii-lxxxix. 1. Še enkrat, x. 1–3 pripada Noetovi apokalipsi, katere številni odlomki se pojavljajo v Enohu. Syncellus daje njegov dodatni odlomek za x. 3. Dejansko je vi-xi vse Neotovsko; prim. Jub. vii. 21-25, in moja izdaja Jubilejev lxxi nasl., 264. xii-xvi pa pripadata Enohovi knjigi.)</opomba> In zgodilo se je, ko so se človeški otroci namnožili, da so se jim v tistih dneh rodile lepe in ljubke hčere.
+ENG         <hi type="super">1</hi> <opomba>(VI-XI. These chapters are abruptly introduced. See introduction, vi. 3-8, viii. 1-3, ix. 7, x. 11 belong to a Semjâzâ cycle of myths. As in lxix. 2 he is chief and Azâzêl only tenth in command. Elsewhere in Enoch Azâzêl is chief and Semjâzâ is not mentioned. These myths, however, were already confused in their present form when lxxxviii-lxxxix. I were written. Again, x. 1-3 belongs to an Apocalypse of Noah, many fragments of which occur in Enoch. Syncellus gives an additional fragment of it after x. 3. Indeed, vi-xi is all Noachic; cf. Jub. vii. 21-25, and my edition of Jubilees lxxi seqq., 264. xii-xvi, however, belong to the Book of Enoch.)</opomba> And it came to pass when the children of men had multiplied that in those days were born unto them beautiful and comely daughters.
 
 SLO         <hi type="super">2</hi> Angeli, otroci nebes, so jih videli in si jih poželeli ter drug drugemu rekli: »Pridite, izberimo si žene izmed človeških otrok in zaplodimo si otroke.«<opomba>(Prim. xiii. 8, xiv. 3, xxxix. 1. Glej xv. 1-7. Prim. 'sinovi svetih angelov' lxxi. 1, in opomba. Celoten mit o angelih in človeških hčerah v Enohu izhaja iz Gen. vi. 1–4: 'Božji sinovi so vstopili k človeškim hčeram.' To se ne nanaša na zavezništva med Setiti in Kainijci, ampak na zgodnji perzijski (?) mit o tem, da so demoni pred Zoroastrovim prihodom pokvarili zemljo in se povezali z ženskami (Bousset, Rel. d. Jud. 382, 560). Prvotni LXX prevod za 'Božje sinove' je bil γγελοι τοῦ Θεοῦ, kot pri Philo, de Gigantibus, Justin Martyr, Apol. ii. 5, Evzebij, Avguštin in Ambrož. Glede mitov glej Grünbaum v ZDMG xxxi. 225 ff., in za izjave, ki so odvisne od tega poročila v Henohu ali so z njim usklajene, prim. Jub. iv. 15, v. 1 in naprej; Test. Reub. v. 6, 7, Test. Naph. iii. 5, 2 en. vii, xviii, Juda 6, 2 Pet. ii. 4; Jožef, Ant. i. 3. 1; Philo, de Gigantibus; Justin Martyr, Apol. i. 5; Ps. Klement, Hom. viii. 13; Clem. Alex. Strom. v. 1. 10; Tert. de Virg. Veland. vii; Adv. Marcion. v. 18; De Idol. ix; Lact. Inštit. ii. 15; Commodian, Instruct. i. 3. V De Civ. Dei xv. 23 Avguštin nasprotuje temu mnenju in zanika Henohov navdih, ki ga je zagovarjal Tertulijan.)</opomba><r r="Gen.6.1-Gen.6.4">1 Mz 6:1-4</r><r r="Jude.1.6">Jud 1:6</r><r r="2Pet.2.4">2 Pt 2:4</r>
 ENG         <hi type="super">2</hi> And the angels, the children of the heaven, saw and lusted after them, and said to one another: ‘Come, let us choose us wives from among the children of men and beget us children.’<opomba>(Cf. xiii. 8, xiv. 3, .xxxix. 1. See xv. 1-7. Cf ‘sons of the holy angels’ lxxi. 1, and note. The entire myth of the angels and the daughters of men in Enoch arises from Gen. vi. 1-4: ‘the sons of God came in unto the daughters of men.’ This refers not to alliances between Sethites and Cainites, but to an early Persian (?) myth to the effect that before Zoroaster's coming demons had corrupted the earth and allied themselves with women (Bousset, Rel. d. Jud. 382, 560). The original LXX rendering for ‘sons of God’ was γγελοι τοῦ Θεοῦ, as in Philo, de Gigantibus, Justin Martyr, Apol. ii. 5, Eusebius, Augustine, and Ambrose. On the myths see Griinbaum in ZDMG xxxi. 225 ff., and for statements dependent on this account in Enoch, or harmonizing with it, cf. Jub. iv. 15, v. 1 seqq.; Test. Reub. v. 6, 7, Test. Naph. iii. 5, 2 En. vii, xviii, Jude 6, 2 Pet. ii. 4; Joseph, Ant. i. 3. 1; Philo, de Gigantibus; Justin Martyr, Apol. i. 5; Ps. Clement, Hom. viii. 13; Clem. Alex. Strom. v. 1. 10; Tert. de Virg. Veland. vii; Adv. Marcion. v. 18; De Idol. ix; Lact. Instit. ii. 15; Commodian, Instruct. i. 3. In the De Civ. Dei xv. 23 Augustine combats this view and denies the inspiration of Enoch which Tertullian had upheld.)</opomba><r r="Gen.6.1-Gen.6.4">1 Mz 6:1-4</r><r r="Jude.1.6">Jud 1:6</r><r r="2Pet.2.4">2 Pt 2:4</r>
@@ -451,7 +451,7 @@ ENG         <hi type="super">4</hi> And they all answered him and said: ‘Let u
 SLO         <hi type="super">5</hi> Nato so vsi skupaj prisegli in se zavezali z medsebojnimi prekletji nad tem.
 ENG         <hi type="super">5</hi> Then sware they all together and bound themselves by mutual imprecations upon it.
 
-SLO         <hi type="super">6</hi> In vseh jih je bilo dvesto, ki so se ┌v dneh┐ Jereda<opomba>(glej cvi. 13. Torej Grkško; Etiopsko je pokvarjeno. Tako dobimo dve paronomaziji v hebrejščini: Jared in ירר 'sestopiti' ter Hermon in חרס 'prekletstvo'. Za tradicijo prim. Orig. Comment. v Ioann. tom. viii, str. 132, izd. Huet.; Epifanij, adv. Haer. i. 4, izd. Petav., tom. i, str. 4; Hilary, Comm. v Ps. cxxxii. 3. Razlogi za sestop angelov v knjigi Jubilejev se razlikujejo od tistih, navedenih v tem poglavju. Tam v iv in v je rečeno, da je Bog poslal Stražarje na zemljo, 'da bi poučevali človeške otroke, naj izvajajo sodbo in poštenost', in da so pri tem začeli hrepeneti po človeških hčerah. Prim. Test. Reub. v. 6. V 1 Henoh naj bi se angeli spustili zaradi svojega poželenja in isti razlog je naveden v Jalkut Shimu. Bereš. 44. Glej Weber, Jüd. Theologie, 253. Knjiga Jubilejev ima implicitno polemiko proti tej in drugim Henohovim izjavam. Po kasnejšem izročilu se Azâzêl ni mogel vrniti v nebesa, ker je prekoračil sedemdnevno omejitev, ki je bila dodeljena angelskim obiskovalcem na zemlji.)</opomba> spustili na vrh gore Hermon in imenovali so jo gora Hermon, ker so si prisegli in se zavezali z medsebojnimi prekletji nad tem.<r r="Ps.132.3">Ps 132:3</r>
+SLO         <hi type="super">6</hi> In vseh jih je bilo dvesto, ki so se ┌v dneh┐ Jereda<opomba>(glej cvi. 13. Torej grško; etiopsko je pokvarjeno. Tako dobimo dve paronomaziji v hebrejščini: Jared in ירר 'sestopiti' ter Hermon in חרס 'prekletstvo'. Za tradicijo prim. Orig. Comment. v Ioann. tom. viii, str. 132, izd. Huet.; Epifanij, adv. Haer. i. 4, izd. Petav., tom. i, str. 4; Hilary, Comm. v Ps. cxxxii. 3. Razlogi za sestop angelov v knjigi Jubilejev se razlikujejo od tistih, navedenih v tem poglavju. Tam v iv in v je rečeno, da je Bog poslal Stražarje na zemljo, 'da bi poučevali človeške otroke, naj izvajajo sodbo in poštenost', in da so pri tem začeli hrepeneti po človeških hčerah. Prim. Test. Reub. v. 6. V 1 Henoh naj bi se angeli spustili zaradi svojega poželenja in isti razlog je naveden v Jalkut Shimu. Bereš. 44. Glej Weber, Jüd. Theologie, 253. Knjiga Jubilejev ima implicitno polemiko proti tej in drugim Henohovim izjavam. Po kasnejšem izročilu se Azâzêl ni mogel vrniti v nebesa, ker je prekoračil sedemdnevno omejitev, ki je bila dodeljena angelskim obiskovalcem na zemlji.)</opomba> spustili na vrh gore Hermon in imenovali so jo gora Hermon, ker so si prisegli in se zavezali z medsebojnimi prekletji nad tem.<r r="Ps.132.3">Ps 132:3</r>
 ENG         <hi type="super">6</hi> And they were in all two hundred; who descended ┌in the days┐ of Jared<opomba>(see cvi. 13. So the Greek; the Ethiopic is corrupt. We thus get two paronomasiae in the Hebrew: Jared, and ירר ‘descend’, and Hermon and חרס ‘a curse’. For the tradition cf. Orig. Comment. in Ioann. tom. viii, p. 132, ed. Huet.; Epiphanius, Adv. Haer. i. 4, ed. Petav., tom. i, p. 4; Hilary, Comm. in Ps. cxxxii. 3. The reasons for the angels’ descent in the Book of Jubilees differ from those given in this chapter. There in iv and v it is said that the Watchers were sent to earth by God ‘to instruct  the children of men to do judgement and uprightness', and that when so doing they began to lust after the daughters of men. Cf. Test. Reub. v. 6. In 1 Enoch the angels are said to have descended because of their lust, and the same reason is given in Jalkut Shim. Beresh. 44. See Weber, Jüd. Theologie, 253. The Book of Jubilees has an implicit polemic against this and other statements of Enoch. In later tradition Azâzêl could not return to heaven because he had outstayed the seven days' limit assigned to angelic visitants to earth.)</opomba> on the summit of Mount Hermon, and they called it Mount Hermon, because they had sworn and bound themselves by mutual imprecations upon it.
 
 SLO         <hi type="super">7</hi> In to so imena njihovih voditeljev: njihov vodja Samîazâz,<r r="Gen.6.3">1 Mz 6:3</r> Arâkîba, Râmêêl, Kôkabîêl,<opomba>(Božja zvezda.)</opomba> Tâmîêl,<opomba>(Božja popolnost.)</opomba> Râmîêl, Dânêl, Êzêqêêl, Barâqîjâl,<opomba>(Bliskanje Boga.)</opomba> Asâêl, Armârôs, Batârêl, Anânêl, Zaqîêl, Samsâpêêl, Satarêl, Tûrêl,<opomba>(Božja skala.)</opomba> Jômjâêl,<opomba>(Božji dan.)</opomba> Sariêl.<opomba>(Ta seznam je nepopoln, saj se je ime po Tûrêlu izgubilo.)</opomba>
@@ -466,11 +466,11 @@ ENG     </div>
 SLO     <div type="chapter" osisID="Poglavje 7">
 ENG     <div type="chapter" osisID="Chapter 7">
 
-SLO       <title>Poglavje 7<opomba>(Etiopski in grški izvirnik se v tem in v osmem poglavju precej razlikujeta. Zabeležke časa v grščini so posledica kasnejših rok.)</opomba></title>
-ENG       <title>Chapter 7<opomba>(The Ethiopic and Greek vary considerably in this and the eighth chapter. The notes of time in the Greek are due to later hands.)</opomba></title>
+SLO       <title>Poglavje 7</title>
+ENG       <title>Chapter 7</title>
 
-SLO         <hi type="super">1</hi> In vsi drugi so si, skupaj z njimi, vzeli žene in vsak si je zase izbral eno in začeli so hoditi vanje in se oskrunjali z njimi in jih naučili zaklinjevanja, izrekanja urokov, rezanja korenin in seznanili so jih z rastlinami.
-ENG         <hi type="super">1</hi> And all the others together with them took unto themselves wives, and each chose for himself one, and they began to go in unto them and to defile themselves with them, and they taught them charms and enchantments, and the cutting of roots, and made them acquainted with plants.
+SLO         <hi type="super">1</hi> <opomba>(Etiopski in grški izvirnik se v tem in v osmem poglavju precej razlikujeta. Zabeležke časa v grščini so posledica kasnejših rok.)</opomba> In vsi drugi so si, skupaj z njimi, vzeli žene in vsak si je zase izbral eno in začeli so hoditi vanje in se oskrunjali z njimi in jih naučili zaklinjevanja, izrekanja urokov, rezanja korenin in seznanili so jih z rastlinami.
+ENG         <hi type="super">1</hi> <opomba>(The Ethiopic and Greek vary considerably in this and the eighth chapter. The notes of time in the Greek are due to later hands.)</opomba> And all the others together with them took unto themselves wives, and each chose for himself one, and they began to go in unto them and to defile themselves with them, and they taught them charms and enchantments, and the cutting of roots, and made them acquainted with plants.
 
 SLO         <hi type="super">2</hi> In zanosile so ter rodile velike velikane,<opomba>([velike velikane: hebr. Nefil (mn. Nefilim); pasti dol.])</opomba><r r="Gen.6.4">1 Mz 6:4</r> katerih višina je bila tri tisoč elov;
 ENG         <hi type="super">2</hi> And they became pregnant, and they bare great giants,<r r="Gen.6.4">1 Mz 6:4</r> whose height was three thousand ells:
@@ -652,11 +652,11 @@ ENG     </div>
 SLO     <div type="chapter" osisID="Poglavje 11">
 ENG     <div type="chapter" osisID="Chapter 11">
 
-SLO       <title>Poglavje 11<opomba>(Zaključuje poročilo o mesijanskem kraljestvu. Prim. 5 Mz. xxviii. 12.)</opomba><r r="Deut.28.12">5 Mz 28:12</r></title>
-ENG       <title>Chapter 11<opomba>(concludes an account of the Messianic kingdom. Cf. Deut. xxviii. 12.)</opomba><r r="Deut.28.12">5 Mz 28:12</r></title>
+SLO       <title>Poglavje 11</title>
+ENG       <title>Chapter 11</title>
 
-SLO         <hi type="super">1</hi> In v tistih dneh bom odprl skladiščne sobe blagoslova, ki so v nebesih, tako da jih pošljem dol ┌na zemljo┐, nad delo in trud človeških otrok.
-ENG         <hi type="super">1</hi> And in those days I will open the store chambers of blessing which are in the heaven, so as to send them down ┌upon the earth┐ over the work and labour of the children of men.
+SLO         <hi type="super">1</hi> <opomba>(Zaključuje poročilo o mesijanskem kraljestvu. Prim. 5 Mz. xxviii. 12.)</opomba><r r="Deut.28.12">5 Mz 28:12</r> In v tistih dneh bom odprl skladiščne sobe blagoslova, ki so v nebesih, tako da jih pošljem dol ┌na zemljo┐, nad delo in trud človeških otrok.
+ENG         <hi type="super">1</hi> <opomba>(concludes an account of the Messianic kingdom. Cf. Deut. xxviii. 12.)</opomba><r r="Deut.28.12">5 Mz 28:12</r> And in those days I will open the store chambers of blessing which are in the heaven, so as to send them down ┌upon the earth┐ over the work and labour of the children of men.
 
 SLO         <hi type="super">2</hi> In resnica in mir bosta povezani skupaj skozi vse dni sveta in skozi vse rodove ljudi.«<r r="Ps.85.10">Ps 85:10</r><r r="Isa.32.17">Iz 32:17</r>
 ENG         <hi type="super">2</hi> And truth and peace shall be associated together throughout all the days of the world and throughout all the generations of men.’<r r="Ps.85.10">Ps 85:10</r><r r="Isa.32.17">Iz 32:17</r>
@@ -670,11 +670,11 @@ ENG     <div type="chapter" osisID="Chapter 12">
 SLO       <p><hi type="bold">XII-XVI. Sanjska vizija Henoha. Njegovo posredovanje za Azazéla in padle angele. Njegova napoved njihove prve in končne pogube.</hi></p>
 ENG       <p><hi type="bold">XII-XVI. Dream-Vision of Enoch: his Intercession for Azâzêl and the fallen Angels: and his Announcement of their first and final Doom.</hi></p>
 
-SLO       <title>Poglavje 12<opomba>(XII-XVI. Videnja so ohranjena le v fragmentih in niso v redu. Cf. lxxviii-lxxx, xci-xciv. Ker lahko Enoh še vedno posreduje za padle opazovalce, njihova obsodba v x še ni izvršena. Prvotni ukaz je bil: Enoh je bil naprošen, naj posreduje za Azâzêla (izgubljeno), vizija (izgubljeno), odgovor v xiii. 1-2; nato posredovati za Stražarje, xiii. 3, xii. 3, xiii. 4-7, vizija v xiii. 8, odgovor opazovalcem xiii. 9-10. To drugo videnje je podano obširno z Božjim razodetjem o prvem stanu Stražarjev, grehu in pogubi, xiv. 2-xvi. 2. Zaključno sporočilo o pogubi za Watchers v xvi. 3-4 je dvojnik xii. 4-6, kar se zdi bolj izvirno. To ponavljanje je zelo semitsko. Tako bi bil prvotni vrstni red xiv. jaz . . ., xiii. 1-2, xiii. 3, xii. 3, xiii. 4-10, xiv. 2-xvi. 2, xii. 4-6 II xvi. 3-4. xii. 1-2 je uvod v uredništvo. Upoštevajte, da tukaj v tem Enohovem delu človek posreduje za angele: v Noetovem delu angeli posredujejo za ljudi (IX. 3, 4), ne pa tudi za angele (lxviii. 3, Noahic).)</opomba></title>
-ENG       <title>Chapter 12<opomba>(XII-XVI. The visions are only preserved in fragments and are out of order. Cf. lxxviii-lxxx, xci-xciv. As Enoch can still intercede for the fallen Watchers their doom in x is not yet carried out. The original order was: Enoch was asked to intercede for Azâzêl (lost), vision (lost), answer in xiii. 1-2; then to intercede for the Watchers, xiii. 3, xii. 3, xiii. 4-7, vision in xiii. 8, answer to the Watchers xiii. 9-10. This second vision is given at length, with God's revelation about the Watchers' first estate, sin, and doom, xiv. 2-xvi. 2. The closing message of doom for the Watchers in xvi. 3-4 is a duplicate of xii. 4-6, which seems more original. This repetition is very Semitic. Thus the original order would be xiv. i . . ., xiii. 1-2, xiii. 3, xii. 3, xiii. 4-10, xiv. 2-xvi. 2, xii. 4-6 II xvi. 3-4. xii. 1-2 is an editorial introduction. Note that here in this Enoch section a man intercedes for angels: in the Noah section angels intercede for men (ix. 3, 4), but not for angels (lxviii. 3, Noachic).)</opomba></title>
+SLO       <title>Poglavje 12</title>
+ENG       <title>Chapter 12</title>
 
-SLO         <hi type="super">1</hi> Pred temi stvarmi je bil Henoh skrit<opomba>('je bil sprejet' Gg, da bi prejel naslednje razodetje. prim. x. 2. Henoh še vedno živi in še ni dokončno odveden iz zemlje. Kot človek piše prošnjo za padle angele (xiii. 6); v spanju prejme videnje in je v duhu prenesen v nebesa (xiv. 2); govori z jezikom iz mesa (xiv. 2); in je kot smrtnik prestrašen pred Božjo prisotnostjo (xiv. 24).)</opomba> in nihče izmed človeških otrok ni vedel, kje je bil skrit in kje je prebival ter kaj se je zgodilo z njim.
-ENG         <hi type="super">1</hi> Before these things Enoch was hidden,<opomba>('was taken' Gg, to receive the following revelation. Cf. x. 2. Enoch is still living, and not finally translated from earth as yet. As man he writes the petition for the fallen angels (xiii. 6); receives a vision in sleep, and is transported in spirit unto heaven (xiv. 2); speaks with a tongue of flesh (xiv. 2); and is terrified, like a mortal man, at the presence of God (xiv. 24).)</opomba> and no one of the children of men knew where he was hidden, and where he abode, and what had become of him.
+SLO         <hi type="super">1</hi> <opomba>(XII-XVI. Videnja so ohranjena le v fragmentih in niso v redu. Cf. lxxviii-lxxx, xci-xciv. Ker lahko Enoh še vedno posreduje za padle opazovalce, njihova obsodba v x še ni izvršena. Prvotni ukaz je bil: Enoh je bil naprošen, naj posreduje za Azâzêla (izgubljeno), vizija (izgubljeno), odgovor v xiii. 1-2; nato posredovati za Stražarje, xiii. 3, xii. 3, xiii. 4-7, vizija v xiii. 8, odgovor opazovalcem xiii. 9-10. To drugo videnje je podano obširno z Božjim razodetjem o prvem stanu Stražarjev, grehu in pogubi, xiv. 2-xvi. 2. Zaključno sporočilo o pogubi za Watchers v xvi. 3-4 je dvojnik xii. 4-6, kar se zdi bolj izvirno. To ponavljanje je zelo semitsko. Tako bi bil prvotni vrstni red xiv. jaz . . ., xiii. 1-2, xiii. 3, xii. 3, xiii. 4-10, xiv. 2-xvi. 2, xii. 4-6 II xvi. 3-4. xii. 1-2 je uvod v uredništvo. Upoštevajte, da tukaj v tem Enohovem delu človek posreduje za angele: v Noetovem delu angeli posredujejo za ljudi (IX. 3, 4), ne pa tudi za angele (lxviii. 3, Noahic).)</opomba> Pred temi stvarmi je bil Henoh skrit<opomba>('je bil sprejet' Gg, da bi prejel naslednje razodetje. prim. x. 2. Henoh še vedno živi in še ni dokončno odveden iz zemlje. Kot človek piše prošnjo za padle angele (xiii. 6); v spanju prejme videnje in je v duhu prenesen v nebesa (xiv. 2); govori z jezikom iz mesa (xiv. 2); in je kot smrtnik prestrašen pred Božjo prisotnostjo (xiv. 24).)</opomba> in nihče izmed človeških otrok ni vedel, kje je bil skrit in kje je prebival ter kaj se je zgodilo z njim.
+ENG         <hi type="super">1</hi> <opomba>(XII-XVI. The visions are only preserved in fragments and are out of order. Cf. lxxviii-lxxx, xci-xciv. As Enoch can still intercede for the fallen Watchers their doom in x is not yet carried out. The original order was: Enoch was asked to intercede for Azâzêl (lost), vision (lost), answer in xiii. 1-2; then to intercede for the Watchers, xiii. 3, xii. 3, xiii. 4-7, vision in xiii. 8, answer to the Watchers xiii. 9-10. This second vision is given at length, with God's revelation about the Watchers' first estate, sin, and doom, xiv. 2-xvi. 2. The closing message of doom for the Watchers in xvi. 3-4 is a duplicate of xii. 4-6, which seems more original. This repetition is very Semitic. Thus the original order would be xiv. i . . ., xiii. 1-2, xiii. 3, xii. 3, xiii. 4-10, xiv. 2-xvi. 2, xii. 4-6 II xvi. 3-4. xii. 1-2 is an editorial introduction. Note that here in this Enoch section a man intercedes for angels: in the Noah section angels intercede for men (ix. 3, 4), but not for angels (lxviii. 3, Noachic).)</opomba> Before these things Enoch was hidden,<opomba>('was taken' Gg, to receive the following revelation. Cf. x. 2. Enoch is still living, and not finally translated from earth as yet. As man he writes the petition for the fallen angels (xiii. 6); receives a vision in sleep, and is transported in spirit unto heaven (xiv. 2); speaks with a tongue of flesh (xiv. 2); and is terrified, like a mortal man, at the presence of God (xiv. 24).)</opomba> and no one of the children of men knew where he was hidden, and where he abode, and what had become of him.
 
 SLO         <hi type="super">2</hi> In njegove aktivnosti so imele opravka s Stražarji in njegovi dnevi so bili s svetimi.
 ENG         <hi type="super">2</hi> And his activities had to do with the Watchers, and his days were with the holy ones.
@@ -892,11 +892,11 @@ ENG       <p><hi type="bold">XVII-XXXVI. Enoch’s Journeys through the Earth an
 SLO       <p><hi type="bold">XVII-XIX. Prvo potovanje.</hi></p>
 ENG       <p><hi type="bold">XVII-XIX. The First Journey.</hi></p>
 
-SLO       <title>Poglavje 17<opomba>(XVII-XIX. Ta poglavja so tuja preostalemu delu tega razdelka. Polna so grških elementov, npr. Pyriphlegethon, Styx, Acheron in Cocytus (xvii. 5,6); Ocean Stream (xvii. 5, 7, 8; xviii. 10); Hades na zahodu (xvii. 6). Ponovno xviii. 6-9 je podvojen račun xxiv. 1-3; xviii. 12-16 od xxi. 1-6; in xviii. 11 od xxi. 7-10. Ponovno xix. 1 nasprotuje x. 11-14; xiv. 5. Kako so lahko zaprti angeli (xv. 12-xvi) prevzeli številne oblike in zapeljali ljudi, da bi žrtvovali demonom? Kljub temu ta poglavja pripadajo Henohovi tradiciji.)</opomba></title>
-ENG       <title>Chapter 17<opomba>(XVII-XIX. These chapters are foreign to the rest of this section. They are full of Greek elements, e.g. Pyriphlegethon, Styx, Acheron and Cocytus (xvii. 5,6); the Ocean Stream (xvii. 5, 7, 8; xviii. 10); Hades in the West (xvii. 6). Again xviii. 6-9 is a duplicate account of xxiv. 1-3; xviii. 12-16 of xxi. 1-6; and xviii. 11 of xxi. 7-10. Again xix. I contradicts x. 11-14; xiv. 5. How could the imprisoned angels (xv. 12-xvi) assume many forms and seduce men to sacrifice to the demons? Still these chapters do belong to the Enoch tradition.)</opomba></title>
+SLO       <title>Poglavje 17</title>
+ENG       <title>Chapter 17</title>
 
-SLO         <hi type="super">1</hi> Odpeljali so me ┌in pripeljali┐ na kraj, na katerem so bili tisti, ki so bili tam, kot goreč ogenj,<r r="Ps.104.4">Ps 104:4</r> in, ko so želeli, so se prikazali kot ljudje.<r r="2Cor.11.14">2 Kor 11:14</r>
-ENG         <hi type="super">1</hi> And they took ┌and brought┐ me to a place in which those who were there were like flaming fire,<r r="Ps.104.4">Ps 104:4</r> and, when they wished, they appeared as men.<r r="2Cor.11.14">2 Kor 11:14</r>
+SLO         <hi type="super">1</hi> <opomba>(XVII-XIX. Ta poglavja so tuja preostalemu delu tega razdelka. Polna so grških elementov, npr. Pyriphlegethon, Styx, Acheron in Cocytus (xvii. 5,6); Ocean Stream (xvii. 5, 7, 8; xviii. 10); Hades na zahodu (xvii. 6). Ponovno xviii. 6-9 je podvojen račun xxiv. 1-3; xviii. 12-16 od xxi. 1-6; in xviii. 11 od xxi. 7-10. Ponovno xix. 1 nasprotuje x. 11-14; xiv. 5. Kako so lahko zaprti angeli (xv. 12-xvi) prevzeli številne oblike in zapeljali ljudi, da bi žrtvovali demonom? Kljub temu ta poglavja pripadajo Henohovi tradiciji.)</opomba> Odpeljali so me ┌in pripeljali┐ na kraj, na katerem so bili tisti, ki so bili tam, kot goreč ogenj,<r r="Ps.104.4">Ps 104:4</r> in, ko so želeli, so se prikazali kot ljudje.<r r="2Cor.11.14">2 Kor 11:14</r>
+ENG         <hi type="super">1</hi> <opomba>(XVII-XIX. These chapters are foreign to the rest of this section. They are full of Greek elements, e.g. Pyriphlegethon, Styx, Acheron and Cocytus (xvii. 5,6); the Ocean Stream (xvii. 5, 7, 8; xviii. 10); Hades in the West (xvii. 6). Again xviii. 6-9 is a duplicate account of xxiv. 1-3; xviii. 12-16 of xxi. 1-6; and xviii. 11 of xxi. 7-10. Again xix. I contradicts x. 11-14; xiv. 5. How could the imprisoned angels (xv. 12-xvi) assume many forms and seduce men to sacrifice to the demons? Still these chapters do belong to the Enoch tradition.)</opomba> And they took ┌and brought┐ me to a place in which those who were there were like flaming fire,<r r="Ps.104.4">Ps 104:4</r> and, when they wished, they appeared as men.<r r="2Cor.11.14">2 Kor 11:14</r>
 
 SLO         <hi type="super">2</hi> Pripeljali so me do kraja teme<opomba>('vrtinčastega vetra' E.)</opomba><r r="Job.37.9">Job 37:9</r> in h gori, katere vrh je segal do neba.
 ENG         <hi type="super">2</hi> And they brought me to the place of darkness,<opomba>('of whirlwind' E.)</opomba><r r="Job.37.9">Job 37:9</r> and to a mountain the point of whose summit reached to heaven.
@@ -982,11 +982,11 @@ ENG     </div>
 SLO     <div type="chapter" osisID="Poglavje 19">
 ENG     <div type="chapter" osisID="Chapter 19">
 
-SLO       <title>Poglavje 19<opomba>(To poglavje se ne strinja z xv. 12-xvi, saj lahko tukaj duhovi padlih angelov prosto zapeljejo ljudi, da žrtvujejo demonom. Pravzaprav imajo padli angeli tu funkcijo skušanja ljudi, ki je drugje dodeljena demonom. Tudi ženske tukaj postanejo ženski demoni. Če pa xix pripada x-xvi, potem je xix okvarjen. 'Njihovim duhom' bi moral slediti 'od velikanov', kar bi bil aramejski idiom, ki bi ga grški prevajalec verjetno napačno razumel.)</opomba></title>
-ENG       <title>Chapter 19<opomba>(This chapter disagrees with xv. 12-xvi, as here the spirits of the fallen angels are free to seduce men to sacrifice to demons. In fact the fallen angels here have the function of tempting men which is elsewhere assigned to the demons. The women too become female demons here. If, however, xix belongs to x-xvi, then xix is defective. 'Their spirits' should be followed by 'of the giants', which would be an Aramaic idiom likely to be misunderstood by a Greek translator.)</opomba></title>
+SLO       <title>Poglavje 19</title>
+ENG       <title>Chapter 19</title>
 
-SLO         <hi type="super">1</hi> Uriel mi je rekel: »Tukaj bodo stali angeli, ki so se povezali z ženskami in njihovi duhovi, ki prevzemajo številne različne oblike, onečaščajo človeštvo in speljevali jih bodo na kriva pota, v žrtvovanje demonom ╓kakor bogovom╖,<opomba>(Prim. 5 Mz. xxxii. 17; Ps. cvi. 37; Bar. iv. 7. Ta odlomek in xcix. 7 so vir Tert. De Idol. iv.)</opomba><r r="Deut.32.17">5 Mz 32:17</r><r r="Ps.106.37">Ps 106:37</r> (tu bodo stali) do ╓dneva╖ velike sodbe, kjer jim bo sojeno, dokler jim ne bo storjen konec.
-ENG         <hi type="super">1</hi> And Uriel said to me: ‘Here shall stand the angels who have connected themselves with women, and their spirits assuming many different forms are defiling mankind and shall lead them astray into sacrificing to demons ╓as gods╖,<opomba>(Cf. 5. Mojz. xxxii. 17; Ps. cvi. 37; Bar. iv. 7. Ta odlomek in xcix. 7 so vir tert. De Idol. iv.)</opomba><r r="Deut.32.17">5 Mz 32:17</r><r r="Ps.106.37">Ps 106:37</r> (here shall they stand,) till ╓the day of╖ the great judgement in which they shall be judged till they are made an end of.
+SLO         <hi type="super">1</hi> <opomba>(To poglavje se ne strinja z xv. 12-xvi, saj lahko tukaj duhovi padlih angelov prosto zapeljejo ljudi, da žrtvujejo demonom. Pravzaprav imajo padli angeli tu funkcijo skušanja ljudi, ki je drugje dodeljena demonom. Tudi ženske tukaj postanejo ženski demoni. Če pa xix pripada x-xvi, potem je xix okvarjen. 'Njihovim duhom' bi moral slediti 'od velikanov', kar bi bil aramejski idiom, ki bi ga grški prevajalec verjetno napačno razumel.)</opomba> Uriel mi je rekel: »Tukaj bodo stali angeli, ki so se povezali z ženskami in njihovi duhovi, ki prevzemajo številne različne oblike, onečaščajo človeštvo in speljevali jih bodo na kriva pota, v žrtvovanje demonom ╓kakor bogovom╖,<opomba>(Prim. 5 Mz. xxxii. 17; Ps. cvi. 37; Bar. iv. 7. Ta odlomek in xcix. 7 so vir Tert. De Idol. iv.)</opomba><r r="Deut.32.17">5 Mz 32:17</r><r r="Ps.106.37">Ps 106:37</r> (tu bodo stali) do ╓dneva╖ velike sodbe, kjer jim bo sojeno, dokler jim ne bo storjen konec.
+ENG         <hi type="super">1</hi> <opomba>(This chapter disagrees with xv. 12-xvi, as here the spirits of the fallen angels are free to seduce men to sacrifice to demons. In fact the fallen angels here have the function of tempting men which is elsewhere assigned to the demons. The women too become female demons here. If, however, xix belongs to x-xvi, then xix is defective. 'Their spirits' should be followed by 'of the giants', which would be an Aramaic idiom likely to be misunderstood by a Greek translator.)</opomba> And Uriel said to me: ‘Here shall stand the angels who have connected themselves with women, and their spirits assuming many different forms are defiling mankind and shall lead them astray into sacrificing to demons ╓as gods╖,<opomba>(Cf. 5. Mojz. xxxii. 17; Ps. cvi. 37; Bar. iv. 7. Ta odlomek in xcix. 7 so vir tert. De Idol. iv.)</opomba><r r="Deut.32.17">5 Mz 32:17</r><r r="Ps.106.37">Ps 106:37</r> (here shall they stand,) till ╓the day of╖ the great judgement in which they shall be judged till they are made an end of.
 
 SLO         <hi type="super">2</hi> In tudi ženske izmed angelov, ki so zašle, bodo postale sirene.«<r r="Mic.1.8">Mih 1:8</r>
 ENG         <hi type="super">2</hi> And the women also of the angels who went astray shall become sirens.’<r r="Mic.1.8">Mih 1:8</r>
@@ -1042,11 +1042,11 @@ ENG       <p><hi type="bold">XXI-XXXVI. The Second Journey of Enoch.</hi></p>
 SLO       <p><hi type="bold">XXI. Predhodni in končni kraj kaznovanja padlih angelov (zvezd).</hi></p>
 ENG       <p><hi type="bold">XXI. Preliminary and final Place of Punishment of the fallen Angels (stars).</hi></p>
 
-SLO       <title>Poglavje 21<opomba>(1-6. Prim. xviii. 12-16. Kraj, kjer so kaznovane neposlušne zvezde.)</opomba></title>
-ENG       <title>Chapter 21<opomba>(1-6. Cf. xviii. 12-16. The place where the disobedient stars are punished.)</opomba></title>
+SLO       <title>Poglavje 21</title>
+ENG       <title>Chapter 21</title>
 
-SLO         <hi type="super">1</hi> In nadaljeval sem tja, kjer so bile stvari kaotične.
-ENG         <hi type="super">1</hi> And I proceeded to where things were chaotic.
+SLO         <hi type="super">1</hi> <opomba>(1-6. Prim. xviii. 12-16. Kraj, kjer so kaznovane neposlušne zvezde.)</opomba> In nadaljeval sem tja, kjer so bile stvari kaotične.
+ENG         <hi type="super">1</hi> <opomba>(1-6. Cf. xviii. 12-16. The place where the disobedient stars are punished.)</opomba> And I proceeded to where things were chaotic.
 
 SLO         <hi type="super">2</hi> Tam sem videl nekaj groznega. Nisem videl niti neba zgoraj niti trdno utemeljene zemlje, temveč kaotičen in grozen kraj.
 ENG         <hi type="super">2</hi> And I saw there something horrible: I saw neither a heaven above nor a firmly founded earth, but a place chaotic and horrible.
@@ -1084,11 +1084,11 @@ ENG     <div type="chapter" osisID="Chapter 22">
 SLO       <p><hi type="bold">XXII. Šeol ali podzemlje.</hi></p>
 ENG       <p><hi type="bold">XXII. Sheol or the Underworld.</hi></p>
 
-SLO       <title>Poglavje 22<opomba>(To poglavje vsebuje zelo podrobno poročilo o Šeolu ali Hades-u. Pisec ga postavlja na skrajni zahod, kot so to počeli Babilonci, Grki in Egipčani, in ne v podzemlje, kot Hebrejci. V vseh drugih delih Henoha prevladuje hebrejski pogled. To je najzgodnejša izjava farizejskega ali hašidskega nauka o Šeolu, vendar je tukaj že v celoti razvita. Pokojni imajo zavesten obstoj in v Šeolu so opazne moralne, ne družbene razlike. Glej lxiii. 10, za zgodovino tega nauka. Prim. Dan. xii.)</opomba><r r="Dan.7.1-Dan.7.28">Dan 7:1-28</r></title>
-ENG       <title>Chapter 22<opomba>(This chapter contains a very detailed account of Sheol or Hades. The writer places it in the far west, as the Babylonians, Greeks, and Egyptians did, and not in the underworld, as the Hebrews. In all other sections of Enoch the Hebrew view prevails. This is the earliest statement of the Pharisaic or Chasid doctrine of Sheol, but here it is already fullgrown. The departed have conscious existence, and moral, not social distinctions are observed in Sheol. See lxiii. 10, for the history of this doctrine. Cf. Dan. xii.)</opomba><r r="Dan.7.1-Dan.7.28">Dan 7:1-28</r></title>
+SLO       <title>Poglavje 22</title>
+ENG       <title>Chapter 22</title>
 
-SLO         <hi type="super">1</hi> Od tam sem šel na drug kraj, in na zahodu mi je pokazal ┌drugo┐ ogromno in visoko goro [in] trdo skalo.
-ENG         <hi type="super">1</hi> And thence I went to another place, and he showed me in the west ┌another┐ great and high mountain [and] of hard rock.
+SLO         <hi type="super">1</hi> <opomba>(To poglavje vsebuje zelo podrobno poročilo o Šeolu ali Hades-u. Pisec ga postavlja na skrajni zahod, kot so to počeli Babilonci, Grki in Egipčani, in ne v podzemlje, kot Hebrejci. V vseh drugih delih Henoha prevladuje hebrejski pogled. To je najzgodnejša izjava farizejskega ali hašidskega nauka o Šeolu, vendar je tukaj že v celoti razvita. Pokojni imajo zavesten obstoj in v Šeolu so opazne moralne, ne družbene razlike. Glej lxiii. 10, za zgodovino tega nauka. Prim. Dan. xii.)</opomba><r r="Dan.7.1-Dan.7.28">Dan 7:1-28</r> Od tam sem šel na drug kraj, in na zahodu mi je pokazal ┌drugo┐ ogromno in visoko goro [in] trdo skalo.
+ENG         <hi type="super">1</hi> <opomba>(This chapter contains a very detailed account of Sheol or Hades. The writer places it in the far west, as the Babylonians, Greeks, and Egyptians did, and not in the underworld, as the Hebrews. In all other sections of Enoch the Hebrew view prevails. This is the earliest statement of the Pharisaic or Chasid doctrine of Sheol, but here it is already fullgrown. The departed have conscious existence, and moral, not social distinctions are observed in Sheol. See lxiii. 10, for the history of this doctrine. Cf. Dan. xii.)</opomba><r r="Dan.7.1-Dan.7.28">Dan 7:1-28</r> And thence I went to another place, and he showed me in the west ┌another┐ great and high mountain [and] of hard rock.
 
 SLO         <hi type="super">2</hi> (In tam so bili v njej †štirje† votli kraji, globoki, široki in zelo gladki, †Kako† gladki so votli kraji ter globoki in temni<opomba>(Zdi se, da to ustreza samo kraju kazni. Primerjati z 'ena svetla' in v. 9.)</opomba> na pogled.)E (In tam so bile †štiri† votline v njej, globoke, široke in zelo gladke. †Tri† izmed njih so bile temne in ena svetla, in v njihovi sredi je bil vodnjak. In rekel sem: »†Kako† gladki so votli kraji in globoki ter temni na pogled.«)Gg
 ENG         <hi type="super">2</hi> (And there was in it †four† hollow places, deep and wide and very smooth. †How† smooth are the hollow places and deep and dark<opomba>(This seems to suit only the places of punishment. Contrast 'one bright' and v. 9.)</opomba> to look at.)E (And there were †four† hollow places in it, deep and very smooth: †three† of them were dark and one bright and there was a fountain of water in its midst. And I said: ‘†How† smooth are these hollow places, and deep and dark to view.’)Gg
@@ -1162,11 +1162,11 @@ ENG     <div type="chapter" osisID="Chapter 24">
 SLO       <p><hi type="bold">XXIV-XXV. Sedem gora na severozahodu in drevo življenja.</hi></p>
 ENG       <p><hi type="bold">XXIV-XXV. The Seven Mountains in the North-West and the Tree of Life.</hi></p>
 
-SLO       <title>Poglavje 24<opomba>(Henoh je bil na skrajnem zahodu v xxiii; zdaj gre na SZ. Najprej vidi ognjeno gorovje, nato pa sedem velikih gora, od katerih je ena Božji prestol.)</opomba></title>
-ENG       <title>Chapter 24<opomba>(Enoch has been in the extreme West in xxiii: now he goes to the NW. First he sees a mountain range of fire, and then the seven great mountains, one of which is the throne of God.)</opomba></title>
+SLO       <title>Poglavje 24</title>
+ENG       <title>Chapter 24</title>
 
-SLO         <hi type="super">1</hi> ╓Od tam sem šel na drug kraj na zemlji╖ in pokazal mi je gorsko verigo ognja, ki je gorela ╓dan in╖ noč.
-ENG         <hi type="super">1</hi> ╓And from thence I went to another place of the earth╖, and he showed me a mountain range of fire which burnt ╓day and╖ night.
+SLO         <hi type="super">1</hi> <opomba>(Henoh je bil na skrajnem zahodu v xxiii; zdaj gre na SZ. Najprej vidi ognjeno gorovje, nato pa sedem velikih gora, od katerih je ena Božji prestol.)</opomba> ╓Od tam sem šel na drug kraj na zemlji╖ in pokazal mi je gorsko verigo ognja, ki je gorela ╓dan in╖ noč.
+ENG         <hi type="super">1</hi> <opomba>(Enoch has been in the extreme West in xxiii: now he goes to the NW. First he sees a mountain range of fire, and then the seven great mountains, one of which is the throne of God.)</opomba> ╓And from thence I went to another place of the earth╖, and he showed me a mountain range of fire which burnt ╓day and╖ night.
 
 SLO         <hi type="super">2</hi> Šel sem čez to in zagledal sedem veličastnih gora, ki so se vse razlikovale druga od druge, in (njihovi) kamni so bili veličastni in lepi, veličastni kot celota, sijajnega videza in lepe zunanjosti: ╓tri proti╖ vzhodu, ╓ena╖ utemeljena na drugi, in tri proti jugu, ╓ena╖ na drugi in globoke neravne soteske, od katerih se nobena ni združila s katerokoli drugo.
 ENG         <hi type="super">2</hi> And I went beyond it and saw seven magnificent mountains all differing each from the other, and the stones (thereof) were magnificent and beautiful, magnificent as a whole, of glorious appearance and fair exterior: ╓three towards╖ the east, ╓one╖ founded on the other, and three towards the south, ╓one╖ upon the other, and deep rough ravines, no one of which joined with any other.
@@ -1255,11 +1255,11 @@ ENG     <div type="chapter" osisID="Chapter 26">
 SLO       <p><hi type="bold">XXVI. Jeruzalem in gore, grape in potoki.</hi></p>
 ENG       <p><hi type="bold">XXVI. Jerusalem and the Mountains, Ravines, and Streams.</hi></p>
 
-SLO       <title>Poglavje 26</title><opomba>(Henoh obišče Jeruzalem in njegovo okolico.)</opomba>
-ENG       <title>Chapter 26<opomba>(Enoch visits Jerusalem and its vicinity.)</opomba></title>
+SLO       <title>Poglavje 26</title>
+ENG       <title>Chapter 26</title>
 
-SLO         <hi type="super">1</hi> Od tam sem šel do srede zemlje<opomba>(– Jeruzalem. Prim. Ez. xxxviii. 12, v. 5. V Jubilejih, viii. 12, 19 se imenuje zemeljski ομφαλός ali popek, kakor je Delfi med Grkih. V 1 En. xc. 26 je Gehena 'sredi zemlje'.)</opomba><r r="Ezek.5.5">Ez 5:5</r> in videl blagoslovljen kraj,<opomba>(vsi prevodi E, razen q, berejo 'blagoslovljeno posajeno mesto'. Prim. xxvii. i, lxxxix. 40; Dan. xi. 16, 41, 45.)</opomba><r r="Dan.11.16">Dan 11:16</r><r r="Dan.11.41">Dan 11:41</r><r r="Dan.11.45">Dan 11:45</r> ┌v katerem so rasla drevesa┐ z vejami, katere so vztrajale in cvetele<opomba>(Prim. Jožefov blagoslov, 1 Mz xlix. 23: tudi Jn xv. 5.)</opomba><r r="Gen.49.22">1 Mz 49:22</r><r r="John.15.5">Jn 15:5</r> [iz razkosanega drevesa].
-ENG         <hi type="super">1</hi> And I went from thence to the middle of the earth,<opomba>(– Jerusalem. Cf Ezek. xxxviii. 12, v. 5. In Jubilees, viii. 12, 19, it is called the earth's ομφαλός or navel, as Delphi was among the Greeks. In 1 En. xc. 26, Gehenna is 'in the midst of the earth'.)</opomba><r r="Ezek.5.5">Ez 5:5</r> and I saw a blessed place<opomba>(all MSS. of E except q read 'blessed planted place'. Cf. xxvii. i, lxxxix. 40; Dan. xi. 16, 41, 45.)</opomba><r r="Dan.11.16">Dan 11:16</r><r r="Dan.11.41">Dan 11:41</r><r r="Dan.11.45">Dan 11:45</r> ┌in which there were trees┐ with branches abiding and blooming<opomba>(Cf. the blessing of Joseph, Gen. xlix. 23: also John xv. 5.)</opomba><r r="Gen.49.22">1 Mz 49:22</r><r r="John.15.5">Jn 15:5</r> [of a dismembered tree].
+SLO         <hi type="super">1</hi> <opomba>(Henoh obišče Jeruzalem in njegovo okolico.)</opomba> Od tam sem šel do srede zemlje<opomba>(– Jeruzalem. Prim. Ez. xxxviii. 12, v. 5. V Jubilejih, viii. 12, 19 se imenuje zemeljski ομφαλός ali popek, kakor je Delfi med Grkih. V 1 En. xc. 26 je Gehena 'sredi zemlje'.)</opomba><r r="Ezek.5.5">Ez 5:5</r> in videl blagoslovljen kraj,<opomba>(vsi prevodi E, razen q, berejo 'blagoslovljeno posajeno mesto'. Prim. xxvii. i, lxxxix. 40; Dan. xi. 16, 41, 45.)</opomba><r r="Dan.11.16">Dan 11:16</r><r r="Dan.11.41">Dan 11:41</r><r r="Dan.11.45">Dan 11:45</r> ┌v katerem so rasla drevesa┐ z vejami, katere so vztrajale in cvetele<opomba>(Prim. Jožefov blagoslov, 1 Mz xlix. 23: tudi Jn xv. 5.)</opomba><r r="Gen.49.22">1 Mz 49:22</r><r r="John.15.5">Jn 15:5</r> [iz razkosanega drevesa].
+ENG         <hi type="super">1</hi> <opomba>(Enoch visits Jerusalem and its vicinity.)</opomba> And I went from thence to the middle of the earth,<opomba>(– Jerusalem. Cf Ezek. xxxviii. 12, v. 5. In Jubilees, viii. 12, 19, it is called the earth's ομφαλός or navel, as Delphi was among the Greeks. In 1 En. xc. 26, Gehenna is 'in the midst of the earth'.)</opomba><r r="Ezek.5.5">Ez 5:5</r> and I saw a blessed place<opomba>(all MSS. of E except q read 'blessed planted place'. Cf. xxvii. i, lxxxix. 40; Dan. xi. 16, 41, 45.)</opomba><r r="Dan.11.16">Dan 11:16</r><r r="Dan.11.41">Dan 11:41</r><r r="Dan.11.45">Dan 11:45</r> ┌in which there were trees┐ with branches abiding and blooming<opomba>(Cf. the blessing of Joseph, Gen. xlix. 23: also John xv. 5.)</opomba><r r="Gen.49.22">1 Mz 49:22</r><r r="John.15.5">Jn 15:5</r> [of a dismembered tree].
 
 SLO         <hi type="super">2</hi> Tam sem videl sveto goro<opomba>(Sion.)</opomba> ╓in╖ pod goro na vzhodu je bil potok<opomba>(potok Síloa.)</opomba> in ta je tekel proti jugu.
 ENG         <hi type="super">2</hi> And there I saw a holy mountain,<opomba>(Zion.)</opomba> ╓and╖ underneath the mountain to the east there was a stream<opomba>(the brook of Siloah.)</opomba> and it flowed towards the south.
@@ -1312,11 +1312,11 @@ ENG     <div type="chapter" osisID="Chapter 28">
 SLO       <p><hi type="bold">XXVIII-XXXIII. Nadaljnje potovanje na vzhod.</hi></p>
 ENG       <p><hi type="bold">XXVIII-XXXIII. Further Journey to the East.</hi></p>
 
-SLO       <title>Poglavje 28<opomba>(Divjina med Jeruzalemom in Jordanom po Ez. xlvii. 8, 12 bo nekoč dobro zalita in pokrita z drevesi.)</opomba><r r="Ezek.47.8">Ez 47:8</r><r r="Ezek.47.12">Ez 47:12</r></title>
-ENG       <title>Chapter 28<opomba>(The Wilderness between Jerusalem and the Jordan according to Ezek. xlvii. 8, 12 was one day to be well watered and covered with trees.)</opomba><r r="Ezek.47.8">Ez 47:8</r><r r="Ezek.47.12">Ez 47:12</r></title>
+SLO       <title>Poglavje 28</title>
+ENG       <title>Chapter 28</title>
 
-SLO         <hi type="super">1</hi> Od tam sem šel ╓proti vzhodu╖, v sredo puščavske ╓gorske verige╖ in videl sem divjino in ta je bila samotna, polna dreves in rastlin.
-ENG         <hi type="super">1</hi> And thence I went ╓towards the east╖, into the midst ╓of the mountain range╖ of the desert, and I saw a wilderness and it was solitary, full of trees and plants.
+SLO         <hi type="super">1</hi> <opomba>(Divjina med Jeruzalemom in Jordanom po Ez. xlvii. 8, 12 bo nekoč dobro zalita in pokrita z drevesi.)</opomba><r r="Ezek.47.8">Ez 47:8</r><r r="Ezek.47.12">Ez 47:12</r> Od tam sem šel ╓proti vzhodu╖, v sredo puščavske ╓gorske verige╖ in videl sem divjino in ta je bila samotna, polna dreves in rastlin.
+ENG         <hi type="super">1</hi> <opomba>(The Wilderness between Jerusalem and the Jordan according to Ezek. xlvii. 8, 12 was one day to be well watered and covered with trees.)</opomba><r r="Ezek.47.8">Ez 47:8</r><r r="Ezek.47.12">Ez 47:12</r> And thence I went ╓towards the east╖, into the midst ╓of the mountain range╖ of the desert, and I saw a wilderness and it was solitary, full of trees and plants.
 
 SLO         <hi type="super">2</hi> ╓In╖ voda je brizgala od zgoraj.
 ENG         <hi type="super">2</hi> ╓And╖ water gushed forth from above.
@@ -1330,11 +1330,11 @@ ENG     </div>
 SLO     <div type="chapter" osisID="Poglavje 29">
 ENG     <div type="chapter" osisID="Chapter 29">
 
-SLO       <title>Poglavje 29<opomba>(Henoh gre še dlje na vzhod, na območje dišečih dreves.)</opomba></title>
-ENG       <title>Chapter 29<opomba>(Enoch goes further East to the region of fragrant trees.)</opomba></title>
+SLO       <title>Poglavje 29</title>
+ENG       <title>Chapter 29</title>
 
-SLO         <hi type="super">1</hi> Od tam sem šel na drug kraj v puščavi in se približal vzhodu te gorske verige.
-ENG         <hi type="super">1</hi> And thence I went to another place in the desert, and approached to the east of this mountain range.
+SLO         <hi type="super">1</hi> <opomba>(Henoh gre še dlje na vzhod, na območje dišečih dreves.)</opomba> Od tam sem šel na drug kraj v puščavi in se približal vzhodu te gorske verige.
+ENG         <hi type="super">1</hi> <opomba>(Enoch goes further East to the region of fragrant trees.)</opomba> And thence I went to another place in the desert, and approached to the east of this mountain range.
 
 SLO         <hi type="super">2</hi> ╓Tam╖ sem videl dišeča drevesa, ki oddajajo vonj kadila in mire, in tudi drevesa so bila podobna mandljevcu.
 ENG         <hi type="super">2</hi> And ╓there╖ I saw aromatic trees exhaling the fragrance of frankincense and myrrh, and the trees also were similar to the almond tree.
@@ -1381,11 +1381,11 @@ ENG     </div>
 SLO     <div type="chapter" osisID="Poglavje 32">
 ENG     <div type="chapter" osisID="Chapter 32">
 
-SLO       <title>Poglavje 32<opomba>(Zemeljski rajski vrt in drevo spoznanja.)</opomba></title>
-ENG       <title>Chapter 32<opomba>(The earthly Garden of Eden and the Tree of Knowledge.)</opomba></title>
+SLO       <title>Poglavje 32</title>
+ENG       <title>Chapter 32</title>
 
-SLO         <hi type="super">1</hi> (Ko sem po teh dišečih vonjavah pogledal proti severu čez gore, sem zagledal sedem gora, polnih izbrane narde in dišečega drevja ter cimeta in popra.)E (Na severovzhodu<opomba>(Na severovzhodu Gᵍ, 'proti severu' E. Da ima Gᵍ prav, je razvidno iz v. 2 'daleč proti vzhodu' v Gᵍ in E. Torej Vrt pravičnosti v lxx. 3, lxxvii. 3 an SZ se razlikuje od primitivnega zemeljski Vrta pravičnosti ali Edena na SV omenjenega tukaj. Tudi sedem gora tukaj na SV se mora razlikovati od sedmih gora, od katerih je ena Božji prestol, na SZ v xviii. 6, xxiv, 2 in naprej. Zdi se, da tukajšnji vrt ni bivališče umrlih pravičnih, za razliko od vrta v lx. 8, 23, lxi. 12, lxv. 2, lxx. 3, lxxvii. 3. Namesto tega so njihove duše razdeljene v Šeolu. xxii. 9.)</opomba> sem zagledal sedem gora polnih izbrane narde, mastike, cimeta in popra.)Gᵍ
-ENG         <hi type="super">1</hi> (And after these fragrant odours, as I looked towards the north over the mountains I saw seven mountains full of choice nard and fragrant trees and cinnamon and pepper.)E (To the north-east<opomba>(To the north-east Gᵍ, 'towards the North 'E. That Gᵍ is right appears from v. 2 'far towards the East' in both Gᵍ and E. So the Garden of Righteousness in lxx. 3, lxxvii. 3 in the NW. is distinct from the primitive earthly Garden of Righteousness or Eden in the NE. mentioned here. Also the seven mountains here in the NE. must be distinct from the seven mountains, one being God's throne, in the NW. in xviii. 6, xxiv, 2 seqq. The garden here seems not to be the abode of the departed righteous, unlike the garden in lx. 8, 23, lxi. 12, lxv. 2, lxx. 3, lxxvii. 3. Instead their souls have a division in Sheol. xxii. 9.)</opomba> I beheld seven mountains full of choice nard and mastic and cinnamon and pepper.)Gᵍ
+SLO         <hi type="super">1</hi> <opomba>(Zemeljski rajski vrt in drevo spoznanja.)</opomba> (Ko sem po teh dišečih vonjavah pogledal proti severu čez gore, sem zagledal sedem gora, polnih izbrane narde in dišečega drevja ter cimeta in popra.)E (Na severovzhodu<opomba>(Na severovzhodu Gᵍ, 'proti severu' E. Da ima Gᵍ prav, je razvidno iz v. 2 'daleč proti vzhodu' v Gᵍ in E. Torej Vrt pravičnosti v lxx. 3, lxxvii. 3 an SZ se razlikuje od primitivnega zemeljski Vrta pravičnosti ali Edena na SV omenjenega tukaj. Tudi sedem gora tukaj na SV se mora razlikovati od sedmih gora, od katerih je ena Božji prestol, na SZ v xviii. 6, xxiv, 2 in naprej. Zdi se, da tukajšnji vrt ni bivališče umrlih pravičnih, za razliko od vrta v lx. 8, 23, lxi. 12, lxv. 2, lxx. 3, lxxvii. 3. Namesto tega so njihove duše razdeljene v Šeolu. xxii. 9.)</opomba> sem zagledal sedem gora polnih izbrane narde, mastike, cimeta in popra.)Gᵍ
+ENG         <hi type="super">1</hi> <opomba>(The earthly Garden of Eden and the Tree of Knowledge.)</opomba> (And after these fragrant odours, as I looked towards the north over the mountains I saw seven mountains full of choice nard and fragrant trees and cinnamon and pepper.)E (To the north-east<opomba>(To the north-east Gᵍ, 'towards the North 'E. That Gᵍ is right appears from v. 2 'far towards the East' in both Gᵍ and E. So the Garden of Righteousness in lxx. 3, lxxvii. 3 in the NW. is distinct from the primitive earthly Garden of Righteousness or Eden in the NE. mentioned here. Also the seven mountains here in the NE. must be distinct from the seven mountains, one being God's throne, in the NW. in xviii. 6, xxiv, 2 seqq. The garden here seems not to be the abode of the departed righteous, unlike the garden in lx. 8, 23, lxi. 12, lxv. 2, lxx. 3, lxxvii. 3. Instead their souls have a division in Sheol. xxii. 9.)</opomba> I beheld seven mountains full of choice nard and mastic and cinnamon and pepper.)Gᵍ
 
 SLO         <hi type="super">2</hi> In od tam sem šel čez vrhove ┌vseh┐ teh gora, daleč proti vzhodu ┌zemlje┐, in šel sem nad Eritrejskim morjem<opomba>(Perzijski in Indijski ocean. Prim. lxxvii. 6, 7.)</opomba> in šel sem daleč od njega ter šel čez ╓angela╖ Zotîêla.<opomba>(Na videz angel, ki je varoval vhod v Raj.)</opomba>
 ENG         <hi type="super">2</hi> And thence I went over the summits of ┌all┐ these mountains, far towards the east ┌of the earth┐, and passed above the Erythraean sea<opomba>(The Persian and Indian Oceans. Cf. lxxvii. 6, 7.)</opomba> and went far from it, and passed over ╓the angel╖ Zotîêl.<opomba>(Seemingly the angel who guarded the entrance to Paradise.)</opomba>
@@ -1432,11 +1432,11 @@ ENG     <div type="chapter" osisID="Chapter 34">
 SLO       <p><hi type="bold">XXXIV-XXXV. Henohovo potovanje na sever.</hi></p>
 ENG       <p><hi type="bold">XXXIV-XXXV. Enoch’s Journey to the North.</hi></p>
 
-SLO       <title>Poglavje 34<opomba>(Portali severnih vetrov in narava teh vetrov. Prim. lxxvi. Za vetrove štirih četrtin gl. Raz. vii. 1.)</opomba><r r="Rev.7.1">Raz 7:1</r></title>
-ENG       <title>Chapter 34<opomba>(The portals of the North winds, and the nature of those winds. Cf. lxxvi. For the winds of the four quarters cf. Rev. vii. 1.)</opomba><r r="Rev.7.1">Raz 7:1</r></title>
+SLO       <title>Poglavje 34</title>
+ENG       <title>Chapter 34</title>
 
-SLO         <hi type="super">1</hi> Od tam sem šel proti severu do koncev zemlje in tam sem videl veliko in veličastno napravo na koncih vse zemlje.
-ENG         <hi type="super">1</hi> And from thence I went towards the north to the ends of the earth, and there I saw a great and glorious device at the ends of the whole earth.
+SLO         <hi type="super">1</hi> <opomba>(Portali severnih vetrov in narava teh vetrov. Prim. lxxvi. Za vetrove štirih četrtin gl. Raz. vii. 1.)</opomba><r r="Rev.7.1">Raz 7:1</r> Od tam sem šel proti severu do koncev zemlje in tam sem videl veliko in veličastno napravo na koncih vse zemlje.
+ENG         <hi type="super">1</hi> <opomba>(The portals of the North winds, and the nature of those winds. Cf. lxxvi. For the winds of the four quarters cf. Rev. vii. 1.)</opomba><r r="Rev.7.1">Raz 7:1</r> And from thence I went towards the north to the ends of the earth, and there I saw a great and glorious device at the ends of the whole earth.
 
 SLO         <hi type="super">2</hi> Tukaj sem videl tri portale neba odprte na nebu. Skozi vsakega izmed njih so prihajali severni vetrovi. Ko pihajo je mraz, toča, zmrzal, sneg, rosa in dež.
 ENG         <hi type="super">2</hi> And here I saw three portals of heaven open in the heaven: through each of them proceed north winds: when they blow there is cold, hail, frost, snow, dew, and rain.
@@ -1450,11 +1450,11 @@ ENG     </div>
 SLO     <div type="chapter" osisID="Poglavje 35">
 ENG     <div type="chapter" osisID="Chapter 35">
 
-SLO       <title>Poglavje 35<opomba>(XXXV. XXXVI. Portali zahodnih in južnih ter vzhodnih vetrov.)</opomba></title>
-ENG       <title>Chapter 35<opomba>(XXXV. XXXVI. Portals of the West and South and East winds.)</opomba></title>
+SLO       <title>Poglavje 35</title>
+ENG       <title>Chapter 35</title>
 
-SLO         <hi type="super">1</hi> Od tam sem šel proti zahodu do koncev zemlje in tam sem videl tri odprte portale neba, kot sem jih videl na †vzhodu†; enako število portalov in enako število izhodišč.
-ENG         <hi type="super">1</hi> And from thence I went towards the west to the ends of the earth, and saw there three portals of the heaven open such as I had seen in the †east†, the same number of portals, and the same number of outlets.
+SLO         <hi type="super">1</hi> <opomba>(XXXV. XXXVI. Portali zahodnih in južnih ter vzhodnih vetrov.)</opomba> Od tam sem šel proti zahodu do koncev zemlje in tam sem videl tri odprte portale neba, kot sem jih videl na †vzhodu†; enako število portalov in enako število izhodišč.
+ENG         <hi type="super">1</hi> <opomba>(XXXV. XXXVI. Portals of the West and South and East winds.)</opomba> And from thence I went towards the west to the ends of the earth, and saw there three portals of the heaven open such as I had seen in the †east†, the same number of portals, and the same number of outlets.
 
 SLO     </div>
 ENG     </div>
@@ -2863,7 +2863,7 @@ ENG         <hi type="super">4</hi> And I asked the angel of peace who went with
 SLO         <hi type="super">5</hi> Rekel mi je: »Te so pripravljene za Azazélove množice,<r r="Matt.25.41">[Mt 25:41]</r> da jih lahko zajamejo in vržejo v brezno popolne obsodbe in njihove čeljusti bodo pokrili z neobdelanimi kamni, kot je ukazal Gospodar Duhov.
 ENG         <hi type="super">5</hi> And he said unto me: ‘These are being prepared for the hosts of Azâzêl,<r r="Matt.25.41">[Mt 25:41]</r> so that they may take them and cast them into the abyss of complete condemnation, and they shall cover their jaws with rough stones as the Lord of Spirits commanded.
 
-SLO         <hi type="super">6</hi> Mihael, Gabriel, Rafael in Fanuel jih bodo na tisti veliki dan prijeli in jih na tisti dan vrgli v gorečo peč, da se jim Gospodar Duhov lahko maščuje za njihovo nepravičnost, ko so postali podrejeni Satanu in zavedli tiste, ki prebivajo na zemlji.«<opomba>(Njihova druga sodba.)</opomba><opomba>(Upoštevajte, da je v Prispodobah krivda Stražarjev v tem, da so postali podložni Satanu. Prim. xl. 7; Jubileji x. 8 in naprej in 5° > q,abcde.)</opomba><r r="Rev.13.14">[Raz 13:14]</r>
+SLO         <hi type="super">6</hi> Mihael, Gabriel, Rafael in Fanuel jih bodo na tisti veliki dan prijeli in jih na tisti dan vrgli v gorečo peč, da se jim Gospodar Duhov lahko maščuje za njihovo nepravičnost, ko so postali podrejeni Satanu in zavedli tiste, ki prebivajo na zemlji.«<opomba>(Njihova druga sodba.)</opomba><opomba>(Upoštevajte, da je v Prispodobah krivda Stražarjev v tem, da so postali podložni Satanu. Prim. xl. 7; Jubileji x. 8 in naprej in 5° q,abcde.)</opomba><r r="Rev.13.14">[Raz 13:14]</r>
 ENG         <hi type="super">6</hi> And Michael, and Gabriel, and Raphael, and Phanuel shall take hold of them on that great day, and cast them on that day into the burning furnace, that the Lord of Spirits may take vengeance on them for their unrighteousness in becoming subject to Satan and leading astray those who dwell on the earth.’<opomba>(Their second judgement.)</opomba><opomba>(Note that in the Parables the guilt of the Watchers lay in becoming subject to Satan. Cf. xl. 7; Jubilees x. 8 seqq. and 5° > q,abcde.)</opomba><r r="Rev.13.14">[Raz 13:14]</r>
 
 SLO       <p><hi type="bold">LIV. 7.-LV. 2. Noetov odlomek o prvi sodbi sveta.</hi></p>
@@ -3214,7 +3214,7 @@ ENG         <hi type="super">4</hi> And Michael sent another angel from among th
 SLO         <hi type="super">5</hi> Mihael mi je rekel: »Zakaj si vznemirjen zaradi takšne vizije? Do tega dne je trajal dan Njegovega usmiljenja; in On je bil usmiljen in potrpežljiv do tistih, ki prebivajo na zemlji.
 ENG         <hi type="super">5</hi> And Michael said unto me: ‘Why art thou disquieted with such a vision? Until this day lasted the day of His mercy; and He hath been merciful and long-suffering towards those who dwell on the earth.
 
-SLO         <hi type="super">6</hi> Ko pride dan, oblast, kaznovanje in sodba, ki jo je Gospodar Duhov pripravil za tiste, ki ne obožujejo pravične postave in za tiste, ki zanikajo pravično sodbo in za tiste, ki zaman izgovarjajo Njegovo ime – ta dan je pripravljen; za izvoljene zaveza, toda za grešnike inkvizicija.<opomba>(Prim. 4 Ezra vii. 37. Potop ima tukaj značilnosti, ki pripadajo mesijanski sodbi iz Prispodob.)</opomba>
+SLO         <hi type="super">6</hi> Ko pride dan, oblast, kazen in sodba, ki jo je Gospodar Duhov pripravil za tiste, ki ne obožujejo pravične postave in za tiste, ki zanikajo pravično sodbo in za tiste, ki v prazno izgovarjajo Njegovo ime – ta dan je pripravljen; za izvoljene zaveza, toda za grešnike inkvizicija.<opomba>(Prim. 4 Ezra vii. 37. Potop ima tukaj značilnosti, ki pripadajo mesijanski sodbi iz Prispodob.)</opomba>
 ENG         <hi type="super">6</hi> And when the day, and the power, and the punishment, and the judgement come, which the Lord of Spirits hath prepared for those who worship not the righteous law, and for those who deny the righteous judgement, and for those who take His name in vain—that day is prepared, for the elect a covenant, but for sinners an inquisition.’<opomba>(Cf. 4 Ezra vii. 37. The Deluge has here features belonging properly to the Messianic judgement of the Parables.)</opomba>
 
 SLO         <hi type="super">25</hi> Ko bo kaznovanje Gospodarja Duhov počivalo na njih, bo počivalo zato, da kaznovanje Gospodarja Duhov morda ne bo prišlo zaman in bo pobilo otroke z njihovimi materami in otroke z njihovimi očeti. Nato se bo zgodila sodba glede na Njegovo usmiljenje<opomba>(tj. po potopu. Prim. 1 Mz. viii. 21, 22; En. lx. 5 (opomba). Pred to vrstico so nehote podvojene besede 'da kazen Gospodarja duhov ne bi bila (bcx: 'morda ne bi prišla' e; vsi drugi rokopisi izpustijo zanikanje in glagol) zaman in da bi lahko pobila otroke s svojimi materami in otroke s svojimi očeti. Pred zadnjim stavkom 'Potem,...' vsi rokopisi vstavijo še nekaj nehote podvojenih besed, ko bo kazen Gospodarja duhov te doletela.)</opomba><r r="Gen.8.21-Gen.8.22">1 Mz 8:21-22</r> in Njegovo potrpežljivost.«
@@ -3241,7 +3241,7 @@ ENG         <hi type="super">12</hi> And the chambers of the winds, and how the 
 SLO         <hi type="super">13</hi> In gromi glede na kraje, kamor padejo, in vse razdelitve, ki so narejene med bliski, da bi lahko razsvetlili in njihovo vojsko, da bi lahko takoj ubogali.<r r="Job.37.1-Job.37.5">Job 37:1-5</r>
 ENG         <hi type="super">13</hi> And the thunders according to the places where they fall, and all the divisions that are made among the lightnings that it may lighten, and their host that they may at once obey.<r r="Job.37.1-Job.37.5">Job 37:1-5</r>
 
-SLO         <hi type="super">14</hi> Kajti grom ima †kraje počitka†, (ki) so (mu) določeni, medtem ko čaka na svoje donenje; in grom in bliskanje sta neločljiva in čeprav niti eden in nerazdeljen, oba gresta skupaj skozi duha in se ne ločita.
+SLO         <hi type="super">14</hi> Kajti grom ima †kraje počitka†, (ki) so (mu) določeni, medtem ko čaka na svoje donenje; in grom in bliskanje sta neločljiva in čeprav niti eden in niti nerazdeljen, oba gresta skupaj skozi duha in se ne ločita.
 ENG         <hi type="super">14</hi> For the thunder has †places of rest† (which) are assigned (to it) while it is waiting for its peal; and the thunder and lightning are inseparable, and although not one and undivided, they both go together through the spirit and separate not.
 
 SLO         <hi type="super">15</hi> Kajti ko zasveti blisk, grom izusti svoj glas, duh pa vsili premor med donenjem in enakomerno razdeli med njima, kajti zakladnica njunih donenj je kakor pesek in vsak izmed njiju, ko zadoni, je držan z uzdo in z močjo duha obrnjen nazaj in potisnjen naprej v skladu s številnimi četrtinami zemlje.
@@ -3865,7 +3865,7 @@ ENG       <p><hi type="bold">LXV. Enoch foretells to Noah the Deluge and his own
 SLO       <title>Poglavje 65<opomba>(LXV–LXIX. 25. Domnevno del Noetove apokalipse (glej liv. 7), ki tukaj navaja tri poročila (1) lxv. l-lxvii. 3, prihajajoči potop in Noetov pobeg; (2) lxvii. 4-lxix. 1, kazen padlih angelov ter kraljev in mogočnih; (3) lxix. 2-25, padec angelov in skrivnosti, ki so jih razkrili.)</opomba></title>
 ENG       <title>Chapter 65<opomba>(LXV–LXIX. 25. Professedly part of a Noah Apocalypse (see liv. 7), giving here three accounts (1) lxv. l-lxvii. 3, the coming Flood and Noah's escape; (2) lxvii. 4-lxix. 1, the fallen angels' punishment, and that of the kings and the mighty; (3) lxix. 2-25, the angels' fall and the secrets they disclosed.)</opomba></title>
 
-SLO         <hi type="super">1</hi> V tistih dneh je Noe videl zemljo, da se je pogreznila in njeno uničenje je bilo blizu.<opomba>(Upoštevajte, da je vizija Noetova. Odpre se z ugrezanjem zemlje tukaj kot s tresenjem nebes v lx. 1.)</opomba>
+SLO         <hi type="super">1</hi> V tistih dneh je Noe videl zemljo, da se je pogreznila in njeno uničenje je bilo blizu.<opomba>(Upoštevajte, da je vizija Noetova. Odpre se z ugrezanjem zemlje tukaj, kot s tresenjem nebes v lx. 1.)</opomba>
 ENG         <hi type="super">1</hi> And in those days Noah saw the earth that it had sunk down and its destruction was nigh.<opomba>(Note that the vision is Noah's. It opens with a sinking of the earth here as with a quaking of the heavens in lx. 1.)</opomba>
 
 SLO         <hi type="super">2</hi> Vstal je od tam in šel do koncev zemlje<opomba>(tj. kjer je vhod v nebesa. Prim. cvi. 8.)</opomba> ter glasno zavpil k svojemu dedu<opomba>(pravilno pradedek. Prim. lx. 8.)</opomba> Henohu in Noe je trikrat z zagrenjenim glasom rekel: »Poslušaj me, poslušaj me, poslušaj me.«
@@ -3886,7 +3886,7 @@ ENG         <hi type="super">6</hi> And a command has gone forth from the presen
 SLO         <hi type="super">7</hi> In kako se srebro proizvaja iz prahu zemlje in kako mehka kovina izvira iz zemlje.
 ENG         <hi type="super">7</hi> And how silver is produced from the dust of the earth, and how soft metal originates in the earth.
 
-SLO         <hi type="super">8</hi> Kajti svinec in kositer se ne proizvajata iz zemlje kakor prva. To je izvir, ki jih proizvaja in angel stoji v njem, in ta angel je najpomembnejši.«
+SLO         <hi type="super">8</hi> Kajti svinec in kositer se ne proizvajata iz zemlje kakor prve. To je izvir, ki jih proizvaja in angel stoji v njem, in ta angel je najpomembnejši.«
 ENG         <hi type="super">8</hi> For lead and tin are not produced from the earth like the first: it is a fountain that produces them, and an angel stands therein, and that angel is pre-eminent.’
 
 SLO         <hi type="super">9</hi> In po tem me je moj ded Henoh prijel za roko, me vzdignil gor ter mi rekel: »Pojdi, ker sem prosil Gospodarja Duhov glede tega vznemirjenja na zemlji.«
@@ -3961,10 +3961,10 @@ ENG         <hi type="super">3</hi> And I will make fast thy seed before me for 
 SLO         <hi type="super">4</hi> In On bo zaprl tiste angele, ki so pokazali nepravičnost, v tisto gorečo dolino, ki mi jo je poprej pokazal moj ded Henoh, na zahodu<opomba>(izposojeno iz lii. 1. Povečuje geografsko zmedo.)</opomba> med gorami iz zlata, srebra, železa, mehke kovine in kositra.<opomba>(LXVII. 4 – LXIX. 1. Ta del obravnava kazen padlih angelov. Značilne poteze druge sodbe so tu prenesene na prvo, kraji, ki se razlikujejo v prispodobah, pa so tu zamešani, npr. goreča dolina Gehene je postavljena med kovinske gore (lxvii. 4), medtem ko je v liv. 1 na 'drugem delu zemlje'. 4. Potop in sodba padlih angelov sta tukaj omenjena skupaj kot v x. 2, 4, toda tukaj (1) je zapor goreča dolina (= Gehena iz  liv) čeprav je tam ognjena peč, ki sprejme angele) in (2) to je predhodni zapor, ne končni.)</opomba>
 ENG         <hi type="super">4</hi> And He will imprison those angels, who have shown unrighteousness, in that burning valley which my grandfather Enoch had formerly shown to me in the west<opomba>(borrowed from lii. 1. It increases the geographical confusion.)</opomba> among the mountains of gold and silver and iron and soft metal and tin.<opomba>(LXVII. 4 – LXIX. 1. This section deals with the fallen angels' punishment. Characteristic features of the second judgement are here transferred to the first, and localities distinct in the parables are here confused, e.g. the burning valley of Gehenna is placed among the metal mountains (lxvii. 4), while in liv. 1 it is in 'another part of the earth'. 4. The Deluge and the judgement of the fallen angels are mentioned together here as in x. 2, 4, but here (1) the prison is the burning valley (= the Gehenna of liv, though there it is a furnace of fire that receives the angels), and (2) this is the preliminary prison, not the final.)</opomba>
 
-SLO         <hi type="super">5</hi> Videl sem tisto dolino, v kateri je bil velik prevrat in prevrat vodá.<opomba>(5, 6. Značilnosti potopa in vulkanskih motenj so združene, slednje so povezane s kaznijo angelov.)</opomba>
+SLO         <hi type="super">5</hi> Videl sem tisto dolino, v kateri je bil velik nimir in nemir vodá.<opomba>(5, 6. Značilnosti potopa in vulkanskih motenj so združene, slednje so povezane s kaznijo angelov.)</opomba>
 ENG         <hi type="super">5</hi> And I saw that valley in which there was a great convulsion and a convulsion of the waters.<opomba>(5, 6. Features of the Deluge, and volcanic disturbances are combined, the latter connected with the angels' punishment.)</opomba>
 
-SLO         <hi type="super">6</hi> Ko se je vse to zgodilo, je iz te ognjene staljene kovine in od prevrata na tistem mestu nastal vonj po žveplu in to je bilo povezano s tistimi vodami. In tista dolina angelov, ki so zavedli (človeštvo), je gorela pod tisto deželo.<opomba>(Verjeli so, da pod dolino Gehene obstaja podzemni ogenj. Prim. xxvii. 1 (opomba). Primerjaj tudi z usodo Sodome.)</opomba>
+SLO         <hi type="super">6</hi> Ko se je vse to zgodilo, je iz te ognjene staljene kovine in od nemira na tistem mestu nastal vonj po žveplu in to je bilo povezano s tistimi vodami. In tista dolina angelov, ki so zavedli (človeštvo), je gorela pod tisto deželo.<opomba>(Verjeli so, da pod dolino Gehene obstaja podzemni ogenj. Prim. xxvii. 1 (opomba). Primerjaj tudi z usodo Sodome.)</opomba>
 ENG         <hi type="super">6</hi> And when all this took place, from that fiery molten metal and from the convulsion thereof in that place, there was produced a smell of sulphur, and it was connected with those waters, and that valley of the angels who had led astray (mankind) burned beneath that land.<opomba>(A subterranean fire was believed to exist under the Gehenna valley. Cf. xxvii. 1 (note). Cf. too the fate of Sodom.)</opomba>
 
 SLO         <hi type="super">7</hi> Skozi njene doline tečejo ognjeni tokovi, kjer so kaznovani ti angeli, ki so zavedli tiste, ki prebivajo na zemlji.<r r="Rev.3.10">[Raz 3:10]</r>
@@ -3985,7 +3985,7 @@ ENG         <hi type="super">11</hi> And those same waters will undergo a change
 SLO         <hi type="super">12</hi> Zaslišal sem Mihaela odgovoriti in reči: »Ta sodba, s katero so sojeni angeli, je pričevanje za kralje in mogočne, ki posedujejo zemljo.«
 ENG         <hi type="super">12</hi> And I heard Michael answering and saying: ‘This judgement wherewith the angels are judged is a testimony for the kings and the mighty who possess the earth.’
 
-SLO         <hi type="super">13</hi> Ker te vode sodbe služijo za ozdravljenje teles kraljev in poželenja njihovega telesa; zato ne bodo videli in ne bodo verjeli, da se bodo te vode spremenile in postale ogenj, ki večno gori.<opomba>(Vode zdaj zdravijo in njihova zdravilna moč zaslepi kralje za ogenj spodaj, ki je prihranjen za njihove prihodnje muke. Prim. v. 8.)</opomba>
+SLO         <hi type="super">13</hi> Ker te vode sodbe služijo za ozdravljenje teles kraljev in poželenju njihovega telesa; zato ne bodo videli in ne bodo verjeli, da se bodo te vode spremenile in postale ogenj, ki večno gori.<opomba>(Vode zdaj zdravijo in njihova zdravilna moč zaslepi kralje za ogenj spodaj, ki je prihranjen za njihove prihodnje muke. Prim. v. 8.)</opomba>
 ENG         <hi type="super">13</hi> Because these waters of judgement minister to the healing of the body of the kings and the lust of their body; therefore they will not see and will not believe that those waters will change and become a fire which burns for ever.<opomba>(The waters heal now, and their healing virtue blinds the kings to the fire below which is reserved for their future torment. Cf. v. 8.)</opomba>
 
 SLO     </div><div type="chapter" osisID="Poglavje 68">
@@ -4022,7 +4022,7 @@ SLO       <title>Poglavje 69</title>
 ENG       <title>Chapter 69</title>
 
 SLO         <hi type="super">1</hi> Po tej sodbi jih bodo prestrašili in spravili v trepetanje, ker so to pokazali tistim, ki prebivajo na zemlji.
-ENG         <hi type="super">1</hi> And after this judgement they shall terrify and make them to tremble because they have shown this to those who dwell on the earth.
+ENG         <hi type="super">1</hi> And after this judgement they shall terrify and make them to tremble because they have shown this to those who dwell on the earth.yyy_imena
 
 SLO         <hi type="super">2</hi> Glej imena teh angelov [in to so njihova imena: prvi od njih je Samjâzâ, drugi Artâqîfâ, tretji Armên, četrti Kôkabêl, peti †Tûrâêl†, šesti Rûmjâl, sedmi Dânjâl, osmi †Nêqâêl†, deveti Barâqêl, deseti Azazél, enajsti Armârôs, dvanajsti Batarjâl, trinajsti †Busasêjal†, štirinajsti Hanânêl, petnajsti †Tûrêl†, šestnajsti Simâpêsîêl, sedemnajsti Jetrêl, osemnajsti Tumâêl, devetnajsti Tûrêl, dvajseti †Rûmâêl† in enaindvajseti †Azazél†.<opomba>(2, 3. V 3. vrstici sem dodal oklepaje in večino v 2. vrstici kot vrinjen. Ti angeli so tisti, ki so padli v Jeredovih dneh, toda v vrstici 4 in nadaljevanju imamo Satane. Torej morda preberite v 2 'glej imena teh Satanov,' in pojdite naprej na 4.)</opomba><opomba>(Trinajsta je odveč in ni v vi. 7, kjer glej opombo.)</opomba>
 ENG         <hi type="super">2</hi> And behold the names of those angels [and these are their names: the first of them is Samjâzâ, the second Artâqîfâ, and the third Armên, the fourth Kôkabêl, the fifth †Tûrâêl†, the sixth Rûmjâl, the seventh Dânjâl, the eighth †Nêqâêl†, the ninth Barâqêl, the tenth Azâzêl, the eleventh Armârôs, the twelfth Batarjâl, the thirteenth †Busasêjal†, the fourteenth Hanânêl, the fifteenth †Tûrêl†, and the sixteenth Simâpêsîêl, the seventeenth Jetrêl, the eighteenth Tumâêl, the nineteenth Tûrêl, the twentieth †Rûmâêl†, the twenty-first †Azâzêl†.<opomba>(2, 3. I have bracketed 3 and most of 2 as an intrusion. These angels are those who fell in the days of Jared, but in V. 4 seqq. we have Satans. So perhaps read in 2 'behold the names of those Satans,' and go on to 4.)</opomba><opomba>(The thirteenth is superfluous and not in vi. 7, where see note.)</opomba>
@@ -4030,20 +4030,20 @@ ENG         <hi type="super">2</hi> And behold the names of those angels [and th
 SLO         <hi type="super">3</hi> To so vodje njihovih angelov, njihova imena, njihovi vodje nad stotinami, nad petdesetimi in nad desetimi].
 ENG         <hi type="super">3</hi> And these are the chiefs of their angels and their names, and their chief ones over hundreds and over fifties and over tens].
 
-SLO         <hi type="super">4</hi> Ime prvega je Jeqon. To je tisti, ki je zapeljal [vse] Božje sinove<r r="Job.38.7">[Job 38:7]</r> in jih privedel dol na zemljo in jih zavedel preko človeških hčera.<opomba>(V Prispodobah se razlikujejo Satani in padli angeli. Slednji so padli v dneh Jereda v i-xxxvi in xci-civ. Tukaj pa sta funkciji obeh zamešani. Azâzêl povzroči ves greh v i-xxxvi (x. 8), Semjâzâ pa vi. 3, ix. 7.)</opomba>
-ENG         <hi type="super">4</hi> The name of the first Jeqon: that is, the one who led astray [all] the sons of God,<r r="Job.38.7">[Job 38:7]</r> and brought them down to the earth, and led them astray through the daughters of men.<opomba>(In the Parables the Satans and the fallen angels are distinguished. The latter fell in the days of Jared in i-xxxvi, and xci-civ. Here, however, the functions of the two are confused. Azâzêl causes all sin in i-xxxvi (x. 8), and Semjâzâ in vi. 3, ix. 7.)</opomba>
+SLO         <hi type="super">4</hi> Ime prvega je Jeqôn. To je tisti, ki je zapeljal [vse] Božje sinove<r r="Job.38.7">[Job 38:7]</r> in jih privedel dol na zemljo in jih zavedel preko človeških hčera.<opomba>(V Prispodobah se razlikujejo Satani in padli angeli. Slednji so padli v dneh Jereda v i-xxxvi in xci-civ. Tukaj pa sta funkciji obeh zamešani. Azâzêl povzroči ves greh v i-xxxvi (x. 8), Semjâzâ pa vi. 3, ix. 7.)</opomba>
+ENG         <hi type="super">4</hi> The name of the first Jeqôn: that is, the one who led astray [all] the sons of God,<r r="Job.38.7">[Job 38:7]</r> and brought them down to the earth, and led them astray through the daughters of men.<opomba>(In the Parables the Satans and the fallen angels are distinguished. The latter fell in the days of Jared in i-xxxvi, and xci-civ. Here, however, the functions of the two are confused. Azâzêl causes all sin in i-xxxvi (x. 8), and Semjâzâ in vi. 3, ix. 7.)</opomba>
 
-SLO         <hi type="super">5</hi> Drugi je bil imenovan Asbeel. Svetim Božjim sinovom je dajal hudobne nasvete in jih zavedel tako, da so oskrunili svoja telesa s človeškimi hčerami.
-ENG         <hi type="super">5</hi> And the second was named Asbeel: he imparted to the holy sons of God evil counsel, and led them astray so that they defiled their bodies with the daughters of men.
+SLO         <hi type="super">5</hi> Drugi je bil imenovan Asbeêl. Svetim Božjim sinovom je dajal hudobne nasvete in jih zavedel tako, da so oskrunili svoja telesa s človeškimi hčerami.
+ENG         <hi type="super">5</hi> And the second was named Asbeêl: he imparted to the holy sons of God evil counsel, and led them astray so that they defiled their bodies with the daughters of men.
 
-SLO         <hi type="super">6</hi> Tretji je bil imenovan Gadreel.<opomba>(Satan, ko je zavedel Evo. V viii. 1 je Azâzêl tisti, ki izdeluje vojno orožje. V aramejščini Gadreel = 'Bog je moj pomočnik' עדריאל.)</opomba> On je tisti, ki je človeškim otrokom pokazal vse udarce smrti. Zavedel je Evo in pokazal [orožja smrti človeškim sinovom]: ščit, železno srajco, meč za boj in vsa orožja smrti človeškim otrokom.<opomba>(nehote podvojene besede od konca vrstice.)</opomba>
-ENG         <hi type="super">6</hi> And the third was named Gadreel:<opomba>(a Satan, as he led astray Eve. In viii. I it is Azâzêl that makes weapons of war. In Aramaic Gadreel = ' God is my helper' עדריאל.)</opomba> he it is who showed the children of men all the blows of death, and he led astray Eve, and showed [the weapons of death to the sons of men] the shield and the coat of mail, and the sword for battle, and all the weapons of death to the children of men.<opomba>(dittograph from end of verse.)</opomba>
+SLO         <hi type="super">6</hi> Tretji je bil imenovan Gâdreêl.<opomba>(Satan, ko je zavedel Evo. V viii. 1 je Azâzêl tisti, ki izdeluje vojno orožje. V aramejščini Gâdreêl = 'Bog je moj pomočnik' עדריאל.)</opomba> On je tisti, ki je človeškim otrokom pokazal vse udarce smrti. Zavedel je Evo in pokazal [orožja smrti človeškim sinovom]: ščit, železno srajco, meč za boj in vsa orožja smrti človeškim otrokom.<opomba>(nehote podvojene besede od konca vrstice.)</opomba>
+ENG         <hi type="super">6</hi> And the third was named Gâdreêl:<opomba>(a Satan, as he led astray Eve. In viii. I it is Azâzêl that makes weapons of war. In Aramaic Gâdreêl = ' God is my helper' עדריאל.)</opomba> he it is who showed the children of men all the blows of death, and he led astray Eve, and showed [the weapons of death to the sons of men] the shield and the coat of mail, and the sword for battle, and all the weapons of death to the children of men.<opomba>(dittograph from end of verse.)</opomba>
 
 SLO         <hi type="super">7</hi> Iz njegove roke so nadaljevali zoper tiste, ki prebivajo na zemlji od tistega dne in na veke.
 ENG         <hi type="super">7</hi> And from his hand they have proceeded against those who dwell on the earth from that day and for evermore.
 
-SLO         <hi type="super">8</hi> Četrtemu je bilo ime Penemue;<opomba>(Prim. פנימי 'notranji'.)</opomba> učil je človeške otroke grenko in sladko in jih naučil vseh skrivnosti njihove modrosti.
-ENG         <hi type="super">8</hi> And the fourth was named Penemue:<opomba>(Cf. פנימי 'the inside'.)</opomba> he taught the children of men the bitter and the sweet, and he taught them all the secrets of their wisdom.
+SLO         <hi type="super">8</hi> Četrtemu je bilo ime Pênemûe;<opomba>(Prim. פנימי 'notranji'.)</opomba> učil je človeške otroke grenko in sladko in jih naučil vseh skrivnosti njihove modrosti.
+ENG         <hi type="super">8</hi> And the fourth was named Pênemûe:<opomba>(Cf. פנימי 'the inside'.)</opomba> he taught the children of men the bitter and the sweet, and he taught them all the secrets of their wisdom.
 
 SLO         <hi type="super">9</hi> Človeštvo je učil pisanja s črnilom in papirjem in s tem so mnogi grešili od večnosti do večnosti in do tega dne.<opomba>(9-10. Umetnost pisanja je dokaz izrojenosti človeške rase. Ustna beseda bi morala biti zadostno jamstvo za pravičnega.)</opomba>
 ENG         <hi type="super">9</hi> And he instructed mankind in writing with ink and paper, and thereby many sinned from eternity to eternity and until this day.<opomba>(9-10. The art of writing is a proof of the degeneracy of the human race. Word of mouth should be sufficient pledge for the righteous.)</opomba>
@@ -4054,11 +4054,11 @@ ENG         <hi type="super">10</hi> For men were not created for such a purpose
 SLO         <hi type="super">11</hi> Kajti ljudje so bili ustvarjeni natanko tako kakor angeli, z namenom, da naj bi ostali čisti in pravični, in smrt, ki uniči vse, se jih ne bi mogla polastiti, ampak skozi to svoje spoznanje se pogubijo in preko te moči †me použiva†.<opomba>(Morda preberite 'se požirajo'.)</opomba><opomba>(Človek je bil prvotno pravičen in nesmrten. Prim. Mdr, i. 13, 14; ii. 23, 24. Prim. Talmud, Weber, Jüd. Theol. 215, 216, 222, 248. Zaradi hudičeve zavisti je izgubil svojo poštenost in nesmrtnost, Modrost ii. 24; zlobno znanje, ki so ga uvedli Satani ali angeli, 1 En. lxix. 11; njegovo lastno zlo dejanje, 1 En. xcviii. 4.)</opomba>
 ENG         <hi type="super">11</hi> For men were created exactly like the angels, to the intent that they should continue pure and righteous, and death, which destroys everything, could not have taken hold of them, but through this their knowledge they are perishing, and through this power †it is consuming me†.<opomba>(Perhaps read 'they are being consumed'.)</opomba><opomba>(Man was originally righteous and immortal. Cf. Wisdom, i. 13, 14; ii. 23, 24. Cf Talmud, Weber, Jüd. Theol. 215, 216, 222, 248. He lost his uprightness and immortality through the devil's envy, Wisdom ii. 24; the evil knowledge introduced by the Satans or angels, 1 En. lxix. 11; his own evil act, 1 En. xcviii. 4.)</opomba>
 
-SLO         <hi type="super">12</hi> Peti je bil imenovan Kâsdejâ; to je tisti, ki je človeškim otrokom pokazal vse hudobne udarce duhov in demonov ter udarce zarodkom v maternici, da bi lahko umrli, in [udarce duši], ugrize kače in udarce, ki doletijo preko opoldanske vročine, sina kače, imenovanega Tabâ’êt.<opomba>(Prim. Ps. xci. 5, 6 in Rosenmüllerjeva Scholia na te vrstice.)</opomba><r r="Ps.91.5-Ps.91.6">Ps 91:5-6</r>
-ENG         <hi type="super">12</hi> And the fifth was named Kâsdejâ: this is he who showed the children of men all the wicked smitings of spirits and demons, and the smitings of the embryo in the womb, that it may pass away, and [the smitings of the soul] the bites of the serpent, and the smitings which befall through the noontide heat, the son of the serpent named Tabâ’êt.<opomba>(Cf. Ps. xci. 5, 6, and Rosenmüller's Scholia on these verses.)</opomba><r r="Ps.91.5-Ps.91.6">Ps 91:5-6</r>
+SLO         <hi type="super">12</hi> Peti je bil imenovan Kâsdejâ; to je tisti, ki je človeškim otrokom pokazal vse hudobne udarce duhov in demonov ter udarce zarodkom v maternici, da bi lahko umrli, in [udarce duši], ugrize kače in udarce, ki doletijo preko opoldanske vročine, sina kače, imenovanega Tabâ’ět.<opomba>(Prim. Ps. xci. 5, 6 in Rosenmüllerjeva Scholia na te vrstice.)</opomba><r r="Ps.91.5-Ps.91.6">Ps 91:5-6</r>
+ENG         <hi type="super">12</hi> And the fifth was named Kâsdejâ: this is he who showed the children of men all the wicked smitings of spirits and demons, and the smitings of the embryo in the womb, that it may pass away, and [the smitings of the soul] the bites of the serpent, and the smitings which befall through the noontide heat, the son of the serpent named Tabâ’ět.<opomba>(Cf. Ps. xci. 5, 6, and Rosenmüller's Scholia on these verses.)</opomba><r r="Ps.91.5-Ps.91.6">Ps 91:5-6</r>
 
-SLO         <hi type="super">13</hi> In to je †naloga† Kâsbeêla, poglavarja prisege, ki jo je pokazal svetim, ko je bival visoko zgoraj v slavi in njegovo ime je Biqâ.
-ENG         <hi type="super">13</hi> And this is the †task† of Kâsbeêl, the chief of the oath which he showed to the holy ones when he dwelt high above in glory, and its name is Biqâ.
+SLO         <hi type="super">13</hi> In to je †naloga† Kâsbeêla, poglavarja prisege, ki jo je pokazal svetim, ko je bival visoko zgoraj v slavi in njegovo ime je Bîqâ.
+ENG         <hi type="super">13</hi> And this is the †task† of Kâsbeêl, the chief of the oath which he showed to the holy ones when he dwelt high above in glory, and its name is Bîqâ.
 
 SLO         <hi type="super">14</hi> Ta (angel) je prosil Mihaela, naj mu pokaže skrito ime, da bi ga lahko izrekel v prisegi, da bi se tisti lahko tresli pred tem imenom in prisego. On je človeškim otrokom razodel vse, kar je bilo skrito.
 ENG         <hi type="super">14</hi> This (angel) requested Michael to show him the hidden name, that he might enunciate it in the oath, so that those might quake before that name and oath who revealed all that was in secret to the children of men.
@@ -4330,7 +4330,7 @@ ENG             <row><cell><hi type="super">3</hi> And the angel Michael [one of
 SLO             <row><cell> me dvignil in me vodil naprej v vse skrivnosti</cell></row>
 ENG             <row><cell> And lifted me up and led me forth into all the secrets,</cell></row>
 
-SLO             <row><cell> in mi pokazal<opomba>(Vsi rokopisi. Ampak u predpona 'in pokazal mi je vse (>β) skrivnosti usmiljenja'. Ker je 'usmiljenje' alternativni prevod za 'pravičnost', so to nehote podvojene besede besed.)</opomba> vse skrivnosti pravičnosti.</cell></row>
+SLO             <row><cell> in mi pokazal<opomba>(Vsi rokopisi. Ampak u predpona 'in pokazal mi je vse (›β) skrivnosti usmiljenja'. Ker je 'usmiljenje' alternativni prevod za 'pravičnost', so to nehote podvojene besede besed.)</opomba> vse skrivnosti pravičnosti.</cell></row>
 ENG             <row><cell> And he showed me<opomba>(All MSS. but u prefix 'and he showed me all (>β) the secrets of mercy'. As 'mercy' is an alternative rendering for 'righteousness', this is a dittography.)</opomba> all the secrets of righteousness.</cell></row>
 
 SLO             <row><cell></cell></row>
@@ -4462,7 +4462,7 @@ ENG           </table>
 SLO         <hi type="super">12</hi> Ti blagoslovi, ki so prihajali iz mojih ust, so bili prijetni pred Poglavarjem dni.
 ENG         <hi type="super">12</hi> And these blessings which went forth out of my mouth were well pleasing before that Head of Days.
 
-SLO         <hi type="super">13</hi> Ta Poglavar dni je prišel z Mihaelom, Gabrielom, Rafaelom, Fanuelom in tisočimi in deset tisočimi angelov brez števila. [Izgubljeni odlomek, kjer je Sin človekov opisan kot spremljevalec Poglavarja dni in Henoh je vprašal enega od angelov (kot v xlvi., 3. vrstica) glede Sina človekovega glede tega, kdo je bil.]
+SLO         <hi type="super">13</hi> Ta Poglavar dni je prišel z Mihaelom, Gabrielom, Rafaelom, Fanuelom in tisočimi in deset tisočimi angelim brez števila. [Izgubljeni odlomek, kjer je Sin človekov opisan kot spremljevalec Poglavarja dni in Henoh je vprašal enega od angelov (kot v xlvi. 3. vrstica) glede Sina človekovega glede tega, kdo je bil.]
 ENG         <hi type="super">13</hi> And that Head of Days came with Michael and Gabriel, Raphael and Phanuel, thousands and ten thousands of angels without number. [Lost passage wherein the Son of Man was described as accompanying the Head of Days, and Enoch asked one of the angels (as in xlvi. 3) concerning the Son of Man as to who he was.]
 
 SLO           <table>
@@ -4561,13 +4561,13 @@ ENG         <hi type="super">2</hi> And this is the first law of the luminaries:
 SLO         <hi type="super">3</hi> Videl sem šest portalov, v katerih vzhaja sonce in šest portalov, v katerih sonce zahaja in luna vzhaja in zahaja v teh portalih in voditelje zvezd in tiste, ki jih vodijo. Šest na vzhodu in šest na zahodu in vsi sledijo drug drugemu v natančno ustreznem vrstnem redu. Tudi veliko oken desno in levo<opomba>(desno in levo = jug in sever.)</opomba> od teh portalov.
 ENG         <hi type="super">3</hi> And I saw six portals in which the sun rises, and six portals in which the sun sets: and the moon rises and sets in these portals, and the leaders of the stars and those whom they lead: six in the east and six in the west, and all following each other in accurately corresponding order: also many windows to the right and left<opomba>(right and left = south and north.)</opomba> of these portals.
 
-SLO         <hi type="super">4</hi> Najprej gre naprej velika svetilka, imenovana Sonce, in njegov obod<opomba>(disk ali krogla. Prim. lxxiii 2, lxxviii. 3, tudi xviii. 4, lxxiii. 4.)</opomba> je podoben obodu nebes in je precej napolnjen z osvetljujočim in ogrevajočim ognjem.
+SLO         <hi type="super">4</hi> Najprej gre naprej velika svetilo, imenovano Sonce, in njegov obod<opomba>(disk ali krogla. Prim. lxxiii 2, lxxviii. 3, tudi xviii. 4, lxxiii. 4.)</opomba> je podoben obodu nebes in je precej napolnjen z osvetljujočim in ogrevajočim ognjem.
 ENG         <hi type="super">4</hi> And first there goes forth the great luminary, named the Sun, and his circumference<opomba>(a disk or a sphere. Cf. lxxiii. 2, lxxviii. 3, also xviii. 4, lxxiii. 4.)</opomba> is like the circumference of the heaven, and he is quite filled with illuminating and heating fire.
 
 SLO         <hi type="super">5</hi> Kočijo,<opomba>(Prim. lxxiii. 2. lxxv. 3, 8; poganja veter xviii. 4, lxxviii. 2.)</opomba> na kateri se povzpne, poganja veter in sonce zahaja z neba in se vrača skozi sever, da doseže vzhod, in je tako voden,<opomba>(verjetno s strani angela. Sonce ni, tako kot so nebesna telesa v i-xxxvi, pol-zavestna.)</opomba> da pride do ustreznega (dobesedno: ›tistega‹) portala in sije na obličju neba.
 ENG         <hi type="super">5</hi> The chariot<opomba>(Cf. lxxiii. 2. lxxv. 3, 8; driven by the wind xviii. 4, lxxviii. 2.)</opomba> on which he ascends, the wind drives, and the sun goes down from the heaven and returns through the north in order to reach the east, and is so guided<opomba>(possibly by an angel. The sun is not, as the heavenly bodies are in i-xxxvi, semi-conscious.)</opomba> that he comes to the appropriate (lit. ‘that’) portal and shines in the face of the heaven.
 
-SLO         <hi type="super">6</hi> Na ta način vzhaja v prvem mesecu<opomba>(pri Hebrejcih, tj. Abíb (2 Mz. xiii. 4), čas spomladanskega enakonočja. Začelo se je leto skupnosti in ustreza našemu aprilu.)</opomba><r r="Exod.13.4">2 Mz 13:4</r> v velikem portalu,<opomba>(6, 7. veliki portal, ki se tako razlikuje od dvanajstih okenskih odprtin vsakega portala (lxxii. 3, lxxv. 7), s svojimi plameni, ki dajejo toploto.)</opomba> ki je četrti [teh šest portalov na zahodu].
+SLO         <hi type="super">6</hi> Na ta način vzhaja v prvem mesecu<opomba>(pri Hebrejcih, tj. Abíb (2 Mz. xiii. 4), čas spomladanskega enakonočja. Začelo se je leto skupnosti in ustreza našemu aprilu.)</opomba><r r="Exod.13.4">2 Mz 13:4</r> v velikem portalu,<opomba>(6, 7. veliki portal, ki se tako razlikuje od dvanajstih okenskih odprtin vsakega portala (lxxii. 3, lxxv. 7), s svojimi plameni, ki dajejo toploto.)</opomba> ki je četrti [teh šest portalov je na vzhodu].
 ENG         <hi type="super">6</hi> In this way he rises in the first month<opomba>(of the Hebrews, i.e. Abib (Exod. xiii. 4), the time of the spring equinox. It began the ecclesiastical year and corresponds to our April.)</opomba><r r="Exod.13.4">2 Mz 13:4</r> in the great portal,<opomba>(6, 7. the great portal, so distinguished from the twelve window-openings of each portal (lxxii. 3, lxxv. 7), with their heat-giving flames.)</opomba> which is the fourth [those six portals in the east].
 
 SLO         <hi type="super">7</hi> V tistem četrtem portalu, iz katerega vzhaja sonce prvi mesec, je dvanajst okenskih odprtin, iz katerih izhaja plamen, ko so odprte v svojem obdobju.
@@ -4630,7 +4630,7 @@ ENG         <hi type="super">25</hi> And the sun rises on that day from that sec
 SLO         <hi type="super">26</hi> Na ta dan noč postane daljša in obsega dvojno <dodano>[dolžino]</dodano> dneva in noč znaša točno do dvanajst delov in dan do šest.
 ENG         <hi type="super">26</hi> And on that day the night becomes longer and amounts to the double of the day: and the night amounts exactly to twelve parts and the day to six.
 
-SLO         <hi type="super">27</hi> Sonce je (s tem) prešlo razdelke svoje orbite in se ponovno obrnilo na te razdelke svoje orbite, in vstopa v ta portal trideset juter in tudi zahaja na zahodu nasproti njemu.
+SLO         <hi type="super">27</hi> Sonce je (s tem) prešlo razdelke svoje orbite in se ponovno obrnilo na te razdelke svoje orbite, in vstopa v ta portal trideset juter in tudi zahaja na zahodu, nasproti njemu.
 ENG         <hi type="super">27</hi> And the sun has (therewith) traversed the divisions of his orbit and turns again on those divisions of his orbit, and enters that portal thirty mornings and sets also in the west opposite to it.
 
 SLO         <hi type="super">28</hi> Na tisto noč se je noč skrajšala po dolžini za †deveti† del in noč je postala enajst delov, dan pa sedem delov.
@@ -4708,7 +4708,7 @@ ENG       <title>Chapter 74<opomba>(This chapter deals with the moon's waxing an
 SLO         <hi type="super">1</hi> Videl sem še eno pot, zakon zanjo, (in) kako v skladu s tem zakonom izvaja svojo mesečno preobrazbo.
 ENG         <hi type="super">1</hi> And I saw another course, a law for her, (and) how according to that law she performs her monthly revolution.
 
-SLO         <hi type="super">2</hi> Vse to mi je pokazal sveti angel Uriel, ki je voditelj njih vseh,<opomba>(tj. luninih faz.)</opomba> in njihove položaje in zapisal sem njihove položaje, kot mi jih je pokazal in zapisal sem njihove mesece, kot so bili in videz njihovih svetil, dokler ni bilo izpolnjenih 15 dni<opomba>(tj. med konjunkcijo in polno luno.)</opomba>.
+SLO         <hi type="super">2</hi> Vse to mi je pokazal sveti angel Uriel, ki je voditelj njih vseh,<opomba>(tj. luninih faz.)</opomba> in njihove položaje in zapisal sem njihove položaje, kot mi jih je pokazal in zapisal sem njihove mesece, kot so bili in videz njihovih svetil, dokler ni bilo izpolnjenih 15 dni.<opomba>(tj. med konjunkcijo in polno luno.)</opomba>
 ENG         <hi type="super">2</hi> And all these Uriel, the holy angel who is the leader of them all,<opomba>(i.e. the moon's phases.)</opomba> showed to me, and their positions, and I wrote down their positions as he showed them to me, and I wrote down their months as they were, and the appearance of their lights till fifteen days<opomba>(i.e. between conjunction and full moon.)</opomba> were accomplished.
 
 SLO         <hi type="super">3</hi> V posameznih sedmih delih doseže vso svojo svetlobo na vzhodu in v posameznih sedmih delih doseže vso svojo temo na zahodu.
@@ -4747,10 +4747,10 @@ ENG         <hi type="super">13</hi> In 3 years there are 1,092 days, and in 5 y
 SLO         <hi type="super">14</hi> Samo za luno znašajo dnevi v treh letih 1062 dni, in v petih letih zaostaja za 50 dni: [tj. vsoti (od 1770) je treba dodati (1000 in) 62 dni.]<opomba>(Seštevki za 3 in 5 let se seštejejo, da dobimo skupno 8 let. (1062+1770=2832.) Oklepaji označujejo neznaten besednjak. (1000 in) najdemo samo na robu c.)</opomba>
 ENG         <hi type="super">14</hi> For the moon alone the days amount in 3 years to 1,062 days, and in 5 years she falls 50 days behind: [i.e. to the sum (of 1,770) there is to be added (1,000 and) 62 days.]<opomba>(The totals for 3 and 5 years are added together to give the total for 8 years. (1062 + 1770 = 2832.) The brackets indicate a marginal gloss. (1,000 and) found only in the margin of c.)</opomba>
 
-SLO         <hi type="super">15</hi> In v 5 letih je 1770 dni, tako da za luno znašajo v 8 letih dnevi do 2832 dni.
+SLO         <hi type="super">15</hi> In v petih letih je 1770 dni, tako da za luno znašajo v osmih letih dnevi do 2832 dni.
 ENG         <hi type="super">15</hi> And in 5 years there are 1,770 days, so that for the moon the days in 8 years amount to 2,832 days.
 
-SLO         <hi type="super">16</hi> [Kajti v 8 letih je zaostala za 80 dni], vseh dni, ki jih zaostane v 8 letih je 80.<opomba>([ ] par podobnih besed.)</opomba>
+SLO         <hi type="super">16</hi> [Kajti v osmih letih je zaostala za 80 dni]; vseh dni, ki jih zaostane v osmih letih je 80.<opomba>([ ] par podobnih besed.)</opomba>
 ENG         <hi type="super">16</hi> [For in 8 years she falls behind to the amount of 80 days], all the days she falls behind in 8 years are 80.<opomba>([ ] a doublet.)</opomba>
 
 SLO         <hi type="super">17</hi> Leto je natančno dokončano v skladu s svojimi svetovnimi postajami in postajami sonca, ki vzhaja iz portalov, skozi katera (sonce) vzhaja in zahaja 30 dni.
@@ -4758,7 +4758,7 @@ ENG         <hi type="super">17</hi> And the year is accurately completed in con
 
 SLO     </div><div type="chapter" osisID="Poglavje 75">
 ENG     </div><div type="chapter" osisID="Chapter 75">
-yyy
+
 SLO       <title>Poglavje 75<opomba>(Vmesni dnevi, zvezde in sonce.)</opomba></title>
 ENG       <title>Chapter 75<opomba>(The intercalary days, the stars, and the sun.)</opomba></title>
 
@@ -4825,7 +4825,7 @@ ENG         <hi type="super">8</hi> And through the middle portal next to it the
 SLO         <hi type="super">9</hi> Skozi tretji portal, ki leži na zahodu, prihajajo rosa, dež, kobilice in opustošenje.
 ENG         <hi type="super">9</hi> And through the third portal lying to the west come forth dew and rain, locusts and desolation.
 
-SLO         <hi type="super">10</hi> In za temi severni vetrovi. Iz sedmega portala na vzhodu prihajajo rosa, dež, kobilice in opustošenje.<opomba>(10-11. SVS., S., SZS. vetrovi.)</opomba><opomba>(rokopis dodaja gloso, 'ki se imenuje morje in ki je nastalo'.)</opomba>
+SLO         <hi type="super">10</hi> In za temi severni vetrovi; iz sedmega portala na vzhodu prihajajo rosa, dež, kobilice in opustošenje.<opomba>(10-11. SVS., S., SZS. vetrovi.)</opomba><opomba>(rokopis dodaja gloso, 'ki se imenuje morje in ki je nastalo'.)</opomba>
 ENG         <hi type="super">10</hi> And after these the north winds: from the seventh portal in the east come dew and rain, locusts and desolation.<opomba>(10-11. NEN., N., NWN. winds.)</opomba><opomba>(MSS. adds a gloss 'which is named the sea and which came forth'.)</opomba>
 
 SLO         <hi type="super">11</hi> Iz srednjega portala prihaja v ravni smeri zdravje, dež, rosa in blaginja. Skozi tretji portal na zahodu<opomba>(rokopis doda 'ki se nagiba proti severu'.)</opomba> prihaja oblak, ivje, sneg, dež, rosa in kobilice.<opomba>(Preberite morda 'kar se spodobi'. Glej v. 6 (opomba).)</opomba>
@@ -4855,7 +4855,7 @@ ENG         <hi type="super">1</hi> And the first quarter is called the east, be
 SLO         <hi type="super">2</hi> Zahodna četrt se imenuje zmanjšana, ker tam vsa svetila nebes pojenjajo in gredo dol.
 ENG         <hi type="super">2</hi> And the west quarter is named the diminished, because there all the luminaries of the heaven wane and go down.
 
-SLO         <hi type="super">3</hi> Četrta četrtina, imenovana sever, je razdeljena na tri dele. Prva od njih je za bivanje ljudi. Druga vsebuje morja voda, brezna, gozdove, reke, temo in oblake. In tretji del vsebuje vrt pravičnosti.
+SLO         <hi type="super">3</hi> Četrta četrtina, imenovana sever, je razdeljena na tri dele. Prva od njih je za bivanje ljudi. Druga vsebuje morja vodá, brezna, gozdove, reke, temo in oblake. In tretji del vsebuje vrt pravičnosti.
 ENG         <hi type="super">3</hi> And the fourth quarter, named the north, is divided into three parts: the first of them is for the dwelling of men: and the second contains seas of water, and the abysses and forests and rivers, and darkness and clouds; and the third part contains the garden of righteousness.
 
 SLO         <hi type="super">4</hi> Videl sem sedem visokih gora,<opomba>(ne tistih iz xviii. 6, xxiv. 2, xxxii. 1, čeprav prvotno izhajajo iz istega vira.)</opomba> višjih od vseh gora, ki so na zemlji. Od tod prihaja slana, dnevi, letni časi in leta minevajo.<opomba>(Bodite pozorni na ponavljanje števila sedem v tej knjigi, kot na splošno pri judovskih piscih. Prim. xviii. 6, xxiv. 2, xxxiii. 1, lxi. 11, lxxii. 37, xci. 16, xciii. 10.)</opomba>
@@ -4915,7 +4915,7 @@ ENG         <hi type="super">10</hi> And Uriel showed me another law: when light
 SLO         <hi type="super">11</hi> Med vsem obdobjem, med katerim luna raste v svoji svetlobi, jo prenaša k sebi, ko je nasproti soncu med štirinajstimi dnevi [njena svetloba je dovršena na nebu], in ko je vseskozi razsvetljena, je njena svetloba popolnoma dovršena na nebu.<opomba>(Luna narašča proti soncu na strani, ki je obrnjena proti soncu, torej na zahodni strani.)</opomba>
 ENG         <hi type="super">11</hi> During all the period during which the moon is growing in her light, she is transferring it to herself when opposite to the sun during fourteen days [her light is accomplished in the heaven], and when she is illumined throughout, her light is accomplished full in the heaven.<opomba>(The moon waxes over against the sun on the side turned to the sun, i.e. the western side.)</opomba>
 
-SLO         <hi type="super">12</hi> Na prvi dan se imenuje nova luna, kajti na ta dan svetloba na njej narašča.
+SLO         <hi type="super">12</hi> Na prvi dan se imenuje nova luna,<opomba>([nova luna: ali, mlaj.])</opomba> kajti na ta dan svetloba na njej narašča.
 ENG         <hi type="super">12</hi> And on the first day she is called the new moon, for on that day the light rises upon her.
 
 SLO         <hi type="super">13</hi> Polna luna postane natanko na dan, ko sonce zahaja na zahodu, od vzhoda pa ponoči vzhaja in luna sije vso noč, dokler sonce ne vzide nad njo in se luna ne vidi nasproti sonca.<opomba>(Resnično opažanje.)</opomba>
@@ -4966,7 +4966,7 @@ ENG     </div><div type="chapter" osisID="Chapter 80">
 SLO       <title>Poglavje 80<opomba>(Vrinjeno. Takoj ko preidemo iz lxxix, vstopimo v svet novih pojmovanj; ves interes je etičen in nič drugega. V naravnih pojavih sploh ni fiksnosti. Njihovi zakoni in enotnosti so vedno odvisni od moralnega delovanja ljudi. Prim. 4 Ezra v. 1–13.)</opomba></title>
 ENG       <title>Chapter 80<opomba>(An interpolation. As soon as we pass from lxxix we enter into a world of new conceptions; the whole interest is ethical and - nothing else. There is no fixity at all in natural phenomena: their laws and  uniformities are always dependent on the moral action of men. Cf. 4 Ezra v. 1-13.)</opomba></title>
 
-SLO         <hi type="super">1</hi> V tistih dneh je angel Uriel odgovoril in mi rekel: »Glej, pokazal sem ti vse, Henoh, in vse sem ti razkril, da bi naj bi videl sonce in to luno, in voditelje nebesnih zvezd in vse, ki jih obračajo,<opomba>(verjetno vetrovi. Prim. lxxii. 5, lxxiii. 2.)</opomba> njihove naloge, čase in odhode.
+SLO         <hi type="super">1</hi> V tistih dneh je angel Uriel odgovoril in mi rekel: »Glej, pokazal sem ti vse, Henoh, in vse sem ti razkril, da naj bi videl sonce in to luno, in voditelje nebesnih zvezd in vse, ki jih obračajo,<opomba>(verjetno vetrovi. Prim. lxxii. 5, lxxiii. 2.)</opomba> njihove naloge, čase in odhode.
 ENG         <hi type="super">1</hi> And in those days the angel Uriel answered and said to me: ‘Behold, I have shown thee everything, Enoch, and I have revealed everything to thee that thou shouldst see this sun and this moon, and the leaders of the stars of the heaven and all those who turn them,<opomba>(probably the winds. Cf. lxxii. 5, lxxiii. 2.)</opomba> their tasks and times and departures.
 
 SLO       <p><hi type="bold">LXXX. 2-8. Sprevrženost narave in nebeških teles zaradi greha ljudi.</hi></p>
@@ -5242,7 +5242,7 @@ ENG           </table>
 SLO         <hi type="super">4</hi> Blagoslovljeni so vsi pravični, blagoslovljeni so vsi tisti, ki hodijo po poti pravičnosti in ne grešijo kot grešniki pri štetju vseh svojih dni, v katerih sonce prečka nebo, vstopajoč v in izhajajoč iz portalov trideset dni z vodji tisočev od reda zvezd, skupaj s štirimi vstavljenimi, ki razdeljujejo štiri dele leta, ki jih vodijo in z njimi vstopajo štiri dni.
 ENG         <hi type="super">4</hi> Blessed are all the righteous, blessed are all those who walk in the way of righteousness and sin not as the sinners, in the reckoning of all their days in which the sun traverses the heaven, entering into and departing from the portals for thirty days with the heads of thousands of the order of the stars, together with the four which are intercalated which divide the four portions of the year, which lead them and enter with them four days.
 
-SLO         <hi type="super">5</hi> Zaradi njih bodo ljudje krivi in jih ne bodo upoštevali pri celotnem obračunu leta. Da, ljudje bodo krivi in jih ne bodo pravilno prepoznali,
+SLO         <hi type="super">5</hi> Zaradi njih bodo ljudje v zmoti in jih ne bodo upoštevali pri celotnem obračunu leta. Da, ljudje bodo v zmoti in jih ne bodo pravilno prepoznali,
 ENG         <hi type="super">5</hi> Owing to them men shall be at fault and not reckon them in the whole reckoning of the year: yea, men shall be at fault, and not recognize them accurately.
 
 SLO         <hi type="super">6</hi> ker pripadajo štetju leta in so (na njem) resnično zapisani za vedno; eden v prvem portalu in eden v tretjem, eden v četrtem in eden v šestem, in leto je dopolnjeno v tristo štiriinšestdesetih dneh.<opomba>(O štirih vmesnih dnevih in njihovih portalih glej lxxv.)</opomba>
@@ -5275,7 +5275,7 @@ ENG         <hi type="super">14</hi> And the names of those who lead them: Adnâ
 SLO         <hi type="super">15</hi> V začetku leta Melkejâl vstane prvi in vlada, ki je imenovan †Tam’âinî in sonce† in vseh dni njegove vladavine, medtem ko vlada, je enaindevetdeset dni.<opomba>(15-17. Obdobje od pomladi do poletja = 91 dni je pod oblastjo Melkejâla ali Milkiela. Imenujejo ga 'južno sonce', kot poudarjata Goldschmidt in Beer, je treba 'Tam’âinî' in 'sonce' brati skupaj, tj. שמש תימני.)</opomba>
 ENG         <hi type="super">15</hi> In the beginning of the year Melkejâl rises first and rules, who is named †Tam’âinî and sun,† and all the days of his dominion whilst he bears rule are ninety-one days.<opomba>(15-17. The period from spring to summer = 91 days is under the dominion of Melkejâl or Milkiel. He is named 'the southern sun', as Goldschmidt and Beer point out 'Tam’âinî' and 'sun' should be read together, i.e.  שמש תימני.)</opomba>
 
-SLO         <hi type="super">16</hi> To so znamenja dni, ki se bodo videla na zemlji v dneh njegovega gospodovanja: znoj, vročina in brezvetrja; in vsa drevesa obrodijo sad in poženejo liste na vseh drevesih in žetev pšenice in cvetov vrtnic<r r="Isa.35.1">Iz 35:1</r> in vseh rož, ki zrastejo na polju, toda drevesa zimskega obdobja postanejo ovenela.<opomba>(ni v SZ, razen v angleški različici Iz. xxxv. 1; Cant, ii. 1.)</opomba>
+SLO         <hi type="super">16</hi> To so znamenja dni, ki se bodo videla na zemlji v dneh njegovega gospodovanja: znoj, vročina in brezvetrja; in vsa drevesa bodo obrodila sad in poženejo liste na vseh drevesih in žetev pšenice <dodano>[bo]</dodano> in cvetovi vrtnic<r r="Isa.35.1">Iz 35:1</r> in vseh rož, ki zrastejo na polju, toda drevesa zimskega obdobja bodo ovenela.<opomba>(ni v SZ, razen v angleški različici Iz. xxxv. 1; Cant, ii. 1.)</opomba>
 ENG         <hi type="super">16</hi> And these are the signs of the days which are to be seen on earth in the days of his dominion: sweat, and heat, and calms; and all the trees bear fruit, and leaves are produced on all the trees, and the harvest of wheat, and the rose-flowers,<r r="Isa.35.1">Iz 35:1</r> and all the flowers which come forth in the field, but the trees of the winter season become withered.<opomba>(not in O.T., except in English version of Isa. xxxv. 1; Cant, ii. 1.)</opomba>
 
 SLO         <hi type="super">17</hi> To so imena vodij, ki so pod njimi: Berka’êl, Zêlebs’êl in še eden, ki je dodan, vodja nad tisoči, imenovan Hîlujâsef. In dnevi gospodovanja tega (vodja) so pri koncu.<opomba>(Podrejeni vodje so tisti iz mesecev, tri do četrtine.)</opomba>
@@ -5317,7 +5317,7 @@ ENG       <p><hi type="bold">LXXXIII-LXXXIV. First Dream-Vision on the Deluge.</
 SLO       <title>Poglavje 83<opomba>(LXXXIII–LXXXIV. Prva Sanjska vizija obravnava potop ali prvo svetovno sodbo.)</opomba></title>
 ENG       <title>Chapter 83<opomba>(LXXXIII–LXXXIV. The first Dream-Vision deals with the Deluge or first world-judgement.)</opomba></title>
 
-SLO         <hi type="super">1</hi> In sedaj, moj sin Matuzalem, ti bom pokazal vsa moja videnja, ki sem jih videl, pripovedoval ti jih bom pred teboj.
+SLO         <hi type="super">1</hi> In sedaj, moj sin Matuzalem, ti bom pokazal vsa moja videnja, ki sem jih videl; pripovedoval ti jih bom pred teboj.
 ENG         <hi type="super">1</hi> And now, my son Methuselah, I will show thee all my visions which I have seen, recounting them before thee.
 
 SLO         <hi type="super">2</hi> Dve viziji sem videl, preden sem vzel ženo in ena je bila povsem drugačna od druge. Prva, ko sem se učil pisati. Druga, preden sem vzel tvojo mati, (ko) sem videl strašno vizijo.<opomba>(Henoh se je poročil pri 65 letih (1. Mz v. 21). Ime ji je bilo Edna, 1 En. lxxxv. 3, prim. Jubileji iv. 19, kjer se omenjajo te sanje - vizije. Upoštevajte, da so lxxxiii-xc samo sanje, medtem ko ima Henoh v drugih delih odprte pogovore z angeli in je telesno prenesen. Vendar bi iz asketskih razlogov pričakovali telesni prenos pred poroko in sanjske vizije kasneje.)</opomba><r r="Gen.5.21">1 Mz 5:21</r>
@@ -5407,7 +5407,7 @@ ENG             <row><cell> Nor turns away from Thy presence.</cell></row>
 SLO             <row><cell> Ti veš, vidiš in slišiš vse</cell></row>
 ENG             <row><cell> And Thou knowest and seest and hearest everything,</cell></row>
 
-SLO             <row><cell> in nič ni skritega pred Teboj, [kajti Ti vse vidiš]</cell></row>
+SLO             <row><cell> in nič ni skrito pred Teboj, [kajti Ti vse vidiš]</cell></row>
 ENG             <row><cell> And there is nothing hidden from Thee [for Thou seest everything].</cell></row>
 
 SLO             <row><cell><hi type="super">4</hi> in zdaj so angeli Tvojih nebes krivi za prestopek</cell></row>
@@ -5509,7 +5509,7 @@ ENG         <hi type="super">3</hi> And again I saw in the vision, and looked to
 SLO         <hi type="super">4</hi> Pogledal sem jih in videl, in glej, vsi so izpustili svoje privatne ude kakor konji in začeli pokrivati krave volov, in vse so postajale breje in rodile so slone, kamele in osle.<opomba>(predstavljajo tri vrste velikanov. Glej vii. 2 (opomba).)</opomba>
 ENG         <hi type="super">4</hi> And I looked at them and saw, and behold they all let out their privy members, like horses, and began to cover the cows of the oxen, and they all became pregnant and bare elephants, camels, and asses.<opomba>(represent the three classes of giants. See vii. 2 (note).)</opomba>
 
-SLO         <hi type="super">5</hi> Vsi voli so se jih bali in so se jih prestrašili in začeli gristi z zobmi, požirati in prebadati s svojimi rogovi.
+SLO         <hi type="super">5</hi> Vsi voli so se jih bali in so se jih prestrašili in jih začeli gristi z zobmi, požirati in prebadati s svojimi rogovi.
 ENG         <hi type="super">5</hi> And all the oxen feared them and were affrighted at them, and began to bite with their teeth and to devour, and to gore with their horns.
 
 SLO         <hi type="super">6</hi> Poleg tega so začeli žreti tiste vole. Glej, vsi otroci zemlje<opomba>(Simbolika za trenutek odpade.)</opomba> so začeli trepetati in se tresti pred njimi in bežati pred njimi.
@@ -5800,7 +5800,7 @@ ENG       <p><hi type="bold">LXXXIX. 72-77. Second Period—from the Time of Cyr
 SLO         <hi type="super">72</hi> Takoj sem videl, kako so pastirji pasli dvanajst ur. Glej, tri izmed teh ovc<opomba>(Zerubabel, Jozue in Ezra ali Nehemija. Razlika v njihovem datumu se ne upošteva. Büchler meni, da so to = tri plemena, Levi, Juda in Benjamin. Prim. T. Joseph xix. 3.)</opomba> so se obrnile nazaj in prišle ter vstopile in začele zidati vse, kar je padlo dol iz tiste hiše, vendar so jih divji prašiči<opomba>(Tukaj = Samarijani, ne Edomci, kot v. 66.)</opomba> skušali ovirati, a jih niso mogli.
 ENG         <hi type="super">72</hi> And forthwith I saw how the shepherds pastured for twelve hours, and behold three of those sheep<opomba>(Zerubbabel, Joshua, and either Ezra or Nehemiah. The difference in their date is disregarded. Büchler holds that these = three tribes, Levi, Judah, and Benjamin. Cf. T. Joseph xix. 3.)</opomba> turned back and came and entered and began to build up all that had fallen down of that house; but the wild boars<opomba>(Here = Samaritans, not Edomites, as v. 66.)</opomba> tried to hinder them, but they were not able.
 
-SLO         <hi type="super">73</hi> Ponovno so pričele graditi kot prej in postavile so tisti stolp in poimenovale so ga visoki stolp; in spet so začele postavljati mizo pred stolp, vendar je bil ves kruh na njem onesnažen in nečist.<opomba>(Prim. Mal. i. 7 'umazan kruh', tj. nečiste daritve zaradi nevrednega in poganskega ljudstva in duhovništva. Prim. Ass. Mosis. iv. 8.)</opomba><r r="Mal.1.7">Mal 1:7</r>
+SLO         <hi type="super">73</hi> Ponovno so pričele graditi kot prej in postavile tisti stolp in poimenovale so ga visoki stolp; in spet so začele postavljati mizo pred stolp, vendar je bil ves kruh na njem onesnažen in nečist.<opomba>(Prim. Mal. i. 7 'umazan kruh', tj. nečiste daritve zaradi nevrednega in poganskega ljudstva in duhovništva. Prim. Ass. Mosis. iv. 8.)</opomba><r r="Mal.1.7">Mal 1:7</r>
 ENG         <hi type="super">73</hi> And they began again to build as before, and they reared up that tower, and it was named the high tower; and they began again to place a table before the tower, but all the bread on it was polluted and not pure.<opomba>(Cf. Mal. i. 7 ' polluted bread,' i.e. unclean offerings because of the unworthy and heathenized people and priesthood. Cf. Ass. Mosis. iv. 8.)</opomba><r r="Mal.1.7">Mal 1:7</r>
 
 SLO         <hi type="super">74</hi> Glede vsega tega so bile oči teh ovc oslepljene, tako da niso videle, in prav tako (oči) njihovih pastirjev. V velikem številu so jih izročali njihovim pastirjem za uničenje in oni so s svojimi stopali teptali ovce in jih požirali.
@@ -6049,8 +6049,8 @@ ENG     </div><div type="chapter" osisID="Chapter 91a">
 SLO       <p><hi type="bold">XCI. 1-10. 18-19. Henohov opomin svojim otrokom.</hi></p>
 ENG       <p><hi type="bold">XCI. 1-10. 18-19. Enoch’s Admonition to his Children.</hi></p>
 
-SLO       <title>Poglavje 91</title>
-ENG       <title>Chapter 91</title>
+SLO       <title>Poglavje 91a</title>
+ENG       <title>Chapter 91a</title>
 
 SLO           <table>
 ENG           <table>
@@ -6214,7 +6214,7 @@ ENG             <row><cell> And shall perish in wrath and in grievous judgement 
 SLO             <row><cell></cell></row>
 ENG             <row><cell></cell></row>
 
-SLO             <row><cell><hi type="super">10</hi> Pravični<opomba>(Ednina, uporabljena skupaj, kot v xcii. 3. V xci-civ le pravični dosežejo vstajenje. Glej li. 1 (opomba).)</opomba> pa bodo vstali iz njihovega spanja</cell></row>
+SLO             <row><cell><hi type="super">10</hi> Pravični<opomba>(Ednina, uporabljena skupaj, kot v xcii. 3. V xci-civ le pravični dosežejo vstajenje. Glej li. 1 (opomba).)</opomba> pa bodo vstali iz svojega spanja</cell></row>
 ENG             <row><cell><hi type="super">10</hi> And the righteous<opomba>(The singular used collectively, as in xcii. 3. In xci-civ only the righteous attain to the Resurrection. See li. 1 (note).)</opomba> shall arise from their sleep,</cell></row>
 
 SLO             <row><cell> in modrost bo vstala in jim bo dana.</cell></row>
@@ -6247,7 +6247,7 @@ ENG             <row><cell> Yea, I will show them to you again</cell></row>
 SLO             <row><cell> da boste vedeli, kaj se bo zgodilo.</cell></row>
 ENG             <row><cell> That ye may know what will come to pass.</cell></row>
 
-SLO             <row><cell><hi type="super">19</hi> In zdaj me poslušajte, sinovi moji</cell></row>
+SLO             <row><cell><hi type="super">19</hi> In zdaj me poslušajte, moji sinovi</cell></row>
 ENG             <row><cell><hi type="super">19</hi> And now, hearken unto me, my sons,</cell></row>
 
 SLO             <row><cell> in hodite po stezah pravičnosti</cell></row>
@@ -6484,7 +6484,7 @@ ENG             <row><cell><hi type="super">14a</hi> And after that, in the nint
 SLO             <row><cell><hi type="super">b</hi> in vsa dela brezbožnikov bodo izginila iz vse zemlje</cell></row>
 ENG             <row><cell><hi type="super">b</hi> And all the works of the godless shall vanish from all the earth,</cell></row>
 
-SLO             <row><cell><hi type="super">c</hi> in svet bo zapisan za uničenje.<opomba>(m, β: 'Zapisal bo (tj. odredil) uničenje sveta' g: 'Zapisal bo svet za uničenje' t: > u: q = a. korupcija g (?). To naj bi se zgodilo konec desetega tedna.)</opomba></cell></row>
+SLO             <row><cell><hi type="super">c</hi> in svet bo zapisan za uničenje.<opomba>(m, β: 'Zapisal bo (tj. odredil) uničenje sveta' g: 'Zapisal bo svet za uničenje' t: › u: q = a. korupcija g (?). To naj bi se zgodilo konec desetega tedna.)</opomba></cell></row>
 ENG             <row><cell><hi type="super">c</hi> And the world shall be written down for destruction.<opomba>(m, β: 'He shall write down (i.e. decree) the destruction of the world' g: 'He shall write down the world for destruction' t: > u: q = a. corruption of g (?). This is to take place in the end of the tenth week.)</opomba></cell></row>
 
 SLO             <row><cell></cell></row>
@@ -7571,7 +7571,7 @@ ENG         <hi type="super">2</hi> If He closes the windows of heaven, and with
 SLO         <hi type="super">3</hi> In če zaradi vaših dejanj pošlje Svojo jezo nad vas, ga ne morete prositi, kajti ponosno in predrzno ste govorili besede zoper Njegovo pravičnost. Zato ne boste imeli nobenega miru.
 ENG         <hi type="super">3</hi> And if He sends His anger upon you because of your deeds, ye cannot petition Him; for ye spake proud and insolent words against His righteousness: therefore ye shall have no peace.
 
-SLO         <hi type="super">4</hi> Ali ne vidite mornarjev ladij, kako njihove ladje sem ter tja premetavajo valovi in jih stresajo vetrovi in so v velikih težavah?<opomba>(Mornarji se bojijo morja. Koliko bolj bi se morali ljudje bati Boga, ki se ga morje zelo boji. Prim. Ps. cvii. 23-27.)</opomba><r r="Ps.107.23-Ps.107.27">Ps 107:23-27</r>
+SLO         <hi type="super">4</hi> Mar ne vidite mornarjev ladij, kako njihove ladje sem ter tja premetavajo valovi in jih stresajo vetrovi in so v velikih težavah?<opomba>(Mornarji se bojijo morja. Koliko bolj bi se morali ljudje bati Boga, ki se ga morje zelo boji. Prim. Ps. cvii. 23-27.)</opomba><r r="Ps.107.23-Ps.107.27">Ps 107:23-27</r>
 ENG         <hi type="super">4</hi> And see ye not the sailors of the ships, how their ships are tossed to and fro by the waves, and are shaken by the winds, and are in sore trouble?<opomba>(Sailors fear the sea: how much more should men fear God, of whom the sea is sore afraid. Cf. Ps. cvii. 23-27.)</opomba><r r="Ps.107.23-Ps.107.27">Ps 107:23-27</r>
 
 SLO         <hi type="super">5</hi> Zato se bojijo, ker gredo vsa njihova čudovita imetja z njimi na morje in imajo zle slutnje srca, da jih bo pogoltnilo morje in bodo tam pogubljeni.
@@ -7637,10 +7637,10 @@ ENG             <row><cell> And shall seek to hide themselves from the presence 
 SLO             <row><cell> in otroci zemlje bodo trepetali in se tresli</cell></row>
 ENG             <row><cell> And the children of earth shall tremble and quake;</cell></row>
 
-SLO             <row><cell> in vi grešniki boste za vedno prekleti,</cell></row>
+SLO             <row><cell> in vi grešniki boste za vedno prekleti</cell></row>
 ENG             <row><cell> And ye sinners shall be cursed for ever,</cell></row>
 
-SLO             <row><cell> In ne boste imeli nobenega miru.</cell></row>
+SLO             <row><cell> in ne boste imeli nobenega miru.</cell></row>
 ENG             <row><cell> And ye shall have no peace.</cell></row>
 
 SLO             <row><cell></cell></row>
@@ -7832,7 +7832,7 @@ ENG             <row><cell> Woe to you, for ye shall have no peace.</cell></row>
 SLO             <row><cell></cell></row>
 ENG             <row><cell></cell></row>
 
-SLO             <row><cell><hi type="super">9</hi> Ne recite glede pravičnih in dobrih, ki so v življenju:<opomba>(9-15. Ironičen opis usode pravičnih. Prim. saducejski pogled v cii. 6, 7.)</opomba><opomba>(Od te vrstice do konca poglavja 1g stoji pogosto sam in kaže skoraj šestdeset različic, večinoma med 1. in 3. množino. Rokopisi dokazujejo, da je bila 3. oseba izvirna, kajti medtem ko 1g podaja 3. osebo v vseh primerih razen v sedmih (ti so omejeni na vrstici 14 in 15), vsi drugi rokopisi z redkimi izjemami dajo 1. osebo. Tako hudobni prevzamejo vlogo pravičnih in spregovorijo v njihovi osebi v ciii. 9-15. Vendar v civ. 1-6 avtor svojega odgovora ne naslovi neposredno na grešnike, ki so pravkar spregovorili, temveč na pravične (prim. ciii. 1) in se vrne h grešnikom v civ. 7-9.)</opomba></cell></row>
+SLO             <row><cell><hi type="super">9</hi> Ne recite glede pravičnih in dobrih, ki so v živi:<opomba>(9-15. Ironičen opis usode pravičnih. Prim. saducejski pogled v cii. 6, 7.)</opomba><opomba>(Od te vrstice do konca poglavja 1g stoji pogosto sam in kaže skoraj šestdeset različic, večinoma med 1. in 3. množino. Rokopisi dokazujejo, da je bila 3. oseba izvirna, kajti medtem ko 1g podaja 3. osebo v vseh primerih razen v sedmih (ti so omejeni na vrstici 14 in 15), vsi drugi rokopisi z redkimi izjemami dajo 1. osebo. Tako hudobni prevzamejo vlogo pravičnih in spregovorijo v njihovi osebi v ciii. 9-15. Vendar v civ. 1-6 avtor svojega odgovora ne naslovi neposredno na grešnike, ki so pravkar spregovorili, temveč na pravične (prim. ciii. 1) in se vrne h grešnikom v civ. 7-9.)</opomba></cell></row>
 ENG             <row><cell><hi type="super">9</hi> Say not in regard to the righteous and good who are in life:<opomba>(9-15. An ironical description of the lot of the righteous. Cf. the Sadducean view in cii. 6, 7.)</opomba><opomba>(From this verse to the end of the chapter 1g stands frequently alone, exhibiting nearly sixty variations, mostly between ist and 3rd plurals. The MSS. evidence goes to prove that the 3rd person was original, for whereas 1g gives the 3rd person in all but seven instances (these are confined to vv. 14 and 15), all other MSS. with few exceptions give the 1st person. Thus the wicked assume the role of the righteous and speak in their person in ciii. 9-15. Yet in civ. 1-6 the author addresses his reply not directly to the sinners who have just spoken but to the righteous (cf. ciii. 1), and returns to the sinners in civ. 7-9.)</opomba></cell></row>
 
 SLO             <row><cell> »V naših težavnih dneh smo trdo garali in izkusili vsako težavo</cell></row>
@@ -7910,7 +7910,7 @@ ENG             <row><cell></cell></row>
 SLO           </table>
 ENG           </table>
 
-SLO         <hi type="super">15</hi> Pomagali so tistim, ki so nas oropali in požrli, in tistim, ki so nas naredili maloštevilne in prikrili so svoje zatiranje in niso odstranili z nas jarma tistih, ki so nas požirali, razkropili in nas morili, in prikrili so svoj umor in se niso spominjali, da so svoje roke vzdignili zoper nas.
+SLO         <hi type="super">15</hi> Pomagali so tistim, ki so nas ropali in požirali, in tistim, ki so nas naredili maloštevilne in prikrili so svoje zatiranje in niso odstranili z nas jarma tistih, ki so nas požirali, razkropili in nas morili, in prikrili so svoj umor in se niso spominjali, da so svoje roke vzdignili zoper nas.
 ENG         <hi type="super">15</hi> And they helped those who robbed us and devoured us and those who made us few; and they concealed their oppression, and they did not remove from us the yoke of those that devoured us and dispersed us and murdered us, and they concealed their murder, and remembered not that they had lifted up their hands against us.
 
 SLO     </div><div type="chapter" osisID="Poglavje 104">
