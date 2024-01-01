@@ -348,16 +348,7 @@ sed -i '4i \\\toc1 Henohova knjiga'               $input
 sed -i '5i \\\toc2 Hen'                           $input
 sed -i '6i \\\mt2 H.R. Charles'                   $input
 sed -i '7i \\\mt1 HENOHOVA KNJIGA'                $input
-sed -i '8i \\\b'                                  $input
-sed -i '9i \\\mt3 Apokrifi in psevdepigrafi Stare zaveze'                                 $input
-sed -i '10i \\\ip Z UVODNIMI TER KRITIČNIMI IN POJASNJENIMI OPOMBAMI K VEČ KNJIGAM V SODELOVANJU S ŠTEVILNIMI UČENJAKI JE UREJAL R. H. CHARLES, D.Litt., D.D. Oxford: The Clarendon Press'                 $input
-sed -i '11i \\\ip Oxford: The Clarendon Press 1913'                          $input
-sed -i '12i \\\ip Skeniral in uredil: Joshua Williams, Northwest Nazarene College, 1995'  $input
-sed -i '13i \\\ip Prevod: Marjan Šavli in Barbara Hojkar Šavli, 2023'                     $input
-sed -i '14i \\\ip vir: https://archive.org/details/apocryphapseudep02charuoft'            $input
-sed -i '15i \\\ip Test fontov: čćžđš ČĆŽĐŠ  †‘x’—“x” ’ ˱˲ ┌x┐ ╓x╖ âêîôû  '                $input
-sed -i '16i \\\\zqrcode|pgpos="r" size="1.2cm" data="https://archive.org/details/apocryphapseudep02charuoft"\\*'                 $input
-sed -i '17i \\\pb'                                                                        $input
+sed -i '8i \\\pb'                                 $input
 #=====================================================================
 
 
@@ -512,33 +503,49 @@ sed -i "s|<\/hi>|\\\bdit*|g"                                                    
 
 
 #====================================================================
+#      Zamenja \p      ker so preveliki razmiki, recimo  Poglavje 1
+#              \c 1
+sed -i ':a;N;$!ba;s|\\p\n\\c|\n\\c|g'                     $input
+#cat $input |grep -2 " 102"
+#====================================================================
+
+
+#====================================================================
 #      Zamenja \b      ker so preveliki razmiki, recimo  Poglavje 102
 #              \c 1
 sed -i ':a;N;$!ba;s|\\b\n\\c|\n\\c|g'                     $input
 #cat $input |grep -2 " 102"
 #====================================================================
 
+
+# ================== Na koncu doda eno vrstico \pb ==================
+# Doda zato da se 108 poglavje lepo razdeli na tri strani
+sed -i -e '$a\'$'\n''\\pb' test.txt                       $input
 # ================== Odstrani prazne vrstice ========================
-sed -i -e "/^$/d"                                        $input
+
+
+# ================== Odstrani prazne vrstice ========================
+sed -i -e "/^$/d"                                         $input
 # ===================================================================
 
 
-# ============== Pozene PTXprint =======================================================
+#=================== Pripravi datoteke za PTXprint ==================
 # Pobrise vse morebitne ostale fajle v mapi
 rm /home/pc/Dokumenti/osis2usfm/SloKJV/release/slohenoh/*.usfm
 # Prekopira fajl in ga ponesreceno poimenuje namesto B5-ENO.usfm  v   19-PSA.usfm
-
-
 cp $input $output
-#head -250 $input >$output
+#head -150 $input >$output
+#====================================================================
 
+
+#================ Pozene PTXprint ===================================
 # Gre v pravo mapo. Nisem preprica da je to potrebno
 cd /home/pc/Dokumenti/osis2usfm/
 # Pozene PTXprint
 ptxprint -c   /home/pc/Dokumenti/osis2usfm/SloKJV/release  slohenoh
+#====================================================================
 
-
-#============ Pozene GITHUB Desktop? ========================
+#==================== Pozene GITHUB Desktop? ========================
 echo " "
 echo "   Pozene GITHUB Desktop?"
 echo " "
@@ -556,15 +563,19 @@ do
           "Pozene")
               echo " "
               echo "   Izbral si Github."
-              echo "      Kopira v Github  mapo..."
+              echo " "
+              echo "      Kopira v Github mapo..."
+              echo " "
                 cp /home/pc/Dokumenti/slohenoh/slohenoh_work.xml $Github/slohenoh.osis.xml
                 cp /home/pc/Dokumenti/slohenoh/slohenoh.conf     $Github/slohenoh.conf
                 cp /home/pc/Dokumenti/slohenoh/run_SloHenoh      $Github/scripts/run_SloHenoh
                 cp /home/pc/Dokumenti/slohenoh/sloenghenoh.xml   $Github/scripts/sloenghenoh.xml
+                cp /home/pc/Dokumenti/osis2usfm/SloKJV/release/slohenoh/local/ptxprint/slohenoh_Default_PSA_ptxp.pdf   $Github/SloHenoh.pdf
               echo " "
               echo "     Sinhronizacija z Githubom ..."
               echo " "
               echo "   --==  Pozene /usr/bin/github-desktop ==--"
+              echo " "
               /usr/bin/github-desktop
               break
               ;;
@@ -577,4 +588,4 @@ do
           *) echo "Napacna izbira $REPLY";;
      esac
 done
-#====================================================
+#===================================================================
