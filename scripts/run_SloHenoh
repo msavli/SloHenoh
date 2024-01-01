@@ -520,7 +520,7 @@ sed -i ':a;N;$!ba;s|\\b\n\\c|\n\\c|g'                     $input
 
 # ================== Na koncu doda eno vrstico \pb ==================
 # Doda zato da se 108 poglavje lepo razdeli na tri strani
-sed -i -e '$a\'$'\n''\\pb' test.txt                       $input
+sed -i -e '$a\'$'\n''\\pb'                                $input
 # ================== Odstrani prazne vrstice ========================
 
 
@@ -568,6 +568,7 @@ do
               echo " "
                 cp /home/pc/Dokumenti/slohenoh/slohenoh_work.xml $Github/slohenoh.osis.xml
                 cp /home/pc/Dokumenti/slohenoh/slohenoh.conf     $Github/slohenoh.conf
+                cp /home/pc/Dokumenti/slohenoh/slohenoh.xml      $Github/scripts/slohenoh.usfm
                 cp /home/pc/Dokumenti/slohenoh/run_SloHenoh      $Github/scripts/run_SloHenoh
                 cp /home/pc/Dokumenti/slohenoh/sloenghenoh.xml   $Github/scripts/sloenghenoh.xml
                 cp /home/pc/Dokumenti/osis2usfm/SloKJV/release/slohenoh/local/ptxprint/slohenoh_Default_PSA_ptxp.pdf   $Github/SloHenoh.pdf
