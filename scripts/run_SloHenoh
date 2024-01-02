@@ -8,7 +8,7 @@ rm enghenoh_work.xml
 cp sloenghenoh.xml slohenoh_work.xml
 
 #===================================
-echo "Najprej naredimo SLO verzijo"
+echo "   Najprej naredimo SLO verzijo"
 
 # Uporabil sem ukaz paste, da sem zdruzil 
 # Poisce vse vrstice, ki se zacnejo z ENG in jih izbrise, pusti vse ostalo."
@@ -17,9 +17,7 @@ sed -i '/^ENG/d' slohenoh_work.xml
 # Pobrise prve stiri znake na zacetku vrstic - da se znebi SLO
 sed -i 's/^....//' slohenoh_work.xml
 
-# Pozenimo SED za opombe  <opomba>(     ->    <note type="x-footnote" n="1">
-
-# sed -i "s/<opomba>(/<note type=\"x-footnote\" n=\"1\">/g" slohenoh_work.xml
+# Pozenimo SED za opombe  <opomba>(     ->    <note type="x-footnote">
 sed -i "s/<opomba>(/<note type=\"x-footnote\">/g" slohenoh_work.xml
 #                         </opomba>     ->     </note>
 sed -i "s/)<\/opomba>/<\/note>/g" slohenoh_work.xml
@@ -46,7 +44,7 @@ mkdir modules/genbook                      > /dev/null 2>&1
 mkdir modules/genbook/rawgenbook           > /dev/null 2>&1
 mkdir modules/genbook/rawgenbook/slohenoh  > /dev/null 2>&1
 
-echo    Preveri XML
+echo  "   Preveri XML"
 /usr/bin/xmllint --noout --schema http://www.crosswire.org/~dmsmith/osis/osisCore.2.1.1-cw-latest.xsd slohenoh_work.xml
 
 sleep 2  # Waits 2 seconds.
@@ -66,7 +64,7 @@ cat slohenoh_work.xml |grep "ENG "
 cp sloenghenoh.xml enghenoh_work.xml
 
 #===================================
-echo "Sedaj naredimo ENG verzijo"
+echo "   Sedaj naredimo ENG verzijo"
 
 # Poisce vse vrstice, ki se zacnejo z ENG in jih izbrise, pusti vse ostalo."
 sed -i '/^SLO/d' enghenoh_work.xml
@@ -74,8 +72,8 @@ sed -i '/^SLO/d' enghenoh_work.xml
 # Pobrise prve stiri znake na zacetku vrstic - da se znebi ENG
 sed -i 's/^....//' enghenoh_work.xml
 
-# Pozenimo SED za opombe  <opomba>(     ->    <note type="x-footnote" n="1">
-sed -i "s/<opomba>(/<note type=\"x-footnote\" n=\"1\">/g" enghenoh_work.xml
+# Pozenimo SED za opombe  <opomba>(     ->    <note type="x-footnote">
+sed -i "s/<opomba>(/<note type=\"x-footnote\">/g" enghenoh_work.xml
 #                         </opomba>     ->     </note>
 sed -i "s/)<\/opomba>/<\/note>/g" enghenoh_work.xml
 
@@ -240,7 +238,7 @@ mkdir modules/genbook                         > /dev/null 2>&1
 mkdir modules/genbook/rawgenbook              > /dev/null 2>&1
 mkdir modules/genbook/rawgenbook/enghenoh     > /dev/null 2>&1
 
-echo    Preveri XML
+echo  "   Preveri XML"
 /usr/bin/xmllint --noout --schema http://www.crosswire.org/~dmsmith/osis/osisCore.2.1.1-cw-latest.xsd enghenoh_work.xml
 
 sleep 2  # Waits 2 seconds.
@@ -265,7 +263,7 @@ cp -r modules/ /usr/share/sword/
 # mod2imp SloHenoh -r LATEX >SloHenoh.tex
 # mod2imp SloHenoh -r RTF >SloHenoh.rtf
 # mod2imp SloHenoh -r HTMLHREF >SloHenoh.html  
-echo    Izvoz v txt
+echo "   Izvoz v txt"
 mod2imp SloHenoh -s >SloHenoh.txt
 mod2imp EngHenoh -s >EngHenoh.txt
 
@@ -276,21 +274,58 @@ sed -i 's/  * /\n* /g'   EngHenoh.txt
 #=======================================================================================
 #=======================================================================================
 #                      OSIS ->  USFM  konverzija
+#                      SLO in ENG  konfiguracija
 #=======================================================================================
 #=======================================================================================
 
-# ==================== Naredi potrebne mape =============================================
-mkdir /home/pc/Dokumenti/GitHub/SloKJV/PTXprint/osis2usfm/SloKJV/release/slohenoh   2>/dev/null
+#==================== Anglesko verzijo ali Slovensko ========================
+echo " "
+echo "   Angleško verzijo ali Slovensko?"
+echo " "
+PS1='   Izberi: '
+options_ver=("Slo" "Eng" "Izhod")
+select opt_lang in "${options_ver[@]}"
+do
+      case $opt_lang in
+          "Slo")
+              echo " "
+              echo "   Slovensko."
+              echo " "
+                # ==================== Naredi potrebne mape =============================================
+                mkdir /home/pc/Dokumenti/GitHub/SloKJV/PTXprint/osis2usfm/SloKJV/release/slohenoh   2>/dev/null
+                # =================== Spremenljivke =====================================================
+                input=/home/pc/Dokumenti/slohenoh/slohenoh.xml
+                output=/home/pc/Dokumenti/osis2usfm/SloKJV/release/slohenoh/19-PSA.usfm
+                # ======= Kopira xml datoteko na lokacijo kjer jo bo spreminjal ========================
+                cp /home/pc/Dokumenti/slohenoh/slohenoh_work.xml $input
+              break
+             ;;
+          "Eng")
+              echo " "
+              echo "   Angleško."
+              echo " "
+                # ==================== Naredi potrebne mape =============================================
+                mkdir /home/pc/Dokumenti/GitHub/SloKJV/PTXprint/osis2usfm/SloKJV/release/enoch   2>/dev/null
+                # =================== Spremenljivke =====================================================
+                input=/home/pc/Dokumenti/slohenoh/enghenoh.xml
+                output=/home/pc/Dokumenti/osis2usfm/SloKJV/release/enoch/19-PSA.usfm
+                # ======= Kopira xml datoteko na lokacijo kjer jo bo spreminjal ========================
+                cp /home/pc/Dokumenti/slohenoh/enghenoh_work.xml $input
+              break
+              ;;
+          "Izhod")
+              echo " "
+              echo "   Izbral si $REPLY kar je $opt_ver"
+              echo " "
+              exit
+             ;;
+          *) echo "   Napacna izbira $REPLY";;
+      esac
+done
+#===================================================================
 
-# =================== Spremenljivke =====================================================
-input=/home/pc/Dokumenti/slohenoh/slohenoh.xml
-output=/home/pc/Dokumenti/osis2usfm/SloKJV/release/slohenoh/19-PSA.usfm
-
-# ======= Kopira xml datoteko na lokacijo kjer jo bo spreminjal ========================
-cp /home/pc/Dokumenti/slohenoh/slohenoh_work.xml $input
 
 # ============== Pretvori OSIS datoteko v USX obliko ===================================
-
 # ======= REFERENCE ===============
 # Najprej samo zmanjsa reference -> ;XYX
 sed -i "s|</reference>; <reference osisRef=|;XYX|g"            $input
@@ -310,9 +345,9 @@ sed -i "s|<note type=\"crossReference\">;|\x5cx + \x5cxo \x5creference : \x5cxt 
 
 # Tu zgoraj sem odstranil  + \x5cfxt
 
-cat /home/pc/Dokumenti/osis2usfm/SloKJV_sword.xml |grep "<verse osisID=\"Deut.33.1\""
-cat /home/pc/Dokumenti/osis2usfm/SloKJV_sword.xml |grep "<reference"
-cat /home/pc/Dokumenti/osis2usfm/SloKJV_sword.xml |grep "reference>"
+cat $input |grep "<verse osisID=\"Deut.33.1\""
+cat $input |grep "<reference"
+cat $input |grep "reference>"
 # head -30 $input
 
 
@@ -339,16 +374,40 @@ cat $input |grep "transChange"
 #============ ZACETEK ================================================
 #         Pobrise prvih 28 vrstic
 sed -i "1,28d"                                                                  $input
-#         Doda zacetek
-#              Namesto   \id ENO    dam   \id PSA   da ga prepricam da je to biblija drugace noce delati
-sed -i '1i \\\id PSA'                             $input
-sed -i '2i \\\h Henoh'                            $input
-sed -i '3i \\\h1 HENOHOVA KNJIGA'                 $input
-sed -i '4i \\\toc1 Henohova knjiga'               $input
-sed -i '5i \\\toc2 Hen'                           $input
-sed -i '6i \\\mt2 H.R. Charles'                   $input
-sed -i '7i \\\mt1 HENOHOVA KNJIGA'                $input
-sed -i '8i \\\pb'                                 $input
+      case $opt_lang in
+          "Slo")
+                 #  Add begining - Slovensko.
+                 #  Namesto   \id ENO    dam   \id PSA   da ga prepricam da je to biblija drugace noce delati
+                 sed -i '1i \\\id PSA'                             $input
+                 sed -i '2i \\\h Henoh'                            $input
+                 sed -i '3i \\\h1 HENOHOVA KNJIGA'                 $input
+                 sed -i '4i \\\toc1 Henohova knjiga'               $input
+                 sed -i '5i \\\toc2 Hen'                           $input
+                 sed -i '6i \\\mt2 H.R. Charles'                   $input
+                 sed -i '7i \\\mt1 HENOHOVA KNJIGA'                $input
+                 sed -i '8i \\\pb'                                 $input
+#              break
+             ;;
+          "Eng")
+                 #  Add begining - Angleško.
+                 sed -i '1i \\\id PSA'                             $input
+                 sed -i '2i \\\h Enoch'                            $input
+                 sed -i '3i \\\h1 The Book of Enoch'               $input
+                 sed -i '4i \\\toc1 The Book of Enoch'             $input
+                 sed -i '5i \\\toc2 ENO'                           $input
+                 sed -i '6i \\\mt2 H.R. Charles'                   $input
+                 sed -i '7i \\\mt1 THE BOOK OF ENOCH'              $input
+                 sed -i '8i \\\pb'                                 $input
+#              break
+              ;;
+          "Izhod")
+              echo " "
+              echo "   Izbral si $REPLY kar je $opt_ver"
+              echo " "
+              exit
+             ;;
+          *) echo "   Napacna izbira $REPLY";;
+      esac
 #=====================================================================
 
 
@@ -357,17 +416,6 @@ sed -i '8i \\\pb'                                 $input
 echo -E " "
 sed -i "s|<div type=\"book\" osisID=\"\([^.]*\)\">     |<div type=\"book\">|g"  $input
 cat $input |grep "book\"osisID="
-#=============================================================
-
-
-# ===================== CHAPTER OSIS ID ODSTRANI ================================
-#      Popraviti zaradi python skripta
-#    <chapter osisID=\"Gen.01\" chapterTitle=\"1. Poglavje\">   ->   <chapter>
-echo -E " "
-sed -i  "s|<chapter osisID=\"\([^.]*\).\([^.]*\)\" chapterTitle=\"\([^.]*\). Poglavje\"><title type=\"chapter\">\([^.]*\). Poglavje</title>|<chapter>\4. Poglavje|g"  $input
-#sed -i "s|<chapter osisID=\"\([^.]*\).\([^.]*\)\" chapterTitle=\"\([^.]*\). Poglavje\"><verse|<chapter>\x5cp \x5cn _C_\4. Poglavje|g"  $input
-cat $input |grep -F '<chapter osisID="Gen.01" chapterTitle="1. Poglavje\">'
-# cat /home/pc/Dokumenti/osis2usfm/SloKJV_sword.xml |grep -F '<chapter'   # xx
 #=============================================================
 
 
@@ -409,30 +457,66 @@ sed -i ':a;N;$!ba;s|<\/div>\n<div type=|<\/div><div type=|g'   $input
 # ============================================================================
 
 
-#============= Major secton   -> \ms  ===============================
-#         </div>
-#         </div><div type="majorSection" osisID="Razdelek IV">
-#              ->    \ms
-sed -i  "s/<\/div><div type=\"majorSection\" osisID=\"\([^.]*\)\">/\\\ms \1/g" $input
-#          <div type="majorSection"   osisID="Razdelek I">
-sed -i  "s/<div type=\"majorSection\" osisID=\"\([^.]*\)\">/\\\ms \1/g"        $input
-#         Pobrise se vse preostale </div>
-sed -i  "s/<\/div>//g"                                                         $input
-#       Pobrise vse     <p><hi type="bold">Razdelek  ker se sicer 2x pojavi
-sed -i  "s/<p><hi type=\"bold\">Razdelek [A-Z]*<\/hi><\/p>//g"                 $input
-cat $input |grep "majorSection"
-#cat $input |grep "Razdelek"
-#====================================================================
+# ===================== REMOVE CHAPTER OSIS ID  ================================
+#      Popraviti zaradi python skripta
+#    <chapter osisID=\"Gen.01\" chapterTitle=\"1. Poglavje\">   ->   <chapter>
+echo -E " "
+      case $opt_lang in
+          "Slo")
+                #   REMOVE CHAPTER OSIS ID - Slovensko.
+                #============= Major secton   -> \ms  ===============================
+                #         </div>
+                #         </div><div type="majorSection" osisID="Razdelek IV">
+                #              ->    \ms
+                sed -i  "s/<\/div><div type=\"majorSection\" osisID=\"\([^.]*\)\">/\\\ms \1/g" $input
+                #          <div type="majorSection"   osisID="Razdelek I">
+                sed -i  "s/<div type=\"majorSection\" osisID=\"\([^.]*\)\">/\\\ms \1/g"        $input
+                #         Pobrise se vse preostale </div>
+                sed -i  "s/<\/div>//g"                                                         $input
+                #       Pobrise vse     <p><hi type="bold">Razdelek  ker se sicer 2x pojavi
+                sed -i  "s/<p><hi type=\"bold\">Razdelek [A-Z]*<\/hi><\/p>//g"                 $input
 
-
-
-#============== Chapter spremeni v  nic =============
-#         <div type= "chapter " osisID= "Poglavje 1">   pobrise
-sed -i "s/<\/div><div type=\"chapter\" osisID=\"Poglavje \([0-9]*\)\">//g"  $input
-sed -i "s/<div type=\"chapter\" osisID=\"Poglavje \([0-9]*\)\">//g"         $input
-sed -i "s/<div type=\"chapter\" osisID=\"Poglavje 91a\">//g"               $input
-cat $input |grep "<div type=\"chapter\""
-# ====================================================================
+                #============== Chapter spremeni v nic =============
+                #         <div type= "chapter " osisID= "Poglavje 1">   pobrise
+                sed -i "s/<\/div><div type=\"chapter\" osisID=\"Poglavje \([0-9]*\)\">//g"     $input
+                sed -i "s/<div type=\"chapter\" osisID=\"Poglavje \([0-9]*\)\">//g"            $input
+                sed -i "s/<div type=\"chapter\" osisID=\"Poglavje 91a\">//g"                   $input
+                #====================================================================
+#              break
+             ;;
+          "Eng")
+                #   REMOVE CHAPTER OSIS ID - Angleško.
+                #============= Major secton   -> \ms  ===============================
+                #         </div>
+                #         </div><div type="majorSection" osisID="Section II">
+                #              ->    \ms
+                sed -i  "s/<\/div><div type=\"majorSection\" osisID=\"\([^.]*\)\">/\\\ms \1/g" $input
+                #          <div type="majorSection"   osisID="Section I">
+                sed -i  "s/<div type=\"majorSection\" osisID=\"\([^.]*\)\">/\\\ms \1/g"        $input
+                #         Pobrise se vse preostale </div>
+                sed -i  "s/<\/div>//g"                                                         $input
+                #       Pobrise vse     p><hi type="bold">Section I.</hi></p  ker se sicer 2x pojavi
+                sed -i  "s/<p><hi type=\"bold\">Section [A-Z]*\.<\/hi><\/p>//g"                  $input
+                #============== Chapter spremeni v nic =============
+                #         <div type="chapter" osisID="Chapter 37">      delete
+                sed -i "s/<\/div><div type=\"chapter\" osisID=\"Chapter \([0-9]*\)\">//g"     $input
+                sed -i "s/<div type=\"chapter\" osisID=\"Chapter \([0-9]*\)\">//g"            $input
+                sed -i "s/<div type=\"chapter\" osisID=\"Chapter 91a\">//g"                   $input
+                #====================================================================
+#              break
+              ;;
+          "Izhod")
+              echo " "
+              echo "   Izbral si $REPLY kar je $opt_ver"
+              echo " "
+              exit
+             ;;
+          *) echo "   Napacna izbira $REPLY";;
+      esac
+   cat $input |grep "majorSection"
+   #cat $input |grep "Razdelek"
+   cat $input |grep "<div type=\"chapter\""
+#=============================================================
 
 
 #===========  Vrstice  <row><cell><hi type="super">   ->   \v ===================
@@ -485,11 +569,32 @@ sed -i 's/<\/p>//'                                             $input
 #   \c 111
 #   \s1
 #   \p
-sed -i "s/<title>Poglavje \([0-9]*[a-z]*\)<\/title>/\\\c \1\n\\\s1\n\\\p/g" $input
-#        Vprasljivo ??   <title> -> \mt4
-sed -i "s/<title>/\\\mt4 /g"                                   $input
-#        PŠobrise vse konce </title>
-sed -i "s/<\/title>//g"                                        $input
+      case $opt_lang in
+          "Slo")
+                #   Poglavje - Slovensko.
+                sed -i "s/<title>Poglavje \([0-9]*[a-z]*\)<\/title>/\\\c \1\n\\\s1\n\\\p/g" $input
+                #        Vprasljivo ??   <title> -> \mt4
+                sed -i "s/<title>/\\\mt4 /g"                                   $input
+                #        PŠobrise vse konce </title>
+                sed -i "s/<\/title>//g"                                        $input
+#             break
+             ;;
+          "Eng")
+                #   Chapter - Angleško.
+                #         <title>Chapter 1</title>
+                sed -i "s/<title>Chapter \([0-9]*[a-z]*\)<\/title>/\\\c \1\n\\\s1\n\\\p/g" $input
+                #        Vprasljivo ??   <title> -> \mt4
+                sed -i "s/<title>/\\\mt4 /g"                                   $input
+                #        PŠobrise vse konce </title>
+                sed -i "s/<\/title>//g"                                        $input
+#              break
+              ;;
+          "Izhod")
+              echo "       Izbral si $REPLY kar je $opt_ver"
+              exit
+             ;;
+          *) echo "   Napacna izbira $REPLY";;
+      esac
 #====================================================================
 
 
@@ -531,18 +636,41 @@ sed -i -e "/^$/d"                                         $input
 
 #=================== Pripravi datoteke za PTXprint ==================
 # Pobrise vse morebitne ostale fajle v mapi
-rm /home/pc/Dokumenti/osis2usfm/SloKJV/release/slohenoh/*.usfm
+rm /home/pc/Dokumenti/osis2usfm/SloKJV/release/slohenoh/*.usfm  > /dev/null 2>&1
+rm /home/pc/Dokumenti/osis2usfm/SloKJV/release/enoch/*.usfm     > /dev/null 2>&1
 # Prekopira fajl in ga ponesreceno poimenuje namesto B5-ENO.usfm  v   19-PSA.usfm
 cp $input $output
 #head -150 $input >$output
 #====================================================================
 
 
-#================ Pozene PTXprint ===================================
+#================ Požene PTXprint ===================================
 # Gre v pravo mapo. Nisem preprica da je to potrebno
 cd /home/pc/Dokumenti/osis2usfm/
-# Pozene PTXprint
-ptxprint -c   /home/pc/Dokumenti/osis2usfm/SloKJV/release  slohenoh
+
+      case $opt_lang in
+          "Slo")
+              echo " "
+              echo "   Požene PTXprint - Slovensko."
+              echo " "
+                ptxprint -c   /home/pc/Dokumenti/osis2usfm/SloKJV/release  slohenoh
+              break
+             ;;
+          "Eng")
+              echo " "
+              echo "   Požene PTXprint - Angleško."
+              echo " "
+                ptxprint -c   /home/pc/Dokumenti/osis2usfm/SloKJV/release  enoch
+              break
+              ;;
+          "Izhod")
+              echo " "
+              echo "   Izbral si $REPLY kar je $opt_ver"
+              echo " "
+              exit
+             ;;
+          *) echo "   Napacna izbira $REPLY";;
+      esac
 #====================================================================
 
 #==================== Pozene GITHUB Desktop? ========================
@@ -566,12 +694,19 @@ do
               echo " "
               echo "      Kopira v Github mapo..."
               echo " "
+                # Slo
                 cp /home/pc/Dokumenti/slohenoh/slohenoh_work.xml $Github/slohenoh.osis.xml
                 cp /home/pc/Dokumenti/slohenoh/slohenoh.conf     $Github/slohenoh.conf
-                cp /home/pc/Dokumenti/slohenoh/slohenoh.xml      $Github/scripts/slohenoh.usfm
+                cp /home/pc/Dokumenti/slohenoh/slohenoh.xml      $Github/slohenoh.usfm
+                cp /home/pc/Dokumenti/osis2usfm/SloKJV/release/slohenoh/local/ptxprint/slohenoh_Default_PSA_ptxp.pdf  $Github/SloHenoh.pdf
+                # Eng
+                cp /home/pc/Dokumenti/slohenoh/enghenoh_work.xml $Github/enoch/enoch.osis.xml
+                cp /home/pc/Dokumenti/slohenoh/enghenoh.conf     $Github/enoch/enoch.conf
+                cp /home/pc/Dokumenti/slohenoh/enghenoh.xml      $Github/enoch/enoch.usfm
+                cp /home/pc/Dokumenti/osis2usfm/SloKJV/release/enoch/local/ptxprint/enoch_Default_PSA_ptxp.pdf        $Github/enoch/Enoch.pdf
+                # Skripta in izvirnik
                 cp /home/pc/Dokumenti/slohenoh/run_SloHenoh      $Github/scripts/run_SloHenoh
                 cp /home/pc/Dokumenti/slohenoh/sloenghenoh.xml   $Github/scripts/sloenghenoh.xml
-                cp /home/pc/Dokumenti/osis2usfm/SloKJV/release/slohenoh/local/ptxprint/slohenoh_Default_PSA_ptxp.pdf   $Github/SloHenoh.pdf
               echo " "
               echo "     Sinhronizacija z Githubom ..."
               echo " "
@@ -586,7 +721,7 @@ do
               echo " "
               exit
              ;;
-          *) echo "Napacna izbira $REPLY";;
+          *) echo "   Napacna izbira $REPLY";;
      esac
 done
 #===================================================================
