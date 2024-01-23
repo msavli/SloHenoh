@@ -267,8 +267,48 @@ echo "   Izvoz v txt"
 mod2imp SloHenoh -s >SloHenoh.txt
 mod2imp EngHenoh -s >EngHenoh.txt
 
-sed -i 's/  * /\n* /g'   SloHenoh.txt
-sed -i 's/  * /\n* /g'   EngHenoh.txt
+#sed -i 's/  * /\n* /g'   SloHenoh.txt
+#sed -i 's/  * /\n* /g'   EngHenoh.txt
+
+# Pobrise prazne vrstice
+awk 'NF' SloHenoh.txt >   SloHenoh1.txt
+
+# Odstrani vrstice ki se zacnejo z $$$
+sed -i "/^\\$\\$\\$/d"    SloHenoh1.txt
+
+# Odstrani "              * 1 * "
+sed -i -E 's/      \* [0-9]+ \* /\n/g'  SloHenoh1.txt
+
+# 2 presledka zamenja z enim
+sed -i 's/  / /g'  SloHenoh1.txt
+sed -i 's/  / /g'  SloHenoh1.txt
+sed -i 's/  / /g'  SloHenoh1.txt
+sed -i 's/  / /g'  SloHenoh1.txt
+sed -i 's/  / /g'  SloHenoh1.txt
+sed -i 's/  / /g'  SloHenoh1.txt
+sed -i 's/  / /g'  SloHenoh1.txt
+sed -i 's/  / /g'  SloHenoh1.txt
+sed -i 's/  / /g'  SloHenoh1.txt
+sed -i 's/  / /g'  SloHenoh1.txt
+sed -i 's/  / /g'  SloHenoh1.txt
+sed -i 's/  / /g'  SloHenoh1.txt
+sed -i 's/  / /g'  SloHenoh1.txt
+sed -i 's/  / /g'  SloHenoh1.txt
+
+# Piko da v novo vrstico
+#sed -i 's/\. /\.\n/g'  SloHenoh1.txt
+
+# Pobrise zvezdice
+sed -i 's/^*//g'   SloHenoh1.txt
+sed -i 's/ \*//g'  SloHenoh1.txt
+
+# Pobrise ┌x┐ ╓x╖
+sed -i 's/┌//g'    SloHenoh1.txt
+sed -i 's/┐//g'    SloHenoh1.txt
+sed -i 's/╓//g'    SloHenoh1.txt
+sed -i 's/╖//g'    SloHenoh1.txt
+
+
 
 
 #=======================================================================================
