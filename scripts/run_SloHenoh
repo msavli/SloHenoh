@@ -2,8 +2,8 @@
 
 Github=/home/pc/Dokumenti/GitHub/SloHenoh
 
-rm slohenoh_work.xml
-rm enghenoh_work.xml
+rm slohenoh_work.xml 2>/dev/null
+rm enghenoh_work.xml 2>/dev/null
 
 cp sloenghenoh.xml slohenoh_work.xml
 
@@ -44,8 +44,15 @@ mkdir modules/genbook                      > /dev/null 2>&1
 mkdir modules/genbook/rawgenbook           > /dev/null 2>&1
 mkdir modules/genbook/rawgenbook/slohenoh  > /dev/null 2>&1
 
-echo  "   Preveri XML"
+echo "   Preveri XML"
+echo "      Zacasno prestavi italic, ki je v opombi v #i#  in #ii#"
+sed -i "s/<i>/#i#/g"                                  slohenoh_work.xml
+sed -i "s/<\/i>/#ii#/g"                               slohenoh_work.xml
 /usr/bin/xmllint --noout --schema http://www.crosswire.org/~dmsmith/osis/osisCore.2.1.1-cw-latest.xsd slohenoh_work.xml
+echo "      Povrne nazaj"
+sed -i "s/#i#/<i>/g"                                  slohenoh_work.xml
+sed -i "s/#ii#/<\/i>/g"                               slohenoh_work.xml
+
 
 sleep 2  # Waits 2 seconds.
 
@@ -238,8 +245,14 @@ mkdir modules/genbook                         > /dev/null 2>&1
 mkdir modules/genbook/rawgenbook              > /dev/null 2>&1
 mkdir modules/genbook/rawgenbook/enghenoh     > /dev/null 2>&1
 
-echo  "   Preveri XML"
+echo "   Preveri XML"
+echo "      Zacasno prestavi italic, ki je v opombi v #i#  in #ii#"
+sed -i "s/<i>/#i#/g"                                  enghenoh_work.xml
+sed -i "s/<\/i>/#ii#/g"                               enghenoh_work.xml
 /usr/bin/xmllint --noout --schema http://www.crosswire.org/~dmsmith/osis/osisCore.2.1.1-cw-latest.xsd enghenoh_work.xml
+echo "      Povrne nazaj"
+sed -i "s/#i#/<i>/g"                                  enghenoh_work.xml
+sed -i "s/#ii#/<\/i>/g"                               enghenoh_work.xml
 
 sleep 2  # Waits 2 seconds.
 
@@ -643,14 +656,14 @@ sed -i 's/<\/p>//'                                             $input
 #      </osis>
 sed -i  "s/<\/osisText>//g"                              $input
 sed -i  "s/<\/osis>//g"                                  $input
-sed -i "s|<\/hi>|\\\bdit*|g"                                                    $input
+sed -i "s|<\/hi>|\\\bdit*|g"                             $input
 #====================================================================
 
 
 #====================================================================
 #      Zamenja \p      ker so preveliki razmiki, recimo  Poglavje 1
 #              \c 1
-sed -i ':a;N;$!ba;s|\\p\n\\c|\n\\c|g'                     $input
+sed -i ':a;N;$!ba;s|\\p\n\\c|\n\\c|g'                    $input
 #cat $input |grep -2 " 102"
 #====================================================================
 
@@ -658,20 +671,31 @@ sed -i ':a;N;$!ba;s|\\p\n\\c|\n\\c|g'                     $input
 #====================================================================
 #      Zamenja \b      ker so preveliki razmiki, recimo  Poglavje 102
 #              \c 1
-sed -i ':a;N;$!ba;s|\\b\n\\c|\n\\c|g'                     $input
+sed -i ':a;N;$!ba;s|\\b\n\\c|\n\\c|g'                    $input
 #cat $input |grep -2 " 102"
 #====================================================================
 
 
 # ================== Na koncu doda eno vrstico \pb ==================
 # Doda zato da se 108 poglavje lepo razdeli na tri strani
-sed -i -e '$a\'$'\n''\\pb'                                $input
+sed -i -e '$a\'$'\n''\\pb'                               $input
 # ================== Odstrani prazne vrstice ========================
 
 
 # ================== Odstrani prazne vrstice ========================
-sed -i -e "/^$/d"                                         $input
+sed -i -e "/^$/d"                                        $input
 # ===================================================================
+
+
+# ================== Italic v opombah ===============================
+sed -i "s/<i>/\\\it /g"                                  $input
+sed -i "s/<\/i>/\\\it*/g"                                $input
+# ===================================================================
+
+
+#============= Popravim reference namesto dvopicja vejica ================
+sed -i "s|\([0-9]*\):\([0-9]\)|\1,\2|g"                  $input
+#=========================================================================
 
 
 #=================== Pripravi datoteke za PTXprint ==================
