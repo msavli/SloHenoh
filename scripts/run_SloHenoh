@@ -1,5 +1,39 @@
 #!/bin/bash
 
+# Ko kreiras novo knjigo je potrebno vnesti v ptxSettings.xml
+#    <ChapterVerseSeparator>,</ChapterVerseSeparator>                  # ta je pomemben, ker se doloci locilo med vrstico in poglavjem!
+#    <RangeIndicator>-</RangeIndicator>
+#    <SequenceIndicator>.</SequenceIndicator>
+#    <ChapterRangeSeparator>–</ChapterRangeSeparator>
+#    <BookSequenceSeparator>; </BookSequenceSeparator>
+#    <ChapterNumberSeparator>; </ChapterNumberSeparator>
+
+# ================== Videti je takole: ptxSettings.xml =========================================================
+#/home/pc/Dokumenti/GitHub/SloKJV/PTXprint/osis2usfm/SloKJV/release/SloKJV_A4/ptxSettings.xml  
+#<ScriptureText><Name>SloKJV</Name>
+#    <Language>Slovene</Language>
+#    <Encoding>65001</Encoding>
+#    <Copyright></Copyright>
+#    <DefaultFont>Linux Libertine O</DefaultFont>
+#    <DefaultFontSize>10</DefaultFontSize>
+#    <FileNamePostPart>.usfm</FileNamePostPart>
+#    <FileNameBookNameForm>41_MAT</FileNameBookNameForm>
+#    <ChapterVerseSeparator>,</ChapterVerseSeparator>
+#    <RangeIndicator>-</RangeIndicator>
+#    <SequenceIndicator>.</SequenceIndicator>
+#    <ChapterRangeSeparator>–</ChapterRangeSeparator>
+#    <BookSequenceSeparator>; </BookSequenceSeparator>
+#    <ChapterNumberSeparator>; </ChapterNumberSeparator>
+#    <FileNamePrePart />
+#    <MinParatextVersion>8.0.63.1</MinParatextVersion>
+#    <FullName>Sveto pismo kralja Jakoba (1769)</FullName>
+#    <Editable>F</Editable>
+#    <BooksPresent>1111111111111111111111111111111111111110111111111111111111111111111111111000000000000000000000000000000000000000000000000000</BooksPresent>
+#</ScriptureText>
+# =============================================================================================================================================================
+
+
+
 echo "   Preveri ali so potrebni *.deb paketi nameščeni ..."
 
 REQUIRED_PKG="libxml2-utils"
@@ -418,7 +452,10 @@ sed -i "s|<reference osisRef=\"[^\"]*\">|; |g"                 $input
 sed -i "s|</reference></note>|\x5cx*|g"                       $input
 
 # Zamenja <note type="crossReference">;   ->   \x - \xo:  PPP
-sed -i "s|<note type=\"crossReference\">;|\x5cx + \x5cxo \x5creference : \x5cxt |g" $input
+# sed -i "s|<note type=\"crossReference\">;|\x5cx + \x5cxo \x5creference \x5cxt : |g" $input
+#  Da je vec prostora med vrstico in referenco   102,3 Raz 6,15   ->    102,3   Raz 6,15  
+sed -i "s|<note type=\"crossReference\">;|\x5cx + \x5cxo \x5creference \x5cxt \x00\x20 |g" $input
+
 
 # Tu zgoraj sem odstranil  + \x5cfxt
 
@@ -431,8 +468,10 @@ cat $input |grep "reference>"
 # ======= OPOMBE ===============
 #    --==    <note type=\"x-footnote\">  \</note> "
 #    --==   \f opomba \f*"
-sed -i "s|<note type=\"x-footnote\">|\x5cf + \x5cfr \x5creference : \x5cft |g"   $input
-sed -i "s|</note>|\x5cf*|g"                                                      $input
+#sed -i "s|<note type=\"x-footnote\">|\x5cf + \x5cfr \x5creference : \x5cft |g"   $input
+#  Da je vec prostora med vrstico in referenco   102,3 Raz 6,15   ->    102,3   Raz 6,15  
+sed -i "s|<note type=\"x-footnote\">|\x5cf + \x5cfr \x5creference  \x5cft \x00\x20 \x00\x20 \x00\x20 |g"   $input
+sed -i "s|</note>|\x5cf*|g"                                                            $input
 cat $input |grep "<note type=\"x-footnote\">"
 cat $input |grep "<note>"
 cat $input |grep "</note>"
@@ -456,6 +495,7 @@ sed -i "1,28d"                                                                  
                  #  Add begining - Slovensko.
                  #  Namesto   \id ENO    dam   \id PSA   da ga prepricam da je to biblija drugace noce delati
                  sed -i '1i \\\id PSA'                             $input
+#                 sed -i '1i \\\id ENO'                             $input
                  sed -i '2i \\\h Henoh'                            $input
                  sed -i '3i \\\h1 HENOHOVA KNJIGA'                 $input
                  sed -i '4i \\\toc1 Henohova knjiga'               $input
@@ -468,6 +508,7 @@ sed -i "1,28d"                                                                  
           "Eng")
                  #  Add begining - Angleško.
                  sed -i '1i \\\id PSA'                             $input
+#                 sed -i '1i \\\id ENO'                             $input
                  sed -i '2i \\\h Enoch'                            $input
                  sed -i '3i \\\h1 The Book of Enoch'               $input
                  sed -i '4i \\\toc1 The Book of Enoch'             $input
@@ -718,7 +759,21 @@ sed -i "s/<\/i>/\\\it*/g"                                $input
 
 
 #============= Popravim reference namesto dvopicja vejica ================
-sed -i "s|\([0-9]*\):\([0-9]\)|\1,\2|g"                  $input
+     case $opt_lang in
+          "Slo")
+              #   Poglavje - Slovensko.
+              sed -i "s|\([0-9]*\):\([0-9]\)|\1,\2|g"            $input
+             ;;
+          "Eng")
+              #   Chapter - Angleško.
+              #      Naj bi bilo v redu,,,
+              ;;
+          "Izhod")
+              echo "       Izbral si $REPLY kar je $opt_ver"
+              exit
+             ;;
+          *) echo "   Napacna izbira $REPLY";;
+      esac
 #=========================================================================
 
 
