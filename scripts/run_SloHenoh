@@ -816,6 +816,29 @@ cd /home/pc/Dokumenti/osis2usfm/
       esac
 #====================================================================
 
+
+#=========== Kopira v Github mapo ===================================
+              echo "      Kopira v Github mapo..."
+              echo " "
+                # Slo
+                cp /home/pc/Dokumenti/slohenoh/slohenoh_work.xml $Github/slohenoh.osis.xml
+                cp /home/pc/Dokumenti/slohenoh/slohenoh.conf     $Github/slohenoh.conf
+                cp /home/pc/Dokumenti/slohenoh/slohenoh.xml      $Github/slohenoh.usfm
+                #cp /home/pc/Dokumenti/osis2usfm/SloKJV/release/slohenoh/local/ptxprint/slohenoh_Default_PSA_ptxp.pdf  $Github/SloHenoh.pdf
+                cp /home/pc/Dokumenti/osis2usfm/SloKJV/release/slohenoh/local/ptxprint/slohenoh_Default_PSA_ptxp_CMYK.pdf  $Github/SloHenoh.pdf
+                # Eng
+                cp /home/pc/Dokumenti/slohenoh/enghenoh_work.xml $Github/enoch/enoch.osis.xml
+                cp /home/pc/Dokumenti/slohenoh/enghenoh.conf     $Github/enoch/enoch.conf
+                cp /home/pc/Dokumenti/slohenoh/enghenoh.xml      $Github/enoch/enoch.usfm
+                #cp /home/pc/Dokumenti/osis2usfm/SloKJV/release/enoch/local/ptxprint/enoch_Default_PSA_ptxp.pdf        $Github/enoch/Enoch.pdf
+                cp /home/pc/Dokumenti/osis2usfm/SloKJV/release/enoch/local/ptxprint/enoch_Default_PSA_ptxp_CMYK.pdf        $Github/enoch/Enoch.pdf
+                # Skripta in izvirnik
+                # Sta ze simbolicna linka tam.
+                #cp /home/pc/Dokumenti/slohenoh/run_SloHenoh      $Github/scripts/run_SloHenoh
+                #cp /home/pc/Dokumenti/slohenoh/sloenghenoh.xml   $Github/scripts/sloenghenoh.xml
+#====================================================================
+
+
 #==================== Pozene GITHUB Desktop? ========================
 echo " "
 echo "   Pozene GITHUB Desktop?"
@@ -835,21 +858,6 @@ do
               echo " "
               echo "   Izbral si Github."
               echo " "
-              echo "      Kopira v Github mapo..."
-              echo " "
-                # Slo
-                cp /home/pc/Dokumenti/slohenoh/slohenoh_work.xml $Github/slohenoh.osis.xml
-                cp /home/pc/Dokumenti/slohenoh/slohenoh.conf     $Github/slohenoh.conf
-                cp /home/pc/Dokumenti/slohenoh/slohenoh.xml      $Github/slohenoh.usfm
-                cp /home/pc/Dokumenti/osis2usfm/SloKJV/release/slohenoh/local/ptxprint/slohenoh_Default_PSA_ptxp.pdf  $Github/SloHenoh.pdf
-                # Eng
-                cp /home/pc/Dokumenti/slohenoh/enghenoh_work.xml $Github/enoch/enoch.osis.xml
-                cp /home/pc/Dokumenti/slohenoh/enghenoh.conf     $Github/enoch/enoch.conf
-                cp /home/pc/Dokumenti/slohenoh/enghenoh.xml      $Github/enoch/enoch.usfm
-                cp /home/pc/Dokumenti/osis2usfm/SloKJV/release/enoch/local/ptxprint/enoch_Default_PSA_ptxp.pdf        $Github/enoch/Enoch.pdf
-                # Skripta in izvirnik
-                cp /home/pc/Dokumenti/slohenoh/run_SloHenoh      $Github/scripts/run_SloHenoh
-                cp /home/pc/Dokumenti/slohenoh/sloenghenoh.xml   $Github/scripts/sloenghenoh.xml
               echo " "
               echo "     Sinhronizacija z Githubom ..."
               echo " "
