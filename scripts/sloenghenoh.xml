@@ -82,11 +82,8 @@ ENG       <p>source https://archive.org/details/apocryphapseudep02charuoft</p>
 SLO       <p>Test fonta: †‘x’—“x” ˱˲ ┌x┐ ╓x╖ âêîôû</p>
 ENG       <p></p>
 
-SLO     <div type="majorSection" osisID="Razdelek I  Knjiga stražarjev">
-ENG     <div type="majorSection" osisID="Section I  The Book of the Watchers">
-
-SLO       <title>Razdelek I – Knjiga stražarjev title</title>
-ENG       <title>Section I – The Book of the Watchers title</title>
+SLO     <div type="majorSection" osisID="Razdelek I Knjiga stražarjev">
+ENG     <div type="majorSection" osisID="Section I The Book of the Watchers">
 
 SLO       <p><hi type="bold">Razdelek I – Knjiga stražarjev</hi></p>
 ENG       <p><hi type="bold">Section I – The Book of the Watchers</hi></p>
@@ -1489,8 +1486,8 @@ ENG     </div>
 SLO     </div>
 ENG     </div>
 
-SLO     <div type="majorSection" osisID="Razdelek II  Knjiga prispodob">
-ENG     <div type="majorSection" osisID="Section II  The Book of Parables of Enoch">
+SLO     <div type="majorSection" osisID="Razdelek II Knjiga prispodob">
+ENG     <div type="majorSection" osisID="Section II The Book of Parables of Enoch">
 
 SLO       <p><hi type="bold">Razdelek II – Knjiga prispodob</hi></p>
 ENG       <p><hi type="bold">Section II – The Book of Parables of Enoch</hi></p>
@@ -4534,8 +4531,8 @@ ENG     </div>
 SLO     </div>
 ENG     </div>
 
-SLO     <div type="majorSection" osisID="Razdelek III  Knjiga nebeških svetil">
-ENG     <div type="majorSection" osisID="Section III  The Book of the Heavenly Luminaries">
+SLO     <div type="majorSection" osisID="Razdelek III Knjiga nebeških svetil">
+ENG     <div type="majorSection" osisID="Section III The Book of the Heavenly Luminaries">
 
 SLO       <p><hi type="bold">Razdelek III – Knjiga nebeških svetil</hi></p>
 ENG       <p><hi type="bold">Section III – The Book of the Heavenly Luminaries</hi></p>
@@ -5299,8 +5296,8 @@ ENG     </div>
 SLO     </div>
 ENG     </div>
 
-SLO     <div type="majorSection" osisID="Razdelek IV  Knjiga sanjskih vizij">
-ENG     <div type="majorSection" osisID="Section IV  The Book of Dream Visions">
+SLO     <div type="majorSection" osisID="Razdelek IV Knjiga sanjskih vizij">
+ENG     <div type="majorSection" osisID="Section IV The Book of Dream Visions">
 
 SLO       <p><hi type="bold">Razdelek IV – Knjiga sanjskih vizij</hi></p>
 ENG       <p><hi type="bold">Section IV – The Book of Dream Visions</hi></p>
@@ -5971,8 +5968,8 @@ ENG     </div>
 SLO     </div>
 ENG     </div>
 
-SLO     <div type="majorSection" osisID="Razdelek V  Henohovo pismo">
-ENG     <div type="majorSection" osisID="Section V  The Epistle of Enoch">
+SLO     <div type="majorSection" osisID="Razdelek V Henohovo pismo">
+ENG     <div type="majorSection" osisID="Section V The Epistle of Enoch">
 
 SLO       <p><hi type="bold">Razdelek V – Henohovo pismo</hi></p>
 ENG       <p><hi type="bold">Section V – The Epistle of Enoch</hi></p>
@@ -7985,8 +7982,8 @@ ENG     </div>
 SLO     </div>
 ENG     </div>
 
-SLO     <div type="majorSection" osisID="Razdelek VI  Odlomek iz Noetove knjige">
-ENG     <div type="majorSection" osisID="Section VI  Fragment of the Book of Noah">
+SLO     <div type="majorSection" osisID="Razdelek VI Odlomek iz Noetove knjige">
+ENG     <div type="majorSection" osisID="Section VI Fragment of the Book of Noah">
 
 SLO       <p><hi type="bold">Razdelek VI – Odlomek iz Noetove knjige</hi></p>
 ENG       <p><hi type="bold">Section VI – Fragment of the Book of Noah</hi></p>
