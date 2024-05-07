@@ -610,8 +610,6 @@ echo -E " "
                 sed -i "s/<div type=\"chapter\" osisID=\"Poglavje \([0-9]*\)\">//g"            $input
                 sed -i "s/<div type=\"chapter\" osisID=\"Poglavje 91a\">//g"                   $input
                 #====================================================================
-                # Pobrise vse vrstice    \ms Razdelek
-                #sed -i "/^\\\ms1 Razdelek/d"                                                   $input
                 #              break
              ;;
           "Eng")
@@ -642,8 +640,6 @@ echo -E " "
                 sed -i "s/<div type=\"chapter\" osisID=\"Chapter \([0-9]*\)\">//g"           $input
                 sed -i "s/<div type=\"chapter\" osisID=\"Chapter 91a\">//g"                  $input
                 #====================================================================
-                # Pobrise vse vrstice    \ms Section
-                #sed -i "/^\\\ms1 Section/d"                                                  $input
                 #              break
               ;;
           "Izhod")
@@ -696,16 +692,41 @@ sed -i 's/<\/cell><\/row>//'                                   $input
 #====================================================================
 
 
-#========== Naslovi poglavij  ->    \ms1    ==========================
-echo "    Naslovi poglavij  ->    \ms1"
+#========== Naslovi poglavij  ->    \ms2    ==========================
+echo "    Naslovi poglavij  ->    \ms2"
 #      Zamenja  </hi></p>  z novo vrstico in  \p
 sed -i 's/<\/hi><\/p>/\n\\\p/'                                 $input
-#      <p><hi type="bold">  ->   \ms1
-sed -i 's/<p><hi type=\"bold\">/\\\ms1 /'                      $input
-sed -i 's/<hi type=\"bold\">/\\\ms1 /'                         $input
-#      SPremeni <p> -> \ms1   in  odstrani <p>
-sed -i 's/<p>/\\\ms1 /'                                        $input
+#      <p><hi type="bold">  ->   \ms2
+sed -i 's/<p><hi type=\"bold\">/\\\ms2 /'                      $input
+sed -i 's/<hi type=\"bold\">/\\\ms2 /'                         $input
+#      SPremeni <p> -> \ms2   in  odstrani <p>
+sed -i 's/<p>/\\\ms2 /'                                        $input
 sed -i 's/<\/p>//'                                             $input
+#====================================================================
+
+
+#====== Spremeni naslov  \ms1 Razdelek   ->  ms Razdelek –   ========
+     echo "    Pobrise vse vrstice    \ms Razdelek "
+     sed -i "/^\\\ms Razdelek/d"                               $input
+     echo " Preimenuje  \ms2 Razdelek   ->   \ms1 Razdelek"
+     sed -i "s/ms2 Razdelek/ms1 Razdelek/g"                    $input
+     echo "    Pobrise vse vrstice    \ms Section "
+     sed -i "/^\\\ms Section/d"                                $input
+     echo " Preimenuje  \ms2 Section   ->   \ms1 Section"
+     sed -i "s/ms2 Section/ms1 Section/g"                      $input
+     #head -15 $input
+     #exit
+#====================================================================
+
+
+#====== Podvoji vrstico zaradi Razdelek header  =====================
+#   Doda prelom strani za vsak razdelek
+#   v header doda \h1 in pobriše  'Razdelek'  in 'Section'
+# ms1   ->   \h1    \n  \ms1
+sed -i  "s/\\\ms1 \(Razdelek\) \([^.]*\)/\\\pb\n\\\h1 \2\n\\\ms1 \1 \2/g"     $input
+sed -i  "s/\\\ms1 \(Section\) \([^.]*\)/\\\pb\n\\\h1 \2\n\\\ms1 \1 \2/g"      $input
+     #head -15 $input
+     #exit
 #====================================================================
 
 
