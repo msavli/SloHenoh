@@ -567,6 +567,7 @@ sed -i 's/ *$//'                                         $input
 
 
 # ================== <\/div> potegne  ================================
+echo "    <\/div> potegne"
 #  Potegne gor vrstico  
 #   </div>
 #   <div type="chapter" osisID="Poglavje 2">
@@ -576,6 +577,7 @@ sed -i ':a;N;$!ba;s|<\/div>\n<div type=|<\/div><div type=|g'   $input
 
 
 # ===================== REMOVE CHAPTER OSIS ID  ================================
+echo "    REMOVE CHAPTER OSIS ID"
 #      Popraviti zaradi python skripta
 #    <chapter osisID=\"Gen.01\" chapterTitle=\"1. Poglavje\">   ->   <chapter>
 echo -E " "
@@ -595,12 +597,12 @@ echo -E " "
                 #       Pobrise vse     <p><hi type="bold">Razdelek  ker se sicer 2x pojavi
                 sed -i  "s/<p><hi type=\"bold\">Razdelek [A-Z]*<\/hi><\/p>//g"                 $input
                 #       Dopolni kazalo
-                sed -i  "s/toc1 Razdelek I\([^.]*\)/toc1 Razdelek I\n\\\toc2 \1/g"             $input
-                sed -i  "s/toc1 Razdelek II\([^.]*\)/toc1 Razdelek II\n\\\toc2 \/g"            $input
-                sed -i  "s/toc1 Razdelek III\([^.]*\)/toc1 Razdelek III\n\\\toc2 \1/g"         $input
-                sed -i  "s/toc1 Razdelek IV\([^.]*\)/toc1 Razdelek IV\n\\\toc2 \1/g"           $input
-                sed -i  "s/toc1 Razdelek V\([^.]*\)/toc1 Razdelek V\n\\\toc2 \1/g"             $input
-                sed -i  "s/toc1 Razdelek VI\([^.]*\)/toc1 Razdelek VI\n\\\toc2 \1/g"           $input
+                sed -i  "s/toc1 Razdelek I \([^.]*\)/toc1 Razdelek I\n\\\toc2 \1/g"            $input
+                sed -i  "s/toc1 Razdelek II \([^.]*\)/toc1 Razdelek II\n\\\toc2 \1/g"          $input
+                sed -i  "s/toc1 Razdelek III \([^.]*\)/toc1 Razdelek III\n\\\toc2 \1/g"        $input
+                sed -i  "s/toc1 Razdelek IV \([^.]*\)/toc1 Razdelek IV\n\\\toc2 \1/g"          $input
+                sed -i  "s/toc1 Razdelek V \([^.]*\)/toc1 Razdelek V\n\\\toc2 \1/g"            $input
+                sed -i  "s/toc1 Razdelek VI \([^.]*\)/toc1 Razdelek VI\n\\\toc2 \1/g"          $input
                 #
                 #============== Chapter spremeni v nic =============
                 #         <div type= "chapter " osisID= "Poglavje 1">   pobrise
@@ -608,7 +610,9 @@ echo -E " "
                 sed -i "s/<div type=\"chapter\" osisID=\"Poglavje \([0-9]*\)\">//g"            $input
                 sed -i "s/<div type=\"chapter\" osisID=\"Poglavje 91a\">//g"                   $input
                 #====================================================================
-#              break
+                # Pobrise vse vrstice    \ms Razdelek
+                #sed -i "/^\\\ms1 Razdelek/d"                                                   $input
+                #              break
              ;;
           "Eng")
                 #   REMOVE CHAPTER OSIS ID - Angleško.
@@ -621,9 +625,9 @@ echo -E " "
                 #          <div type="majorSection"   osisID="Section I">
                 sed -i  "s/<div type=\"majorSection\" osisID=\"\([^.]*\)\">/\\\ms \1\n\\\toc1 \1/g"        $input
                 #         Pobrise se vse preostale </div>
-                sed -i  "s/<\/div>//g"                                                         $input
+                sed -i  "s/<\/div>//g"                                                       $input
                 #       Pobrise vse     p><hi type="bold">Section I.</hi></p  ker se sicer 2x pojavi
-                sed -i  "s/<p><hi type=\"bold\">Section [A-Z]*\.<\/hi><\/p>//g"                  $input
+                sed -i  "s/<p><hi type=\"bold\">Section [A-Z]*\.<\/hi><\/p>//g"              $input
                 #       Dopolni kazalo
                 sed -i  "s/toc1 Section I\([^.]*\)/toc1 Section I\n\\\toc2 \1/g"             $input
                 sed -i  "s/toc1 Section II\([^.]*\)/toc1 Section II\n\\\toc2 \/g"            $input
@@ -634,11 +638,13 @@ echo -E " "
                 #
                 #============== Chapter spremeni v nic =============
                 #         <div type="chapter" osisID="Chapter 37">      delete
-                sed -i "s/<\/div><div type=\"chapter\" osisID=\"Chapter \([0-9]*\)\">//g"     $input
-                sed -i "s/<div type=\"chapter\" osisID=\"Chapter \([0-9]*\)\">//g"            $input
-                sed -i "s/<div type=\"chapter\" osisID=\"Chapter 91a\">//g"                   $input
+                sed -i "s/<\/div><div type=\"chapter\" osisID=\"Chapter \([0-9]*\)\">//g"    $input
+                sed -i "s/<div type=\"chapter\" osisID=\"Chapter \([0-9]*\)\">//g"           $input
+                sed -i "s/<div type=\"chapter\" osisID=\"Chapter 91a\">//g"                  $input
                 #====================================================================
-#              break
+                # Pobrise vse vrstice    \ms Section
+                #sed -i "/^\\\ms1 Section/d"                                                  $input
+                #              break
               ;;
           "Izhod")
               echo " "
@@ -655,7 +661,8 @@ echo -E " "
 
 
 #===========  Vrstice  <row><cell><hi type="super">   ->   \v ===================
-#       <hi type="super">1</hi>
+echo "    Vrstice  <row><cell><hi type=\"super\">   ->   \v "
+#       <hi type="super">1</hi>  -> \v
 sed -i 's/<row><cell><hi type=\"super\">\([0-9]*\)<\/hi>/\n\\q1\n\\v \1/'          $input
 sed -i 's/<row><cell><hi type=\"super\">\([0-9]*[a-z]*\)<\/hi>/\n\\q1\n\\v \1/'    $input
 cat $input |grep "cell><hi ty"
@@ -663,6 +670,7 @@ cat $input |grep "cell><hi ty"
 
 
 #===========  Vrstice   <hi type="super">   ->   \v ===================
+echo "    Vrstice   <hi type="super">   ->   \v"
 #       <hi type="super">1</hi>
 sed -i 's/<hi type=\"super\">\([0-9]*\)<\/hi>/\\v \1/'          $input
 sed -i 's/<hi type=\"super\">\([0-9]*[a-z]*\)<\/hi>/\\v \1/'    $input
@@ -671,6 +679,7 @@ cat $input |grep "type=\"super"
 
 
 #============== Tabele  spremeni v zamike ===========================
+echo "    Tabele  spremeni v zamike"
 #           <row><cell></cell></row> naredi presledek da ni vec zamikov
 sed -i 's/<row><cell><\/cell><\/row>/\\p\n/'                   $input
 #           <row><cell>\v   spremeni  v 
@@ -688,6 +697,7 @@ sed -i 's/<\/cell><\/row>//'                                   $input
 
 
 #========== Naslovi poglavij  ->    \ms1    ==========================
+echo "    Naslovi poglavij  ->    \ms1"
 #      Zamenja  </hi></p>  z novo vrstico in  \p
 sed -i 's/<\/hi><\/p>/\n\\\p/'                                 $input
 #      <p><hi type="bold">  ->   \ms1
@@ -700,6 +710,7 @@ sed -i 's/<\/p>//'                                             $input
 
 
 #===============  POGLAVJE ==========================================
+echo "    Poglavje"
 #        Kjer je <title>Poglavje 4</title>   brez opombe pobriem
 #   \c 111
 #   \s1
@@ -734,6 +745,7 @@ sed -i 's/<\/p>//'                                             $input
 
 
 #========= Pobrise konec ============================================
+echo "    Pobrise konec"
 #      </osisText>
 #      </osis>
 sed -i  "s/<\/osisText>//g"                              $input
@@ -770,12 +782,15 @@ sed -i -e "/^$/d"                                        $input
 
 
 # ================== Italic v opombah ===============================
+echo "    Italic v opombah"
+
 sed -i "s/<i>/\\\it /g"                                  $input
 sed -i "s/<\/i>/\\\it*/g"                                $input
 # ===================================================================
 
 
 #============= Popravim reference namesto dvopicja vejica ================
+     echo "    Popravim reference namesto dvopicja vejica"
      case $opt_lang in
           "Slo")
               #   Poglavje - Slovensko.
@@ -795,6 +810,7 @@ sed -i "s/<\/i>/\\\it*/g"                                $input
 
 
 #=================== Pripravi datoteke za PTXprint ==================
+echo "    Pripravi datoteke za PTXprint"
 # Pobrise vse morebitne ostale fajle v mapi
 rm /home/pc/Dokumenti/osis2usfm/SloKJV/release/slohenoh/*.usfm  > /dev/null 2>&1
 rm /home/pc/Dokumenti/osis2usfm/SloKJV/release/enoch/*.usfm     > /dev/null 2>&1
