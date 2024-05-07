@@ -567,7 +567,7 @@ sed -i 's/ *$//'                                         $input
 
 
 # ================== <\/div> potegne  ================================
-echo "    <\/div> potegne"
+echo "   konec <div> potegne"
 #  Potegne gor vrstico  
 #   </div>
 #   <div type="chapter" osisID="Poglavje 2">
@@ -585,6 +585,7 @@ echo -E " "
           "Slo")
                 #   REMOVE CHAPTER OSIS ID - Slovensko.
                 #============= Major secton   -> \ms  ===============================
+                echo "    Major secton   -> \ms"
                 #         </div>
                 #         </div><div type="majorSection" osisID="Razdelek IV">
                 #              ->    \ms
@@ -597,6 +598,7 @@ echo -E " "
                 #       Pobrise vse     <p><hi type="bold">Razdelek  ker se sicer 2x pojavi
                 sed -i  "s/<p><hi type=\"bold\">Razdelek [A-Z]*<\/hi><\/p>//g"                 $input
                 #       Dopolni kazalo
+                echo "    Dopolni kazalo"
                 sed -i  "s/toc1 Razdelek I \([^.]*\)/toc1 Razdelek I\n\\\toc2 \1/g"            $input
                 sed -i  "s/toc1 Razdelek II \([^.]*\)/toc1 Razdelek II\n\\\toc2 \1/g"          $input
                 sed -i  "s/toc1 Razdelek III \([^.]*\)/toc1 Razdelek III\n\\\toc2 \1/g"        $input
@@ -605,6 +607,7 @@ echo -E " "
                 sed -i  "s/toc1 Razdelek VI \([^.]*\)/toc1 Razdelek VI\n\\\toc2 \1/g"          $input
                 #
                 #============== Chapter spremeni v nic =============
+                echo "    Chapter spremeni v nic"
                 #         <div type= "chapter " osisID= "Poglavje 1">   pobrise
                 sed -i "s/<\/div><div type=\"chapter\" osisID=\"Poglavje \([0-9]*\)\">//g"     $input
                 sed -i "s/<div type=\"chapter\" osisID=\"Poglavje \([0-9]*\)\">//g"            $input
@@ -615,6 +618,7 @@ echo -E " "
           "Eng")
                 #   REMOVE CHAPTER OSIS ID - Angleško.
                 #============= Major secton   -> \ms  ===============================
+                echo "    Major secton   -> \ms"
                 #         </div>
                 #         </div><div type="majorSection" osisID="Section II">
                 #              ->    \ms
@@ -627,14 +631,16 @@ echo -E " "
                 #       Pobrise vse     p><hi type="bold">Section I.</hi></p  ker se sicer 2x pojavi
                 sed -i  "s/<p><hi type=\"bold\">Section [A-Z]*\.<\/hi><\/p>//g"              $input
                 #       Dopolni kazalo
+                echo "    Dopolni kazalo"
                 sed -i  "s/toc1 Section I\([^.]*\)/toc1 Section I\n\\\toc2 \1/g"             $input
-                sed -i  "s/toc1 Section II\([^.]*\)/toc1 Section II\n\\\toc2 \/g"            $input
+                sed -i  "s/toc1 Section II\([^.]*\)/toc1 Section II\n\\\toc2 \1/g"           $input
                 sed -i  "s/toc1 Section III\([^.]*\)/toc1 Section III\n\\\toc2 \1/g"         $input
                 sed -i  "s/toc1 Section IV\([^.]*\)/toc1 Section IV\n\\\toc2 \1/g"           $input
                 sed -i  "s/toc1 Section V\([^.]*\)/toc1 Section V\n\\\toc2 \1/g"             $input
                 sed -i  "s/toc1 Section VI\([^.]*\)/toc1 Section VI\n\\\toc2 \1/g"           $input
                 #
                 #============== Chapter spremeni v nic =============
+                echo "    Chapter spremeni v nic"
                 #         <div type="chapter" osisID="Chapter 37">      delete
                 sed -i "s/<\/div><div type=\"chapter\" osisID=\"Chapter \([0-9]*\)\">//g"    $input
                 sed -i "s/<div type=\"chapter\" osisID=\"Chapter \([0-9]*\)\">//g"           $input
